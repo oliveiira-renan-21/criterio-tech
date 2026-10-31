@@ -460,8 +460,16 @@
       categoryTabs.innerHTML = catHtml;
     }
 
-    function renderProductColumn(prod, sideLabel, isPrimarySide) {
-      const diagramSvg = CAD_DIAGRAMS[prod.diagram_key] || CAD_DIAGRAMS.default_tech;
+function renderProductColumn(prod, sideLabel, isPrimarySide) {
+      // Se houver uma URL de imagem real cadastrada, exibe a foto; senão, mantém o diagrama CAD original
+      const mediaContentHtml = prod.image_url 
+        ? `<div class="my-4 p-2 bg-obsidian border border-hairline flex items-center justify-center h-28 overflow-hidden">
+             <img src="${prod.image_url}" alt="${prod.modelo}" class="max-h-full max-w-full object-contain filter drop-shadow-md">
+           </div>`
+        : `<div class="my-4 p-3 bg-obsidian border border-hairline bg-blueprint-grid flex items-center justify-center">
+             ${CAD_DIAGRAMS[prod.diagram_key] || CAD_DIAGRAMS.default_tech}
+           </div>`;
+
       const isWinnerBadge = prod.selo_criterio === "VENCEDOR CRITÉRIO";
 
       const ctaButtonsHtml = prod.shopee_url
@@ -506,10 +514,8 @@
               </div>
             </div>
 
-            <!-- Esquema Técnico Vetorial (CAD Blueprint) -->
-            <div class="my-4 p-3 bg-obsidian border border-hairline bg-blueprint-grid flex items-center justify-center">
-              ${diagramSvg}
-            </div>
+            <!-- Mídia: Foto Real do Produto ou Diagrama CAD -->
+            ${mediaContentHtml}
 
             <!-- Barras Quantitativas de Desempenho -->
             <div class="space-y-3 my-4">
