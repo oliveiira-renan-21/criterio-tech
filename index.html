@@ -3,866 +3,388 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRITÉRIO TECH — Índice Técnico de Comparação & Decisão de Compra</title>
-  
-  <!-- Tipografia Técnica: Inter (Editorial) + JetBrains Mono (Telemetria & Ficha Técnica) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
-            mono: ['JetBrains Mono', 'monospace'],
-          },
-          colors: {
-            obsidian: '#0A0A0A',
-            panel: '#121215',
-            panelElevated: '#16161A',
-            hairline: '#222226',
-            hairlineLight: '#2E2E34',
-            amberLab: '#F59E0B',
-            amberDim: 'rgba(245, 158, 11, 0.12)',
-            inkPrimary: '#EDEDED',
-            inkSecondary: '#8E8E96',
-            inkMuted: '#52525B'
-          }
-        }
-      }
-    }
-  </script>
-
+  <title>Critério Tech | Vitrine Oficial de Análises</title>
   <style>
+    :root {
+      --bg-base: #0a0a0c;
+      --bg-surface: #121316;
+      --bg-surface-hover: #18191e;
+      --border: #23252c;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-winner: #10b981;
+      --accent-winner-bg: rgba(16, 185, 129, 0.08);
+      --accent-budget: #3b82f6;
+      --accent-budget-bg: rgba(59, 130, 246, 0.08);
+      --font: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    }
+
     * {
       box-sizing: border-box;
-      border-radius: 0px;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      background-color: #0A0A0A;
-      color: #EDEDED;
-      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: var(--font);
+      line-height: 1.5;
       -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      overflow-x: hidden;
+      padding: 2rem 1rem 4rem;
     }
 
-    /* Padrão de fundo técnico sutil */
-    .bg-blueprint-grid {
-      background-size: 24px 24px;
-      background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
     }
 
-    .tracking-editorial {
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
       letter-spacing: -0.03em;
+      margin-bottom: 0.5rem;
     }
 
-    /* Marcadores arquitetônicos nos cruzamentos de linha */
-    .crosshair-corner {
-      position: relative;
-    }
-    .crosshair-corner::after {
-      content: '+';
-      position: absolute;
-      bottom: -9px;
-      right: -5px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: #52525B;
-      pointer-events: none;
-      z-index: 10;
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      max-width: 540px;
+      margin: 0 auto;
     }
 
-    /* Scrollbar industrial */
-    ::-webkit-scrollbar {
-      width: 5px;
-      height: 5px;
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
     }
-    ::-webkit-scrollbar-track {
-      background: #0A0A0A;
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      padding: 0.85rem 1.1rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
     }
-    ::-webkit-scrollbar-thumb {
-      background: #222226;
+
+    .search-input:focus {
+      border-color: var(--accent-budget);
     }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #F59E0B;
+
+    .category-filters {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 0.4rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--text-main);
+      color: var(--bg-base);
+      border-color: var(--text-main);
+    }
+
+    .grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      transition: border-color 0.2s, background-color 0.2s;
+    }
+
+    .card:hover {
+      border-color: #343844;
+      background: var(--bg-surface-hover);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .category-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 0.25rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+    }
+
+    .date-tag {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.25rem;
+    }
+
+    .verdict-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 640px) {
+      .verdict-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .pick-box {
+      border-radius: 10px;
+      padding: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 1px solid transparent;
+    }
+
+    .pick-winner {
+      background: var(--accent-winner-bg);
+      border-color: rgba(16, 185, 129, 0.22);
+    }
+
+    .pick-budget {
+      background: var(--accent-budget-bg);
+      border-color: rgba(59, 130, 246, 0.22);
+    }
+
+    .pick-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.4rem;
+      display: inline-block;
+    }
+
+    .pick-winner .pick-badge {
+      color: var(--accent-winner);
+    }
+
+    .pick-budget .pick-badge {
+      color: var(--accent-budget);
+    }
+
+    .pick-name {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+    }
+
+    .pick-reason {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1.1rem;
+    }
+
+    .btn-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      padding: 0.65rem 1rem;
+      border-radius: 8px;
+      transition: opacity 0.15s;
+    }
+
+    .btn-link:hover {
+      opacity: 0.9;
+    }
+
+    .btn-winner {
+      background: var(--accent-winner);
+      color: #041f17;
+    }
+
+    .btn-budget {
+      background: var(--accent-budget);
+      color: #ffffff;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3.5rem;
+      color: var(--text-muted);
+      font-size: 0.8rem;
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col selection:bg-amberLab selection:text-obsidian">
+<body>
+  <div class="container">
+    <header>
+      <div class="brand-badge">🔬 Critério Tech</div>
+      <h1>Vitrine de Comparativos Técnicos</h1>
+      <p class="subtitle">Decisões baseadas em especificações e relação custo-benefício. Links verificados na Amazon Brasil.</p>
+    </header>
 
-  <!-- BARRA SUPERIOR DO ÍNDICE PÚBLICO -->
-  <div class="w-full bg-obsidian border-b border-hairline text-[11px] font-mono text-inkSecondary">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-8 flex items-center justify-between border-l border-r border-hairline">
-      <div class="flex items-center gap-2.5">
-        <span class="inline-block w-1.5 h-1.5 bg-amberLab"></span>
-        <span class="text-inkPrimary font-medium">CRITÉRIO TECH</span>
-        <span class="text-inkMuted">//</span>
-        <span>ÍNDICE DE COMPARATIVOS TÉCNICOS</span>
-      </div>
-      <div class="hidden sm:flex items-center gap-2 text-inkSecondary">
-        <span>ATUALIZADO: OUT/2026</span>
-      </div>
+    <div class="controls">
+      <input type="text" id="searchInput" class="search-input" placeholder="Buscar produto, modelo ou categoria (ex: Edifier, Anker, Áudio)...">
+      <div id="categoryFilters" class="category-filters"></div>
     </div>
+
+    <main id="productsGrid" class="grid">
+      <div class="empty-state">Carregando análises técnicas...</div>
+    </main>
+
+    <footer>
+      Critério Tech • Como associado da Amazon, o canal pode receber comissão por compras qualificadas sem custo adicional ao comprador.
+    </footer>
   </div>
 
-  <!-- CABEÇALHO ARQUITETÔNICO PRINCIPAL -->
-  <header class="sticky top-0 z-30 bg-obsidian/95 backdrop-blur-md border-b border-hairline">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-row items-center justify-between gap-4 border-l border-r border-hairline crosshair-corner">
-      
-      <!-- Identidade Visual + Monograma Suíço -->
-      <a href="#" onclick="resetFilters(); return false;" class="flex items-center gap-3.5 group">
-        <div class="w-11 h-11 bg-panel border border-hairline group-hover:border-amberLab flex items-center justify-center transition-colors flex-shrink-0">
-          <svg class="w-7 h-7" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M40 12H16V52H40V44H24V20H40V12Z" fill="#EDEDED"/>
-            <path d="M48 12H43L31 52H36L48 12Z" fill="#F59E0B"/>
-            <rect x="44" y="28" width="6" height="8" fill="#F59E0B"/>
-          </svg>
-        </div>
-
-        <div>
-          <div class="flex items-center gap-2">
-            <span class="text-lg sm:text-xl font-bold tracking-editorial text-inkPrimary">CRITÉRIO TECH</span>
-            <span class="text-[10px] font-mono uppercase px-1.5 py-0.5 bg-panel border border-hairline text-amberLab">BR</span>
-          </div>
-          <p class="text-xs text-inkSecondary">
-            Análises Lado a Lado &amp; Guia de Decisão de Compra
-          </p>
-        </div>
-      </a>
-
-      <!-- Link Oficial do Canal no Instagram -->
-      <div class="flex items-center">
-        <a href="https://www.instagram.com/criterio_tech" target="_blank" rel="noopener noreferrer"
-           class="px-3.5 py-2 bg-panel hover:border-amberLab border border-hairline text-xs font-mono text-inkPrimary flex items-center gap-2 transition-colors">
-          <span class="text-amberLab">@criterio_tech</span>
-          <span class="text-inkSecondary">↗</span>
-        </a>
-      </div>
-
-    </div>
-  </header>
-
-  <!-- PAINEL DE BUSCA E SALTO RÁPIDO (FLUSH GRID) -->
-  <section class="w-full border-b border-hairline bg-panel/60 bg-blueprint-grid">
-    <div class="max-w-6xl mx-auto border-l border-r border-hairline">
-      
-      <!-- Bloco Superior: Explicação Direta + Campo de Busca -->
-      <div class="p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-end border-b border-hairline">
-        <div class="lg:col-span-7 space-y-2">
-          <div class="text-[11px] font-mono text-amberLab uppercase tracking-wider">
-            CONSULTA RÁPIDA DOS PRODUTOS DOS VÍDEOS
-          </div>
-          <h1 class="text-2xl sm:text-3xl font-bold tracking-editorial text-inkPrimary leading-tight">
-            Ficha técnica confrontada lado a lado antes da sua decisão.
-          </h1>
-        </div>
-
-        <!-- Input de Busca Monospace -->
-        <div class="lg:col-span-5">
-          <label for="searchInput" class="block text-[11px] font-mono text-inkSecondary uppercase mb-1.5">
-            DIGITE O NÚMERO DO VÍDEO (EX: #01) OU NOME DO PRODUTO
-          </label>
-          <div class="relative flex items-center">
-            <span class="absolute left-3 font-mono text-xs text-amberLab">&gt;</span>
-            <input type="text" id="searchInput" 
-                   placeholder="Ex: 01, 02, Xiaomi, Cadeira, Logitech..."
-                   class="w-full pl-8 pr-20 py-2.5 bg-obsidian border border-hairline focus:border-amberLab text-xs sm:text-sm font-mono text-inkPrimary placeholder-inkMuted focus:outline-none transition-colors">
-            <button id="clearSearchBtn" onclick="resetFilters()" class="hidden absolute right-2 px-2 py-1 bg-panel border border-hairline text-[10px] font-mono text-inkSecondary hover:text-inkPrimary">
-              LIMPAR
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Barra de Salto Rápido (#01 a #04) + Abas de Categoria -->
-      <div class="px-4 sm:px-6 py-3 flex flex-col md:flex-row md:items-center justify-between gap-3 bg-obsidian/80">
-        
-        <!-- Quick-Jump Code Buttons -->
-        <div class="flex items-center gap-1.5 flex-wrap">
-          <span class="text-[11px] font-mono text-inkSecondary mr-1.5">CÓDIGO DO VÍDEO:</span>
-          <button onclick="quickJump('01')" data-code="01" class="code-jump-btn px-2.5 py-1 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkPrimary transition-colors">
-            #01
-          </button>
-          <button onclick="quickJump('02')" data-code="02" class="code-jump-btn px-2.5 py-1 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkPrimary transition-colors">
-            #02
-          </button>
-          <button onclick="quickJump('03')" data-code="03" class="code-jump-btn px-2.5 py-1 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkPrimary transition-colors">
-            #03
-          </button>
-          <button onclick="quickJump('04')" data-code="04" class="code-jump-btn px-2.5 py-1 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkPrimary transition-colors">
-            #04
-          </button>
-        </div>
-
-        <!-- Abas de Filtro por Categoria -->
-        <div class="flex items-center gap-1 overflow-x-auto" id="categoryTabs">
-          <button onclick="setCategory('ALL')" data-cat="ALL" class="cat-tab px-3 py-1 text-[11px] font-mono border border-amberLab bg-amberLab text-obsidian font-semibold transition-colors whitespace-nowrap">
-            TODOS (4)
-          </button>
-          <button onclick="setCategory('CASA INTELIGENTE')" data-cat="CASA INTELIGENTE" class="cat-tab px-3 py-1 text-[11px] font-mono border border-hairline bg-panel text-inkSecondary hover:text-inkPrimary transition-colors whitespace-nowrap">
-            CASA INTELIGENTE (2)
-          </button>
-          <button onclick="setCategory('SETUP & ERGONOMIA')" data-cat="SETUP & ERGONOMIA" class="cat-tab px-3 py-1 text-[11px] font-mono border border-hairline bg-panel text-inkSecondary hover:text-inkPrimary transition-colors whitespace-nowrap">
-            SETUP &amp; ERGONOMIA (2)
-          </button>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- CONTEÚDO PRINCIPAL: FICHAS DE CONFRONTO TÉCNICO -->
-  <main class="flex-1 w-full">
-    <div class="max-w-6xl mx-auto border-l border-r border-hairline">
-      
-      <!-- Sub-barra de Contagem e Status -->
-      <div class="px-4 sm:px-6 py-2.5 border-b border-hairline bg-obsidian flex items-center justify-between text-[11px] font-mono text-inkSecondary">
-        <span id="statusCounter">EXIBINDO 04 COMPARATIVOS TÉCNICOS</span>
-        <span>LINKS VERIFICADOS // LOJAS OFICIAIS</span>
-      </div>
-
-      <!-- Lista de Comparativos -->
-      <div id="comparisonsContainer" class="divide-y divide-hairline">
-        <!-- Renderizado via JavaScript -->
-      </div>
-
-      <!-- Estado Vazio -->
-      <div id="emptyState" class="hidden p-12 text-center space-y-3">
-        <div class="font-mono text-xs text-amberLab">[NENHUM EQUIPAMENTO ENCONTRADO]</div>
-        <p class="text-sm text-inkSecondary max-w-md mx-auto">
-          Não encontramos nenhum equipamento ou código correspondente ao termo pesquisado.
-        </p>
-        <button onclick="resetFilters()" class="px-4 py-2 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkPrimary">
-          VER TODOS OS COMPARATIVOS
-        </button>
-      </div>
-
-    </div>
-  </main>
-
-  <!-- RODAPÉ DISCRETO VOLTADO AO CONSUMIDOR -->
-  <footer class="w-full border-t border-hairline bg-obsidian mt-auto">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 border-l border-r border-hairline flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-      <div class="space-y-1.5 max-w-xl">
-        <div class="flex items-center gap-2 font-mono text-xs text-inkPrimary font-semibold">
-          <span>CRITÉRIO TECH</span>
-          <span class="text-inkMuted">//</span>
-          <span class="text-amberLab">ÍNDICE DE COMPARATIVOS</span>
-        </div>
-        <p class="text-xs text-inkSecondary leading-relaxed">
-          Análises técnicas baseadas em especificações de fábrica. Links direcionam para lojas oficiais verificadas.
-        </p>
-      </div>
-
-      <div class="flex items-center gap-4">
-        <a href="https://www.instagram.com/criterio_tech" target="_blank" rel="noopener noreferrer"
-           class="px-3.5 py-2 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkSecondary hover:text-inkPrimary transition-colors">
-          Instagram: @criterio_tech ↗
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- NOTIFICAÇÃO TÉCNICA DISCRETA -->
-  <div id="toastBar" class="fixed bottom-5 right-5 z-50 hidden bg-obsidian border border-amberLab px-4 py-2.5 font-mono text-xs text-inkPrimary shadow-2xl">
-    <span class="text-amberLab mr-1.5">[OK]</span>
-    <span id="toastText">Link copiado.</span>
-  </div>
-
-  <!-- SCRIPT DE DADOS, DIAGRAMAS CAD SVG & LÓGICA DE INTERFACE -->
   <script>
-    const AMAZON_AFFILIATE_TAG = "criteriotech-20";
+    let allProducts = [];
+    let activeCategory = 'Todos';
 
-    /**
-     * Ilustrações Técnicas Vetoriais (Estilo CAD / Manual Técnico)
-     */
-    const CAD_DIAGRAMS = {
-      lidar_vac: `
-        <svg viewBox="0 0 160 100" class="w-full h-24 stroke-inkPrimary" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="50" r="38" stroke="#EDEDED" stroke-width="1.5"/>
-          <circle cx="80" cy="50" r="32" stroke="#2E2E34" stroke-width="1" stroke-dasharray="3 3"/>
-          <circle cx="80" cy="38" r="10" stroke="#F59E0B" stroke-width="1.5" fill="rgba(245,158,11,0.1)"/>
-          <circle cx="80" cy="38" r="2.5" fill="#F59E0B"/>
-          <line x1="80" y1="38" x2="35" y2="15" stroke="#F59E0B" stroke-width="0.75" stroke-dasharray="2 2"/>
-          <line x1="80" y1="38" x2="125" y2="15" stroke="#F59E0B" stroke-width="0.75" stroke-dasharray="2 2"/>
-          <path d="M52 24 A34 34 0 0 1 108 24" stroke="#EDEDED" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">LDS_360 // 4000Pa</text>
-        </svg>
-      `,
-      gyro_vac: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="50" r="38" stroke="#8E8E96" stroke-width="1.5"/>
-          <rect x="64" y="42" width="32" height="16" stroke="#2E2E34" stroke-width="1"/>
-          <line x1="50" y1="50" x2="110" y2="50" stroke="#52525B" stroke-width="1" stroke-dasharray="2 2"/>
-          <line x1="80" y1="20" x2="80" y2="80" stroke="#52525B" stroke-width="1" stroke-dasharray="2 2"/>
-          <circle cx="80" cy="24" r="3" stroke="#EDEDED" stroke-width="1.2"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">GYRO_NAV // 3000Pa</text>
-        </svg>
-      `,
-      chair_mesh: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M68 14 H92 V46 H68 Z" stroke="#EDEDED" stroke-width="1.5"/>
-          <path d="M65 48 H95 V62 H65 Z" stroke="#F59E0B" stroke-width="1.5" fill="rgba(245,158,11,0.1)"/>
-          <line x1="54" y1="68" x2="106" y2="68" stroke="#EDEDED" stroke-width="2"/>
-          <line x1="80" y1="68" x2="80" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <line x1="56" y1="86" x2="104" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">LOMBAR_3D // MESH</text>
-        </svg>
-      `,
-      chair_foam: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M66 16 H94 V62 H66 Z" stroke="#8E8E96" stroke-width="1.5"/>
-          <rect x="54" y="64" width="52" height="7" stroke="#EDEDED" stroke-width="1.5"/>
-          <line x1="80" y1="71" x2="80" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <line x1="58" y1="86" x2="102" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">ESPUMA_50D // TILT</text>
-        </svg>
-      `,
-      mouse_master: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M58 24 C58 14, 102 14, 102 28 L106 72 C106 84, 54 84, 54 72 Z" stroke="#EDEDED" stroke-width="1.5"/>
-          <rect x="77" y="22" width="6" height="16" stroke="#F59E0B" stroke-width="1.5" fill="rgba(245,158,11,0.15)"/>
-          <rect x="52" y="42" width="4" height="14" fill="#F59E0B"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">8000_DPI // MAGSPEED</text>
-        </svg>
-      `,
-      mouse_vertical: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="45" y1="82" x2="115" y2="82" stroke="#2E2E34" stroke-width="1"/>
-          <line x1="60" y1="82" x2="98" y2="18" stroke="#F59E0B" stroke-width="1.2" stroke-dasharray="3 2"/>
-          <path d="M56 78 L78 20 C88 18, 106 38, 104 78 Z" stroke="#8E8E96" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">ÂNGULO_57° // ERGO</text>
-        </svg>
-      `,
-      lock_surface: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="62" y="12" width="36" height="74" stroke="#EDEDED" stroke-width="1.5"/>
-          <g fill="#F59E0B">
-            <rect x="70" y="22" width="4" height="4"/><rect x="78" y="22" width="4" height="4"/><rect x="86" y="22" width="4" height="4"/>
-            <rect x="70" y="30" width="4" height="4"/><rect x="78" y="30" width="4" height="4"/><rect x="86" y="30" width="4" height="4"/>
-            <rect x="70" y="38" width="4" height="4"/><rect x="78" y="38" width="4" height="4"/><rect x="86" y="38" width="4" height="4"/>
-          </g>
-          <rect x="70" y="54" width="20" height="8" stroke="#F59E0B" stroke-width="1.2"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">SOBREPOR // RFID+PIN</text>
-        </svg>
-      `,
-      lock_mortise: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="62" y="10" width="34" height="80" stroke="#8E8E96" stroke-width="1.5"/>
-          <circle cx="79" cy="56" r="6" stroke="#F59E0B" stroke-width="1.5"/>
-          <rect x="79" y="53" width="32" height="6" fill="#121215" stroke="#EDEDED" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">BIOMETRIA // VISO</text>
-        </svg>
-      `
-    };
-
-    /**
-     * CATÁLOGO PÚBLICO DE COMPARATIVOS (#01 a #04)
-     */
-    const CATALOGO_DATA = [
-      {
-        id: "01",
-        codigo: "#01",
-        categoria: "CASA INTELIGENTE",
-        data_verificacao: "OUT/2026",
-        titulo_confronto: "Xiaomi Robot Vacuum S10 vs KaBuM! Smart 700",
-        subtitulo_tecnico: "Confronto de Navegação: Torre Laser LiDAR LDS vs Mapeamento Giroscópico",
-        veredito_geral: "Para plantas com vários cômodos, tapetes ou animais, o laser LiDAR do Xiaomi S10 evita colisões e mapeia com precisão superior. Para apartamentos compactos onde o orçamento é prioridade, o KaBuM! Smart 700 entrega limpeza diária eficiente custando bem menos.",
-        produto_a: {
-          modelo: "Xiaomi Robot Vacuum S10",
-          sku_ref: "XIA-S10-LDS",
-          selo_criterio: "VENCEDOR CRITÉRIO",
-          preco_referencia: "R$ 1.689",
-          diagram_key: "lidar_vac",
-          destaque_tecnico: "MELHOR PRECISÃO DE MAPA",
-          barras_comparativas: [
-            { metrica: "Pressão de Sucção", valor_label: "4.000 Pa", percentual: 92 },
-            { metrica: "Precisão de Mapeamento (Laser LDS)", valor_label: "98% Escaneamento 360°", percentual: 98 },
-            { metrica: "Autonomia de Bateria (3.200mAh)", valor_label: "130 min", percentual: 85 }
-          ],
-          especificacoes_chave: [
-            "Sensor óptico LDS 360° (navega no escuro total e salva múltiplos andares)",
-            "Controle eletrônico da bomba d'água em 3 níveis para passar pano",
-            "Criação de paredes virtuais e zonas restritas pelo aplicativo Mi Home"
-          ],
-          criterio_decisao: "Indicado para quem prioriza mapeamento cirúrgico em residências com muitos móveis, tapetes ou pets.",
-          amazon_url: `https://www.amazon.com.br/s?k=Xiaomi+Robot+Vacuum+S10&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        },
-        produto_b: {
-          modelo: "KaBuM! Smart 700",
-          sku_ref: "KBS700-BR",
-          selo_criterio: "ESCOLHA ECONOMIA",
-          preco_referencia: "R$ 1.199",
-          diagram_key: "gyro_vac",
-          destaque_tecnico: "MENOR CUSTO DE ENTRADA",
-          barras_comparativas: [
-            { metrica: "Pressão de Sucção", valor_label: "3.000 Pa", percentual: 72 },
-            { metrica: "Precisão de Mapeamento (Giroscópio)", valor_label: "70% Linear", percentual: 70 },
-            { metrica: "Autonomia de Bateria (2.600mAh)", valor_label: "100 min", percentual: 68 }
-          ],
-          especificacoes_chave: [
-            "Navegação giroscópica em zigue-zague ideal para plantas lineares",
-            "Perfil baixo que facilita o acesso sob sofás, camas e racks",
-            "Compatibilidade direta com comandos de voz Alexa e Google Assistente"
-          ],
-          criterio_decisao: "Indicado para quem busca economizar cerca de R$ 500 e possui ambientes menores com poucos obstáculos.",
-          amazon_url: `https://www.amazon.com.br/s?k=Robo+Aspirador+Kabum+Smart+700&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        }
-      },
-      {
-        id: "02",
-        codigo: "#02",
-        categoria: "SETUP & ERGONOMIA",
-        data_verificacao: "OUT/2026",
-        titulo_confronto: "Cadeira Elements Vertta Pro vs DT3 Diana",
-        subtitulo_tecnico: "Confronto Ergonômico: Sustentação 100% Tela Mesh vs Assento em Espuma Injetada",
-        veredito_geral: "A Elements Vertta Pro vence em ergonomia de longa duração graças ao suporte lombar ativo e ao assento em tela Mesh que não retém calor. A DT3 Diana é a escolha certa de custo-benefício para quem prefere a firmeza tradicional do assento em espuma injetada.",
-        produto_a: {
-          modelo: "Cadeira Elements Vertta Pro",
-          sku_ref: "ELM-VERTTA-PRO",
-          selo_criterio: "VENCEDOR CRITÉRIO",
-          preco_referencia: "R$ 1.499",
-          diagram_key: "chair_mesh",
-          destaque_tecnico: "CONFORTO TÉRMICO & LOMBAR",
-          barras_comparativas: [
-            { metrica: "Ajuste Dinâmico de Lombar", valor_label: "Suporte Ativo Bipartido", percentual: 96 },
-            { metrica: "Dissipação Térmica (Assento + Encosto)", valor_label: "100% Tela Mesh", percentual: 98 },
-            { metrica: "Ajustes de Braços e Mecanismo", valor_label: "Braços 3D / Trava Multiponto", percentual: 92 }
-          ],
-          especificacoes_chave: [
-            "Assento e encosto 100% em tela Mesh de alta tração (zero retenção de calor)",
-            "Apoio lombar independente que acompanha a curvatura da coluna",
-            "Pistão Classe 4 certificado BIFMA com estrutura reforçada"
-          ],
-          criterio_decisao: "Indicada para jornadas acima de 8 horas diárias que exigem ventilação máxima e suporte lombar contínuo.",
-          amazon_url: `https://www.amazon.com.br/s?k=Cadeira+Elements+Vertta+Pro&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        },
-        produto_b: {
-          modelo: "Cadeira DT3 Diana",
-          sku_ref: "DT3-DIANA-V2",
-          selo_criterio: "ESCOLHA ECONOMIA",
-          preco_referencia: "R$ 1.149",
-          diagram_key: "chair_foam",
-          destaque_tecnico: "MELHOR ASSENTO EM ESPUMA",
-          barras_comparativas: [
-            { metrica: "Ajuste Dinâmico de Lombar", valor_label: "Ajuste Vertical Manual", percentual: 74 },
-            { metrica: "Dissipação Térmica (Assento Espuma)", valor_label: "Híbrida (Mesh + Espuma)", percentual: 72 },
-            { metrica: "Ajustes de Braços e Mecanismo", valor_label: "Braços 2D / Função Relax", percentual: 76 }
-          ],
-          especificacoes_chave: [
-            "Assento em espuma injetada de alta densidade indeformável",
-            "Encosto telado respirável com apoio de cabeça ajustável em altura",
-            "Excelente relação custo-benefício na faixa próxima de R$ 1.100"
-          ],
-          criterio_decisao: "Indicada para quem prefere a maciez do assento estofado tradicional pagando menos.",
-          amazon_url: `https://www.amazon.com.br/s?k=Cadeira+Ergonomica+DT3+Diana&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        }
-      },
-      {
-        id: "03",
-        codigo: "#03",
-        categoria: "SETUP & ERGONOMIA",
-        data_verificacao: "OUT/2026",
-        titulo_confronto: "Logitech MX Master 3S vs Logitech Lift Vertical",
-        subtitulo_tecnico: "Confronto de Produtividade: Scroll Eletromagnético Horizontal vs Alívio Carpal 57°",
-        veredito_geral: "O MX Master 3S é imbatível em produtividade bruta para quem usa múltiplos monitores, linhas de edição ou código graças ao scroll duplo MagSpeed. Já o Lift Vertical é a recomendação definitiva para eliminar dores no punho e antebraço custando significativamente menos.",
-        produto_a: {
-          modelo: "Logitech MX Master 3S",
-          sku_ref: "LOG-MX3S",
-          selo_criterio: "VENCEDOR CRITÉRIO",
-          preco_referencia: "R$ 589",
-          diagram_key: "mouse_master",
-          destaque_tecnico: "MÁXIMA PRODUTIVIDADE",
-          barras_comparativas: [
-            { metrica: "Velocidade de Navegação e Atalhos", valor_label: "MagSpeed 1.000 linhas/seg", percentual: 98 },
-            { metrica: "Precisão de Sensor (Funciona em Vidro)", valor_label: "8.000 DPI Darkfield", percentual: 96 },
-            { metrica: "Alívio de Pronação do Punho", valor_label: "Inclinação Ergonômica Padrão", percentual: 78 }
-          ],
-          especificacoes_chave: [
-            "Duas rodas em aço usinado: scroll vertical eletromagnético + rolagem horizontal lateral",
-            "Interruptores Quiet Click com 90% menos ruído e recarga rápida via USB-C",
-            "Conexão simultânea com até 3 dispositivos via receptor Logi Bolt ou Bluetooth"
-          ],
-          criterio_decisao: "Indicado para profissionais que priorizam atalhos customizáveis, navegação horizontal e precisão em qualquer superfície.",
-          amazon_url: `https://www.amazon.com.br/s?k=Logitech+MX+Master+3S&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        },
-        produto_b: {
-          modelo: "Logitech Lift Vertical",
-          sku_ref: "LOG-LIFT-57",
-          selo_criterio: "ESCOLHA ECONOMIA",
-          preco_referencia: "R$ 379",
-          diagram_key: "mouse_vertical",
-          destaque_tecnico: "SAÚDE DO PUNHO (57°)",
-          barras_comparativas: [
-            { metrica: "Velocidade de Navegação e Atalhos", valor_label: "SmartWheel Magnética", percentual: 82 },
-            { metrica: "Precisão de Sensor", valor_label: "4.000 DPI Óptico", percentual: 80 },
-            { metrica: "Alívio de Pronação do Punho", valor_label: "Postura Natural 57°", percentual: 99 }
-          ],
-          especificacoes_chave: [
-            "Inclinação vertical de 57 graus que mantém o antebraço em posição natural de aperto de mão",
-            "Grip lateral emborrachado com descanso dedicado para o polegar e cliques silenciosos",
-            "Até 24 meses de autonomia de bateria com uma única pilha AA"
-          ],
-          criterio_decisao: "Indicado para quem sente fadiga no túnel do carpo ou tendinite e busca alívio postural imediato.",
-          amazon_url: `https://www.amazon.com.br/s?k=Mouse+Logitech+Lift+Vertical&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        }
-      },
-      {
-        id: "04",
-        codigo: "#04",
-        categoria: "CASA INTELIGENTE",
-        data_verificacao: "OUT/2026",
-        titulo_confronto: "Fechadura Intelbras FR 201 vs Elsys ESF-DS1100V",
-        subtitulo_tecnico: "Confronto de Acesso: Confiabilidade de Sobrepor RFID vs Biometria Óptica e Senha",
-        veredito_geral: "A Intelbras FR 201 vence em simplicidade de instalação e ampla rede de assistência nacional para quem quer senha + tag sem trocar a maçaneta. A Elsys ESF-DS1100V ganha na praticidade diária ao adicionar leitor biométrico rápido para abertura com um toque.",
-        produto_a: {
-          modelo: "Fechadura Intelbras FR 201",
-          sku_ref: "INT-FR201",
-          selo_criterio: "ESCOLHA ECONOMIA",
-          preco_referencia: "R$ 479",
-          diagram_key: "lock_surface",
-          destaque_tecnico: "INSTALAÇÃO LIMPA & ROBUSTEZ",
-          barras_comparativas: [
-            { metrica: "Facilidade de Instalação (Sobrepor)", valor_label: "Mantém maçaneta original", percentual: 96 },
-            { metrica: "Métodos de Abertura", valor_label: "Senha Touch + Cartão/Tag RFID", percentual: 80 },
-            { metrica: "Autonomia de Energia (4x AA)", valor_label: "~12 Meses + Terminal 9V", percentual: 94 }
-          ],
-          especificacoes_chave: [
-            "Instalação de sobrepor rápida em portas de 25 a 50 mm sem remover a fechadura atual",
-            "Sensor programável de travamento automático assim que a porta é fechada",
-            "Alarme anti-arrombamento integrado e função de senha protegida contra curiosos"
-          ],
-          criterio_decisao: "Indicada para imóveis alugados ou portas com puxador onde você deseja instalação rápida e máxima durabilidade.",
-          amazon_url: `https://www.amazon.com.br/s?k=Fechadura+Digital+Intelbras+FR+201&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        },
-        produto_b: {
-          modelo: "Elsys ESF-DS1100V",
-          sku_ref: "ELS-DS1100V",
-          selo_criterio: "VENCEDOR CRITÉRIO",
-          preco_referencia: "R$ 569",
-          diagram_key: "lock_mortise",
-          destaque_tecnico: "BIOMETRIA INTEGRADA",
-          barras_comparativas: [
-            { metrica: "Facilidade de Instalação (Sobrepor)", valor_label: "Sobrepor Compacta", percentual: 90 },
-            { metrica: "Métodos de Abertura", valor_label: "Biometria + Senha + Tag RFID", percentual: 96 },
-            { metrica: "Autonomia de Energia (4x AA)", valor_label: "~10 Meses + USB Emergência", percentual: 88 }
-          ],
-          especificacoes_chave: [
-            "Leitor biométrico de alta precisão com capacidade para até 100 digitais cadastradas",
-            "Teclado luminoso touch screen com suporte a senhas temporárias para visitantes",
-            "Travamento automático e função Não Perturbe acionável pelo lado interno"
-          ],
-          criterio_decisao: "Indicada para famílias que preferem destravar a porta em menos de 1 segundo apenas encostando a digital.",
-          amazon_url: `https://www.amazon.com.br/s?k=Fechadura+Digital+Elsys+ESF-DS1100V&tag=${AMAZON_AFFILIATE_TAG}`,
-          shopee_url: null
-        }
-      }
-    ];
-
-    let activeData = [...CATALOGO_DATA];
-    let selectedCategory = "ALL";
-    let searchTerm = "";
-
-    // Carrega ./catalogo.json se disponível na hospedagem, mantendo fallback imediato
-    async function initDataStore() {
+    async function loadProducts() {
+      const grid = document.getElementById('productsGrid');
       try {
-        const res = await fetch('./catalogo.json', { cache: 'no-store' });
-        if (res.ok) {
-          const externalJson = await res.json();
-          if (Array.isArray(externalJson) && externalJson.length > 0) {
-            activeData = externalJson;
-          }
-        }
-      } catch (_) {
-        // Permanece com CATALOGO_DATA embutido
+        // Evita cache do navegador para exibir novos commits na hora
+        const response = await fetch(`./produtos.json?t=${Date.now()}`);
+        if (!response.ok) throw new Error('Falha ao carregar produtos.json');
+        allProducts = await response.json();
+        renderCategories();
+        renderProducts();
+      } catch (err) {
+        grid.innerHTML = `<div class="empty-state">Nenhum comparativo encontrado no momento.</div>`;
       }
-      renderComparisons();
     }
 
-    function renderProductColumn(prod, sideLabel, isPrimarySide) {
-      const diagramSvg = CAD_DIAGRAMS[prod.diagram_key] || CAD_DIAGRAMS.lidar_vac;
-      const isWinnerBadge = prod.selo_criterio === "VENCEDOR CRITÉRIO";
-
-      // Se shopee_url estiver preenchido no futuro, exibe o botão secundário automaticamente; caso contrário, renderiza apenas o CTA limpo da Amazon
-      const ctaButtonsHtml = prod.shopee_url
-        ? `<div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
-             <a href="${prod.amazon_url}" target="_blank" rel="noopener noreferrer"
-                class="sm:col-span-2 py-3 px-4 bg-amberLab hover:bg-amber-400 text-obsidian font-mono text-xs font-bold uppercase tracking-wider flex items-center justify-between transition-colors">
-               <span>VER MENOR PREÇO NA AMAZON</span>
-               <span>↗</span>
-             </a>
-             <a href="${prod.shopee_url}" target="_blank" rel="noopener noreferrer"
-                class="py-3 px-3 bg-panel hover:border-amberLab border border-hairline font-mono text-[11px] text-inkPrimary flex items-center justify-center gap-1 transition-colors">
-               <span>VER NA SHOPEE</span>
-               <span>↗</span>
-             </a>
-           </div>`
-        : `<a href="${prod.amazon_url}" target="_blank" rel="noopener noreferrer"
-              class="w-full py-3 px-4 bg-amberLab hover:bg-amber-400 text-obsidian font-mono text-xs font-bold uppercase tracking-wider flex items-center justify-between transition-colors">
-             <span>VER MENOR PREÇO NA AMAZON</span>
-             <span>↗</span>
-           </a>`;
-
-      return `
-        <div class="p-4 sm:p-6 flex flex-col justify-between bg-panel/40">
-          <div>
-            <!-- Topo da Coluna do Produto + Selo de Veredito -->
-            <div class="flex items-center justify-between gap-2 pb-3 border-b border-hairline">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 font-mono text-[10px] font-bold ${isWinnerBadge ? 'bg-amberLab text-obsidian' : 'bg-hairlineLight text-inkPrimary'}">
-                  ${prod.selo_criterio || sideLabel}
-                </span>
-                <span class="font-mono text-[11px] text-inkSecondary hidden sm:inline">REF: ${prod.sku_ref}</span>
-              </div>
-              <span class="font-mono text-[11px] font-semibold text-amberLab">${prod.destaque_tecnico}</span>
-            </div>
-
-            <!-- Nome do Equipamento & Preço de Referência -->
-            <div class="mt-4 flex items-baseline justify-between gap-3">
-              <h3 class="text-lg sm:text-xl font-bold tracking-editorial text-inkPrimary">${prod.modelo}</h3>
-              <div class="text-right flex-shrink-0">
-                <span class="block text-[10px] font-mono text-inkSecondary">MÉDIA DE MERCADO</span>
-                <span class="font-mono text-sm sm:text-base font-bold text-inkPrimary">${prod.preco_referencia}</span>
-              </div>
-            </div>
-
-            <!-- Esquema Técnico Vetorial (CAD Blueprint) -->
-            <div class="my-4 p-3 bg-obsidian border border-hairline bg-blueprint-grid flex items-center justify-center">
-              ${diagramSvg}
-            </div>
-
-            <!-- Barras Quantitativas de Desempenho -->
-            <div class="space-y-3 my-4">
-              <div class="text-[10px] font-mono text-inkSecondary uppercase tracking-wider border-b border-hairline pb-1">
-                ÍNDICES TÉCNICOS &amp; ESPECIFICAÇÕES
-              </div>
-              ${prod.barras_comparativas.map(bar => `
-                <div class="space-y-1">
-                  <div class="flex items-center justify-between text-xs font-mono">
-                    <span class="text-inkSecondary text-[11px]">${bar.metrica}</span>
-                    <span class="text-inkPrimary font-medium text-[11px]">${bar.valor_label}</span>
-                  </div>
-                  <div class="w-full h-1.5 bg-obsidian border border-hairline overflow-hidden">
-                    <div class="h-full ${isWinnerBadge ? 'bg-amberLab' : 'bg-inkSecondary'}" style="width: ${bar.percentual}%"></div>
-                  </div>
-                </div>
-              `).join('')}
-            </div>
-
-            <!-- Pontos de Engenharia -->
-            <ul class="space-y-1.5 my-4 pt-2 border-t border-hairline text-xs text-inkSecondary">
-              ${prod.especificacoes_chave.map(spec => `
-                <li class="flex items-start gap-2 leading-relaxed">
-                  <span class="font-mono text-amberLab text-[11px] mt-0.5">—</span>
-                  <span>${spec}</span>
-                </li>
-              `).join('')}
-            </ul>
-          </div>
-
-          <!-- Bloco Inferior: Critério de Decisão + Botão Limpo para o Comprador -->
-          <div class="mt-4 pt-4 border-t border-hairline space-y-3">
-            <div class="p-3 bg-obsidian border-l-2 ${isWinnerBadge ? 'border-l-amberLab' : 'border-l-inkSecondary'} border border-hairline">
-              <div class="font-mono text-[10px] text-amberLab uppercase mb-0.5">QUANDO ESCOLHER O ${prod.modelo.toUpperCase()}</div>
-              <p class="text-xs text-inkPrimary leading-relaxed">${prod.criterio_decisao}</p>
-            </div>
-
-            ${ctaButtonsHtml}
-          </div>
-        </div>
-      `;
+    function renderCategories() {
+      const container = document.getElementById('categoryFilters');
+      const categories = ['Todos', ...new Set(allProducts.map(p => p.category).filter(Boolean))];
+      container.innerHTML = categories.map(cat => `
+        <button class="filter-btn ${cat === activeCategory ? 'active' : ''}" onclick="setCategory('${cat}')">
+          ${cat}
+        </button>
+      `).join('');
     }
 
-    function renderComparisons() {
-      const container = document.getElementById('comparisonsContainer');
-      const emptyState = document.getElementById('emptyState');
-      const statusCounter = document.getElementById('statusCounter');
+    function setCategory(cat) {
+      activeCategory = cat;
+      renderCategories();
+      renderProducts();
+    }
 
-      const normalizedQuery = searchTerm.toLowerCase().trim().replace(/^#/, '');
+    function renderProducts() {
+      const grid = document.getElementById('productsGrid');
+      const query = document.getElementById('searchInput').value.toLowerCase();
 
-      const filtered = activeData.filter(item => {
-        const matchCat = selectedCategory === "ALL" || item.categoria === selectedCategory;
-        const matchQuery = !normalizedQuery ||
-          item.id.toLowerCase().includes(normalizedQuery) ||
-          item.codigo.toLowerCase().includes(normalizedQuery) ||
-          item.titulo_confronto.toLowerCase().includes(normalizedQuery) ||
-          item.subtitulo_tecnico.toLowerCase().includes(normalizedQuery) ||
-          item.produto_a.modelo.toLowerCase().includes(normalizedQuery) ||
-          item.produto_b.modelo.toLowerCase().includes(normalizedQuery);
-
-        return matchCat && matchQuery;
+      const filtered = allProducts.filter(item => {
+        const matchesCategory = activeCategory === 'Todos' || item.category === activeCategory;
+        const searchable = `${item.title} ${item.winner} ${item.budget_pick} ${item.category} ${item.winner_reason}`.toLowerCase();
+        return matchesCategory && searchable.includes(query);
       });
 
-      const countFormatted = String(filtered.length).padStart(2, '0');
-      statusCounter.textContent = `EXIBINDO ${countFormatted} ${filtered.length === 1 ? 'COMPARATIVO TÉCNICO' : 'COMPARATIVOS TÉCNICOS'}`;
-
       if (filtered.length === 0) {
-        container.innerHTML = '';
-        emptyState.classList.remove('hidden');
+        grid.innerHTML = `<div class="empty-state">Nenhum duelo técnico corresponde à sua busca.</div>`;
         return;
       }
 
-      emptyState.classList.add('hidden');
-
-      container.innerHTML = filtered.map(item => `
-        <article id="ref-${item.id}" class="bg-obsidian">
-          
-          <!-- Cabeçalho da Ficha Técnica -->
-          <div class="px-4 sm:px-6 py-3.5 bg-panel border-b border-hairline flex flex-wrap items-center justify-between gap-3">
-            <div class="flex items-center gap-3">
-              <span class="px-2.5 py-1 bg-amberLab text-obsidian font-mono text-xs font-bold tracking-wider">
-                VÍDEO ${item.codigo}
-              </span>
-              <span class="px-2 py-0.5 bg-obsidian border border-hairline font-mono text-[11px] text-inkSecondary">
-                ${item.categoria}
-              </span>
-              <span class="hidden sm:inline font-mono text-[11px] text-inkMuted">
-                ATUALIZADO: ${item.data_verificacao}
-              </span>
+      grid.innerHTML = filtered.map(item => `
+        <article class="card">
+          <div class="card-header">
+            <span class="category-tag">${item.category || 'Comparativo'}</span>
+            <span class="date-tag">Atualizado em ${item.updated_at || 'Recente'}</span>
+          </div>
+          <h2 class="card-title">${item.title}</h2>
+          <div class="verdict-grid">
+            <div class="pick-box pick-winner">
+              <div>
+                <span class="pick-badge">🏆 Melhor Conjunto Técnico</span>
+                <div class="pick-name">${item.winner}</div>
+                <p class="pick-reason">${item.winner_reason || 'Vencedor em especificações técnicas e entrega geral.'}</p>
+              </div>
+              <a href="${item.winner_url}" target="_blank" rel="noopener noreferrer" class="btn-link btn-winner">
+                Ver Preço na Amazon ↗
+              </a>
             </div>
-
-            <div class="flex items-center gap-3">
-              <button onclick="copyDirectLink('${item.id}')" class="px-2.5 py-1 bg-obsidian hover:border-amberLab border border-hairline font-mono text-[11px] text-inkSecondary hover:text-inkPrimary transition-colors">
-                COMPARTILHAR ${item.codigo}
-              </button>
+            <div class="pick-box pick-budget">
+              <div>
+                <span class="pick-badge">⚡ Escolha Custo-Benefício / Alternativa</span>
+                <div class="pick-name">${item.budget_pick}</div>
+                <p class="pick-reason">Excelente relação entrega/preço na categoria.</p>
+              </div>
+              <a href="${item.budget_url}" target="_blank" rel="noopener noreferrer" class="btn-link btn-budget">
+                Ver Preço na Amazon ↗
+              </a>
             </div>
           </div>
-
-          <!-- Título Editorial + Resumo do Veredito -->
-          <div class="px-4 sm:px-6 py-4 border-b border-hairline bg-obsidian space-y-2">
-            <div>
-              <h2 class="text-xl sm:text-2xl font-bold tracking-editorial text-inkPrimary">${item.titulo_confronto}</h2>
-              <p class="text-xs font-mono text-inkSecondary mt-0.5">${item.subtitulo_tecnico}</p>
-            </div>
-            <div class="p-3 bg-panel border border-hairline text-xs text-inkSecondary leading-relaxed">
-              <span class="font-mono text-[10px] text-amberLab font-semibold uppercase mr-1.5">RESUMO DO VEREDITO:</span>
-              <span class="text-inkPrimary">${item.veredito_geral}</span>
-            </div>
-          </div>
-
-          <!-- Grade Bipartida Lado a Lado -->
-          <div class="grid grid-cols-1 lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-hairline">
-            ${renderProductColumn(item.produto_a, "UNIDADE A", true)}
-            ${renderProductColumn(item.produto_b, "UNIDADE B", false)}
-          </div>
-
         </article>
       `).join('');
     }
 
-    // Filtro por Categoria
-    function setCategory(cat) {
-      selectedCategory = cat;
-      document.querySelectorAll('.cat-tab').forEach(btn => {
-        if (btn.getAttribute('data-cat') === cat) {
-          btn.className = "cat-tab px-3 py-1 text-[11px] font-mono border border-amberLab bg-amberLab text-obsidian font-semibold transition-colors whitespace-nowrap";
-        } else {
-          btn.className = "cat-tab px-3 py-1 text-[11px] font-mono border border-hairline bg-panel text-inkSecondary hover:text-inkPrimary transition-colors whitespace-nowrap";
-        }
-      });
-      renderComparisons();
-    }
-
-    // Atalho Rápido de Código (#01, #02, #03, #04)
-    function quickJump(codeNum) {
-      const input = document.getElementById('searchInput');
-      const clearBtn = document.getElementById('clearSearchBtn');
-      
-      if (searchTerm === codeNum) {
-        resetFilters();
-        return;
-      }
-
-      searchTerm = codeNum;
-      input.value = `#${codeNum}`;
-      clearBtn.classList.remove('hidden');
-
-      document.querySelectorAll('.code-jump-btn').forEach(btn => {
-        if (btn.getAttribute('data-code') === codeNum) {
-          btn.classList.add('bg-amberLab', 'text-obsidian', 'border-amberLab', 'font-bold');
-          btn.classList.remove('bg-panel', 'text-inkPrimary', 'border-hairline');
-        } else {
-          btn.classList.remove('bg-amberLab', 'text-obsidian', 'border-amberLab', 'font-bold');
-          btn.classList.add('bg-panel', 'text-inkPrimary', 'border-hairline');
-        }
-      });
-
-      renderComparisons();
-    }
-
-    function resetFilters() {
-      searchTerm = "";
-      selectedCategory = "ALL";
-      document.getElementById('searchInput').value = "";
-      document.getElementById('clearSearchBtn').classList.add('hidden');
-      document.querySelectorAll('.code-jump-btn').forEach(btn => {
-        btn.classList.remove('bg-amberLab', 'text-obsidian', 'border-amberLab', 'font-bold');
-        btn.classList.add('bg-panel', 'text-inkPrimary', 'border-hairline');
-      });
-      setCategory("ALL");
-    }
-
-    // Listener de Busca em Tempo Real
-    document.getElementById('searchInput').addEventListener('input', (e) => {
-      searchTerm = e.target.value;
-      const clearBtn = document.getElementById('clearSearchBtn');
-      if (searchTerm.trim().length > 0) {
-        clearBtn.classList.remove('hidden');
-      } else {
-        clearBtn.classList.add('hidden');
-      }
-      renderComparisons();
-    });
-
-    // Copiar Link Direto da Comparação
-    function copyDirectLink(id) {
-      const url = `${window.location.origin}${window.location.pathname}?ref=${id}`;
-      const temp = document.createElement('input');
-      temp.value = url;
-      document.body.appendChild(temp);
-      temp.select();
-      try {
-        document.execCommand('copy');
-        showToast(`Link direto #${id} copiado.`);
-      } catch (_) {
-        showToast(`Código #${id} selecionado.`);
-      }
-      document.body.removeChild(temp);
-    }
-
-    function showToast(msg) {
-      const bar = document.getElementById('toastBar');
-      document.getElementById('toastText').textContent = msg;
-      bar.classList.remove('hidden');
-      setTimeout(() => bar.classList.add('hidden'), 2800);
-    }
-
-    // Inicialização + Leitura de Parâmetro ?ref=01 na URL
-    window.addEventListener('DOMContentLoaded', () => {
-      const params = new URLSearchParams(window.location.search);
-      const refParam = params.get('ref');
-      initDataStore().then(() => {
-        if (refParam) {
-          quickJump(refParam.replace('#', ''));
-        }
-      });
-    });
+    document.getElementById('searchInput').addEventListener('input', renderProducts);
+    loadProducts();
   </script>
 </body>
 </html>
