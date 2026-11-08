@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Critério Tech // HyperFrames Clean Pro Composition (1080x1920 @ 60fps)</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: radial-gradient(circle at 50% 18%, #27272a 0%, #09090b 68%);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #fafafa;
+    }
+    .bento-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.03) 100%);
+      backdrop-filter: blur(28px);
+      border: 2px solid rgba(255, 255, 255, 0.14);
+      border-radius: 44px;
+    }
+  </style>
+</head>
+<body>
+  <!-- HyperFrames Root Composition -->
+  <div id="hyperframes-root" data-width="1080" data-height="1920" data-fps="60" data-duration="36">
+    <!-- Scene 1: Hook (0s - 5.5s) -->
+    <section id="scene-hook" data-start="0" data-duration="5.5"></section>
+    <!-- Scene 2: Technical Winner (5.5s - 13.5s) -->
+    <section id="scene-winner" data-start="5.5" data-duration="8.0"></section>
+    <!-- Scene 3: Rational Choice (13.5s - 21.5s) -->
+    <section id="scene-rational" data-start="13.5" data-duration="8.0"></section>
+    <!-- Scene 4: Benchmarks (21.5s - 29.5s) -->
+    <section id="scene-benchmarks" data-start="21.5" data-duration="8.0"></section>
+    <!-- Scene 5: Verdict & CTA (29.5s - 36.0s) -->
+    <section id="scene-verdict" data-start="29.5" data-duration="6.5"></section>
+  </div>
+</body>
+</html>
