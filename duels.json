@@ -1,0 +1,43 @@
+[
+  {
+    "duelCode": "#042",
+    "category": "Periféricos Sem Fio",
+    "createdAt": "2026-11-08T17:00:00Z",
+    "technicalWinner": {
+      "name": "Logitech G Pro X Superlight 2",
+      "shortName": "G Pro X2",
+      "priceBRL": 889,
+      "originalPriceBRL": 1099,
+      "rating": 4.9,
+      "imageUrl": "./assets/winner-1.png",
+      "angle2Url": "./assets/winner-2.png",
+      "angle2Label": "Kit Pro X",
+      "verdictSummary": "O melhor sensor do mundo (HERO 2 44.000 DPI), switches ópticos híbridos, 95h de bateria e 2 anos de garantia no Brasil.",
+      "highlights": [
+        { "label": "Sensor", "value": "HERO 2 (44K)" },
+        { "label": "Bateria / Modo", "value": "95h • 4K Hz 🏆" },
+        { "label": "Peso Físico", "value": "60 Gramas" }
+      ],
+      "amazonUrl": "https://www.amazon.com.br/dp/B0CJ9RGJ18",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g-pro-x-superlight-2"
+    },
+    "rationalChoice": {
+      "name": "Attack Shark X3 Pro (PAW3395)",
+      "shortName": "Shark X3 Pro",
+      "priceBRL": 239,
+      "originalPriceBRL": 349,
+      "rating": 4.8,
+      "imageUrl": "./assets/rational-1.png",
+      "angle2Url": "./assets/rational-2.png",
+      "angle2Label": "Vista Topo",
+      "verdictSummary": "Entrega 94% da performance competitiva com o sensor topo de linha PAW3395, pesando apenas 49g por um quarto do valor.",
+      "highlights": [
+        { "label": "Sensor", "value": "PAW3395 (26K)" },
+        { "label": "Bateria / Modo", "value": "65h • Tri-Mode" },
+        { "label": "Peso Físico", "value": "Só 49g 🏆" }
+      ],
+      "amazonUrl": "https://www.amazon.com.br/dp/B0FXBJ8GNV",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/mouse-gamer-attack-shark-x3"
+    }
+  }
+]

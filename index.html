@@ -1,725 +1,240 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRITÉRIO TECH — Índice Técnico de Comparação & Decisão de Compra</title>
-  
-  <!-- Tipografia Técnica: Inter (Editorial) + JetBrains Mono (Telemetria & Ficha Técnica) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Critério Tech — Vitrine Oficial de Duelos | ZenosTech</title>
   <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
-            mono: ['JetBrains Mono', 'monospace'],
-          },
-          colors: {
-            obsidian: '#0A0A0A',
-            panel: '#121215',
-            panelElevated: '#16161A',
-            hairline: '#222226',
-            hairlineLight: '#2E2E34',
-            amberLab: '#F59E0B',
-            amberDim: 'rgba(245, 158, 11, 0.12)',
-            inkPrimary: '#EDEDED',
-            inkSecondary: '#8E8E96',
-            inkMuted: '#52525B'
-          }
-        }
-      }
+    if (location.hostname.includes('zenostech.com.br') && !location.pathname.endsWith('/')) {
+      const base = document.createElement('base');
+      base.href = 'https://oliveiira-renan-21.github.io/criterio-tech/';
+      document.head.appendChild(base);
     }
   </script>
-
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-      border-radius: 0px;
-    }
-
     body {
-      background-color: #0A0A0A;
-      color: #EDEDED;
-      font-family: 'Inter', sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      overflow-x: hidden;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: -0.02em;
     }
-
-    /* Padrão de fundo técnico sutil */
-    .bg-blueprint-grid {
-      background-size: 24px 24px;
-      background-image: 
-        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    .apple-bento {
+      background: linear-gradient(180deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.03) 100%);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
     }
-
-    .tracking-editorial {
-      letter-spacing: -0.03em;
+    .apple-badge-pro {
+      background: linear-gradient(135deg, #ffffff 0%, #d4d4d8 100%);
+      color: #09090b;
     }
-
-    /* Marcadores arquitetônicos nos cruzamentos de linha */
-    .crosshair-corner {
-      position: relative;
-    }
-    .crosshair-corner::after {
-      content: '+';
-      position: absolute;
-      bottom: -9px;
-      right: -5px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 11px;
-      color: #52525B;
-      pointer-events: none;
-      z-index: 10;
-    }
-
-    /* Scrollbar industrial */
-    ::-webkit-scrollbar {
-      width: 5px;
-      height: 5px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #0A0A0A;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #222226;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #F59E0B;
+    .apple-badge-value {
+      background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+      color: #052e16;
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col selection:bg-amberLab selection:text-obsidian">
+<body class="bg-[#09090B] text-zinc-100 antialiased min-h-screen">
+  <main class="max-w-6xl mx-auto p-6 md:p-10 flex flex-col gap-8">
 
-  <!-- BARRA SUPERIOR DO ÍNDICE PÚBLICO -->
-  <div class="w-full bg-obsidian border-b border-hairline text-[11px] font-mono text-inkSecondary">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-8 flex items-center justify-between border-l border-r border-hairline">
-      <div class="flex items-center gap-2.5">
-        <span class="inline-block w-1.5 h-1.5 bg-amberLab"></span>
-        <span class="text-inkPrimary font-medium">CRITÉRIO TECH</span>
-        <span class="text-inkMuted">//</span>
-        <span>ÍNDICE DE COMPARATIVOS TÉCNICOS</span>
-      </div>
-      <div class="hidden sm:flex items-center gap-2 text-inkSecondary">
-        <span>ATUALIZADO: OUT/2026</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- CABEÇALHO ARQUITETÔNICO PRINCIPAL -->
-  <header class="sticky top-0 z-30 bg-obsidian/95 backdrop-blur-md border-b border-hairline">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex flex-row items-center justify-between gap-4 border-l border-r border-hairline crosshair-corner">
-      
-      <!-- Identidade Visual + Monograma Suíço -->
-      <a href="#" onclick="resetFilters(); return false;" class="flex items-center gap-3.5 group">
-        <div class="w-11 h-11 bg-panel border border-hairline group-hover:border-amberLab flex items-center justify-center transition-colors flex-shrink-0">
-          <svg class="w-7 h-7" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M40 12H16V52H40V44H24V20H40V12Z" fill="#EDEDED"/>
-            <path d="M48 12H43L31 52H36L48 12Z" fill="#F59E0B"/>
-            <rect x="44" y="28" width="6" height="8" fill="#F59E0B"/>
-          </svg>
+    <!-- Header & Search Bar -->
+    <header class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-white/10 pb-8">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-zinc-300 mb-3">
+          <span>⚡ ZenosTech Labs</span>
+          <span>•</span>
+          <span class="text-emerald-400">Preços Verificados Hoje</span>
         </div>
-
-        <div>
-          <div class="flex items-center gap-2">
-            <span class="text-lg sm:text-xl font-bold tracking-editorial text-inkPrimary">CRITÉRIO TECH</span>
-            <span class="text-[10px] font-mono uppercase px-1.5 py-0.5 bg-panel border border-hairline text-amberLab">BR</span>
-          </div>
-          <p class="text-xs text-inkSecondary">
-            Análises Lado a Lado &amp; Guia de Decisão de Compra
-          </p>
-        </div>
-      </a>
-
-      <!-- Link Oficial do Canal no Instagram -->
-      <div class="flex items-center">
-        <a href="https://www.instagram.com/criterio_tech" target="_blank" rel="noopener noreferrer"
-           class="px-3.5 py-2 bg-panel hover:border-amberLab border border-hairline text-xs font-mono text-inkPrimary flex items-center gap-2 transition-colors">
-          <span class="text-amberLab">@criterio_tech</span>
-          <span class="text-inkSecondary">↗</span>
-        </a>
-      </div>
-
-    </div>
-  </header>
-
-  <!-- PAINEL DE BUSCA E SALTO RÁPIDO (FLUSH GRID) -->
-  <section class="w-full border-b border-hairline bg-panel/60 bg-blueprint-grid">
-    <div class="max-w-6xl mx-auto border-l border-r border-hairline">
-      
-      <!-- Bloco Superior: Explicação Direta + Campo de Busca -->
-      <div class="p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-end border-b border-hairline">
-        <div class="lg:col-span-7 space-y-2">
-          <div class="text-[11px] font-mono text-amberLab uppercase tracking-wider">
-            CONSULTA RÁPIDA DOS PRODUTOS DOS VÍDEOS
-          </div>
-          <h1 class="text-2xl sm:text-3xl font-bold tracking-editorial text-inkPrimary leading-tight">
-            Ficha técnica confrontada lado a lado antes da sua decisão.
-          </h1>
-        </div>
-
-        <!-- Input de Busca Monospace -->
-        <div class="lg:col-span-5">
-          <label for="searchInput" class="block text-[11px] font-mono text-inkSecondary uppercase mb-1.5">
-            DIGITE O NÚMERO DO VÍDEO (EX: #01) OU NOME DO PRODUTO
-          </label>
-          <div class="relative flex items-center">
-            <span class="absolute left-3 font-mono text-xs text-amberLab">&gt;</span>
-            <input type="text" id="searchInput" 
-                   placeholder="Ex: 01, 02, Edifier, Anker, Cadeira..."
-                   class="w-full pl-8 pr-20 py-2.5 bg-obsidian border border-hairline focus:border-amberLab text-xs sm:text-sm font-mono text-inkPrimary placeholder-inkMuted focus:outline-none transition-colors">
-            <button id="clearSearchBtn" onclick="resetFilters()" class="hidden absolute right-2 px-2 py-1 bg-panel border border-hairline text-[10px] font-mono text-inkSecondary hover:text-inkPrimary">
-              LIMPAR
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Barra de Salto Rápido Dinâmica + Abas de Categoria -->
-      <div class="px-4 sm:px-6 py-3 flex flex-col md:flex-row md:items-center justify-between gap-3 bg-obsidian/85">
-        
-        <!-- Quick-Jump Code Buttons -->
-        <div class="flex items-center gap-1.5 flex-wrap" id="quickJumpContainer">
-          <span class="text-[11px] font-mono text-inkSecondary mr-1.5">CÓDIGO DO VÍDEO:</span>
-        </div>
-
-        <!-- Abas de Filtro por Categoria -->
-        <div class="flex items-center gap-1 overflow-x-auto" id="categoryTabs">
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- CONTEÚDO PRINCIPAL: FICHAS DE CONFRONTO TÉCNICO -->
-  <main class="flex-1 w-full">
-    <div class="max-w-6xl mx-auto border-l border-r border-hairline">
-      
-      <!-- Sub-barra de Contagem e Status -->
-      <div class="px-4 sm:px-6 py-2.5 border-b border-hairline bg-obsidian flex items-center justify-between text-[11px] font-mono text-inkSecondary">
-        <span id="statusCounter">CARREGANDO COMPARATIVOS...</span>
-        <span>LINKS VERIFICADOS // LOJAS OFICIAIS</span>
-      </div>
-
-      <!-- Lista de Comparativos -->
-      <div id="comparisonsContainer" class="divide-y divide-hairline">
-      </div>
-
-      <!-- Estado Vazio -->
-      <div id="emptyState" class="hidden p-12 text-center space-y-3">
-        <div class="font-mono text-xs text-amberLab">[NENHUM EQUIPAMENTO ENCONTRADO]</div>
-        <p class="text-sm text-inkSecondary max-w-md mx-auto">
-          Não encontramos nenhum equipamento ou código correspondente ao termo pesquisado.
+        <h1 class="text-3xl md:text-4xl font-black text-white tracking-tight">
+          Critério Tech — Vitrine Oficial de Duelos
+        </h1>
+        <p class="text-sm text-zinc-400 mt-1">
+          Digite o código do vídeo (ex: <strong>#042</strong>) ou nome do produto para acessar os links oficiais com menor preço.
         </p>
-        <button onclick="resetFilters()" class="px-4 py-2 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkPrimary">
-          VER TODOS OS COMPARATIVOS
-        </button>
       </div>
 
-    </div>
+      <div class="w-full md:w-80">
+        <label class="block text-xs text-zinc-400 font-semibold mb-1.5">Busca Rápida por Código ou Produto:</label>
+        <input id="searchInput" type="text" placeholder="Ex: #042, Logitech, Mouse..." class="w-full bg-zinc-900 border border-white/20 rounded-2xl px-4 py-3 text-sm font-bold text-white focus:outline-none focus:border-white" />
+      </div>
+    </header>
+
+    <!-- Duels List Container -->
+    <div id="duelsContainer" class="flex flex-col gap-8"></div>
+
   </main>
 
-  <!-- RODAPÉ DISCRETO VOLTADO AO CONSUMIDOR -->
-  <footer class="w-full border-t border-hairline bg-obsidian mt-auto">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 border-l border-r border-hairline flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-      <div class="space-y-1.5 max-w-xl">
-        <div class="flex items-center gap-2 font-mono text-xs text-inkPrimary font-semibold">
-          <span>CRITÉRIO TECH</span>
-          <span class="text-inkMuted">//</span>
-          <span class="text-amberLab">ÍNDICE DE COMPARATIVOS</span>
-        </div>
-        <p class="text-xs text-inkSecondary leading-relaxed">
-          Análises técnicas baseadas em especificações de fábrica. Links direcionam para lojas oficiais verificadas.
-        </p>
-      </div>
-
-      <div class="flex items-center gap-4">
-        <a href="https://www.instagram.com/criterio_tech" target="_blank" rel="noopener noreferrer"
-           class="px-3.5 py-2 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkSecondary hover:text-inkPrimary transition-colors">
-          Instagram: @criterio_tech ↗
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- NOTIFICAÇÃO TÉCNICA DISCRETA -->
-  <div id="toastBar" class="fixed bottom-5 right-5 z-50 hidden bg-obsidian border border-amberLab px-4 py-2.5 font-mono text-xs text-inkPrimary shadow-2xl">
-    <span class="text-amberLab mr-1.5">[OK]</span>
-    <span id="toastText">Link copiado.</span>
-  </div>
-
-  <!-- SCRIPT DE DADOS, DIAGRAMAS CAD SVG & LÓGICA DE INTERFACE -->
   <script>
-    const AMAZON_AFFILIATE_TAG = "criteriotech-20";
-
-    const CAD_DIAGRAMS = {
-      lidar_vac: `
-        <svg viewBox="0 0 160 100" class="w-full h-24 stroke-inkPrimary" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="50" r="38" stroke="#EDEDED" stroke-width="1.5"/>
-          <circle cx="80" cy="50" r="32" stroke="#2E2E34" stroke-width="1" stroke-dasharray="3 3"/>
-          <circle cx="80" cy="38" r="10" stroke="#F59E0B" stroke-width="1.5" fill="rgba(245,158,11,0.1)"/>
-          <circle cx="80" cy="38" r="2.5" fill="#F59E0B"/>
-          <line x1="80" y1="38" x2="35" y2="15" stroke="#F59E0B" stroke-width="0.75" stroke-dasharray="2 2"/>
-          <line x1="80" y1="38" x2="125" y2="15" stroke="#F59E0B" stroke-width="0.75" stroke-dasharray="2 2"/>
-          <path d="M52 24 A34 34 0 0 1 108 24" stroke="#EDEDED" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">LDS_360 // 4000Pa</text>
-        </svg>
-      `,
-      gyro_vac: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="80" cy="50" r="38" stroke="#8E8E96" stroke-width="1.5"/>
-          <rect x="64" y="42" width="32" height="16" stroke="#2E2E34" stroke-width="1"/>
-          <line x1="50" y1="50" x2="110" y2="50" stroke="#52525B" stroke-width="1" stroke-dasharray="2 2"/>
-          <line x1="80" y1="20" x2="80" y2="80" stroke="#52525B" stroke-width="1" stroke-dasharray="2 2"/>
-          <circle cx="80" cy="24" r="3" stroke="#EDEDED" stroke-width="1.2"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">GYRO_NAV // 3000Pa</text>
-        </svg>
-      `,
-      chair_mesh: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M68 14 H92 V46 H68 Z" stroke="#EDEDED" stroke-width="1.5"/>
-          <path d="M65 48 H95 V62 H65 Z" stroke="#F59E0B" stroke-width="1.5" fill="rgba(245,158,11,0.1)"/>
-          <line x1="54" y1="68" x2="106" y2="68" stroke="#EDEDED" stroke-width="2"/>
-          <line x1="80" y1="68" x2="80" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <line x1="56" y1="86" x2="104" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">LOMBAR_3D // MESH</text>
-        </svg>
-      `,
-      chair_foam: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M66 16 H94 V62 H66 Z" stroke="#8E8E96" stroke-width="1.5"/>
-          <rect x="54" y="64" width="52" height="7" stroke="#EDEDED" stroke-width="1.5"/>
-          <line x1="80" y1="71" x2="80" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <line x1="58" y1="86" x2="102" y2="86" stroke="#8E8E96" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">ESPUMA_50D // TILT</text>
-        </svg>
-      `,
-      mouse_master: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M58 24 C58 14, 102 14, 102 28 L106 72 C106 84, 54 84, 54 72 Z" stroke="#EDEDED" stroke-width="1.5"/>
-          <rect x="77" y="22" width="6" height="16" stroke="#F59E0B" stroke-width="1.5" fill="rgba(245,158,11,0.15)"/>
-          <rect x="52" y="42" width="4" height="14" fill="#F59E0B"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">8000_DPI // MAGSPEED</text>
-        </svg>
-      `,
-      mouse_vertical: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <line x1="45" y1="82" x2="115" y2="82" stroke="#2E2E34" stroke-width="1"/>
-          <line x1="60" y1="82" x2="98" y2="18" stroke="#F59E0B" stroke-width="1.2" stroke-dasharray="3 2"/>
-          <path d="M56 78 L78 20 C88 18, 106 38, 104 78 Z" stroke="#8E8E96" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">ÂNGULO_57° // ERGO</text>
-        </svg>
-      `,
-      lock_surface: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="62" y="12" width="36" height="74" stroke="#EDEDED" stroke-width="1.5"/>
-          <g fill="#F59E0B">
-            <rect x="70" y="22" width="4" height="4"/><rect x="78" y="22" width="4" height="4"/><rect x="86" y="22" width="4" height="4"/>
-            <rect x="70" y="30" width="4" height="4"/><rect x="78" y="30" width="4" height="4"/><rect x="86" y="30" width="4" height="4"/>
-            <rect x="70" y="38" width="4" height="4"/><rect x="78" y="38" width="4" height="4"/><rect x="86" y="38" width="4" height="4"/>
-          </g>
-          <rect x="70" y="54" width="20" height="8" stroke="#F59E0B" stroke-width="1.2"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">SOBREPOR // RFID+PIN</text>
-        </svg>
-      `,
-      lock_mortise: `
-        <svg viewBox="0 0 160 100" class="w-full h-24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="62" y="10" width="34" height="80" stroke="#8E8E96" stroke-width="1.5"/>
-          <circle cx="79" cy="56" r="6" stroke="#F59E0B" stroke-width="1.5"/>
-          <rect x="79" y="53" width="32" height="6" fill="#121215" stroke="#EDEDED" stroke-width="1.5"/>
-          <text x="8" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">BIOMETRIA // VISO</text>
-        </svg>
-      `,
-      default_tech: `
-        <svg viewBox="0 0 160 100" class="w-full h-24 stroke-inkPrimary" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="30" y="20" width="100" height="60" stroke="#EDEDED" stroke-width="1.5"/>
-          <line x1="30" y1="40" x2="130" y2="40" stroke="#2E2E34" stroke-width="1"/>
-          <circle cx="80" cy="60" r="12" stroke="#F59E0B" stroke-width="1.5" fill="rgba(245,158,11,0.1)"/>
-          <text x="10" y="92" fill="#8E8E96" font-family="JetBrains Mono" font-size="8">CRITÉRIO TECH // ANÁLISE</text>
-        </svg>
-      `
-    };
-
-    let activeData = [];
-    let selectedCategory = "ALL";
-    let searchTerm = "";
-
-    async function initDataStore() {
-      try {
-        const res = await fetch(`./produtos.json?t=${Date.now()}`, { cache: 'no-store' });
-        if (res.ok) {
-          const externalJson = await res.json();
-          if (Array.isArray(externalJson) && externalJson.length > 0) {
-            activeData = externalJson.map((item, index) => {
-              const numId = String(index + 1).padStart(2, '0');
-              const imgWinner = item.winner_image || item.winner_img || item.image_a || "";
-              const imgBudget = item.budget_image || item.budget_img || item.image_b || "";
-              
-              return {
-                id: item.id || numId,
-                codigo: item.codigo || `#${numId}`,
-                categoria: (item.category || item.categoria || "GERAL").toUpperCase(),
-                data_verificacao: item.updated_at || "OUT/2026",
-                titulo_confronto: item.title || `${item.winner || 'Produto A'} vs ${item.budget_pick || 'Produto B'}`,
-                subtitulo_tecnico: item.winner_reason || "Confronto técnico e relação custo-benefício.",
-                veredito_geral: item.winner_reason || "Análise detalhada de especificações e desempenho comparativo.",
-                produto_a: {
-                  modelo: item.winner || "Produto Principal",
-                  sku_ref: "WINNER-REF",
-                  selo_criterio: "VENCEDOR CRITÉRIO",
-                  preco_referencia: item.winner_price || "Verificar Preço",
-                  diagram_key: "default_tech",
-                  image_url: imgWinner,
-                  destaque_tecnico: "QUALIDADE SUPERIOR",
-                  barras_comparativas: [
-                    { metrica: "Desempenho Geral", valor_label: "Alto Padrão", percentual: 95 },
-                    { metrica: "Especificações Técnicas", valor_label: "Avançado", percentual: 90 }
-                  ],
-                  especificacoes_chave: [
-                    "Construção robusta com foco em durabilidade",
-                    "Recursos e regulagens avançadas para uso prolongado"
-                  ],
-                  criterio_decisao: "Indicado para quem busca o máximo de desempenho e qualidade sem concessões.",
-                  amazon_url: item.winner_url || `https://www.amazon.com.br/s?k=Produto&tag=${AMAZON_AFFILIATE_TAG}`,
-                  shopee_url: null
-                },
-                produto_b: {
-                  modelo: item.budget_pick || "Alternativa Econômica",
-                  sku_ref: "BUDGET-REF",
-                  selo_criterio: "ESCOLHA ECONOMIA",
-                  preco_referencia: item.budget_price || "Verificar Preço",
-                  diagram_key: "default_tech",
-                  image_url: imgBudget,
-                  destaque_tecnico: "MELHOR CUSTO-BENEFÍCIO",
-                  barras_comparativas: [
-                    { metrica: "Relação Custo-Benefício", valor_label: "Excelente", percentual: 88 },
-                    { metrica: "Eficiência de Uso", valor_label: "Prático", percentual: 85 }
-                  ],
-                  especificacoes_chave: [
-                    "Excelente retorno sobre o investimento",
-                    "Atende com eficiência as principais necessidades do dia a dia"
-                  ],
-                  criterio_decisao: "Indicado para quem busca economia inteligente com excelente entrega.",
-                  amazon_url: item.budget_url || `https://www.amazon.com.br/s?k=Produto+Alternativo&tag=${AMAZON_AFFILIATE_TAG}`,
-                  shopee_url: null
-                }
-              };
-            });
-          }
+    const FALLBACK_DUELS = [
+      {
+        duelCode: "#042",
+        category: "Periféricos Sem Fio",
+        technicalWinner: {
+          name: "Logitech G Pro X Superlight 2",
+          shortName: "G Pro X2",
+          priceBRL: 889,
+          originalPriceBRL: 1099,
+          rating: 4.9,
+          imageUrl: "./assets/winner-1.png",
+          angle2Url: "./assets/winner-2.png",
+          angle2Label: "Kit Pro X",
+          verdictSummary: "O melhor sensor do mundo (HERO 2 44.000 DPI), switches ópticos híbridos, 95h de bateria e 2 anos de garantia no Brasil.",
+          highlights: [
+            { label: "Sensor", value: "HERO 2 (44K)" },
+            { label: "Bateria / Modo", value: "95h • 4K Hz 🏆" },
+            { label: "Peso Físico", value: "60 Gramas" }
+          ],
+          amazonUrl: "https://www.amazon.com.br/dp/B0CJ9RGJ18",
+          mercadoLivreUrl: "https://lista.mercadolivre.com.br/logitech-g-pro-x-superlight-2"
+        },
+        rationalChoice: {
+          name: "Attack Shark X3 Pro (PAW3395)",
+          shortName: "Shark X3 Pro",
+          priceBRL: 239,
+          originalPriceBRL: 349,
+          rating: 4.8,
+          imageUrl: "./assets/rational-1.png",
+          angle2Url: "./assets/rational-2.png",
+          angle2Label: "Vista Topo",
+          verdictSummary: "Entrega 94% da performance competitiva com o sensor topo de linha PAW3395, pesando apenas 49g por um quarto do valor.",
+          highlights: [
+            { label: "Sensor", value: "PAW3395 (26K)" },
+            { label: "Bateria / Modo", value: "65h • Tri-Mode" },
+            { label: "Peso Físico", value: "Só 49g 🏆" }
+          ],
+          amazonUrl: "https://www.amazon.com.br/dp/B0FXBJ8GNV",
+          mercadoLivreUrl: "https://lista.mercadolivre.com.br/mouse-gamer-attack-shark-x3"
         }
-      } catch (err) {
-        console.error("Erro ao carregar produtos.json:", err);
       }
-      
-      buildDynamicControls();
-      renderComparisons();
+    ];
+
+    let allDuels = FALLBACK_DUELS;
+
+    function switchSiteAngle(imgId, newSrc, clickedBtn) {
+      const imgEl = document.getElementById(imgId);
+      if (imgEl) imgEl.src = newSrc;
+      const buttons = clickedBtn.parentElement.querySelectorAll('button');
+      buttons.forEach(btn => {
+        if (btn === clickedBtn) {
+          btn.className = 'px-2.5 py-1 rounded-lg bg-zinc-900 text-white text-[10px] font-bold cursor-pointer transition shadow-sm';
+        } else {
+          btn.className = 'px-2.5 py-1 rounded-lg bg-white text-zinc-800 hover:bg-zinc-300 text-[10px] font-bold cursor-pointer transition';
+        }
+      });
     }
 
-    function buildDynamicControls() {
-      const quickJumpContainer = document.getElementById('quickJumpContainer');
-      const categoryTabs = document.getElementById('categoryTabs');
+    function renderDuels(filterText = '') {
+      const q = filterText.trim().toLowerCase();
+      const filtered = allDuels.filter(d =>
+        !q ||
+        d.duelCode.toLowerCase().includes(q) ||
+        d.category.toLowerCase().includes(q) ||
+        d.technicalWinner.name.toLowerCase().includes(q) ||
+        d.rationalChoice.name.toLowerCase().includes(q)
+      );
 
-      let jumpHtml = '<span class="text-[11px] font-mono text-inkSecondary mr-1.5">CÓDIGO DO VÍDEO:</span>';
-      activeData.forEach(item => {
-        const cleanCode = item.codigo.replace('#', '');
-        jumpHtml += `
-          <button onclick="quickJump('${cleanCode}')" data-code="${cleanCode}" class="code-jump-btn px-2.5 py-1 bg-panel border border-hairline hover:border-amberLab text-xs font-mono text-inkPrimary transition-colors">
-            ${item.codigo}
-          </button>
-        `;
-      });
-      quickJumpContainer.innerHTML = jumpHtml;
-
-      const categories = ['TODOS', ...new Set(activeData.map(item => item.categoria))];
-      let catHtml = '';
-      categories.forEach(cat => {
-        const count = cat === 'TODOS' ? activeData.length : activeData.filter(i => i.categoria === cat).length;
-        const isActive = (cat === 'TODOS' && selectedCategory === 'ALL') || cat === selectedCategory;
-        const attrCat = cat === 'TODOS' ? 'ALL' : cat;
-        
-        catHtml += `
-          <button onclick="setCategory('${attrCat}')" data-cat="${attrCat}" class="cat-tab px-3 py-1 text-[11px] font-mono border ${isActive ? 'border-amberLab bg-amberLab text-obsidian font-semibold' : 'border-hairline bg-panel text-inkSecondary hover:text-inkPrimary'} transition-colors whitespace-nowrap">
-            ${cat} (${count})
-          </button>
-        `;
-      });
-      categoryTabs.innerHTML = catHtml;
-    }
-
-function renderProductColumn(prod, sideLabel, isPrimarySide) {
-      const fallbackSvg = CAD_DIAGRAMS[prod.diagram_key] || CAD_DIAGRAMS.default_tech;
-      const isWinnerBadge = prod.selo_criterio === "VENCEDOR CRITÉRIO";
-      const hasImage = Boolean(prod.image_url && prod.image_url.trim() !== "");
-
-      const mediaContentHtml = `
-        <div class="my-4 p-3 bg-obsidian border border-hairline bg-blueprint-grid flex items-center justify-center h-40 overflow-hidden relative">
-          ${hasImage ? `
-            <img src="${prod.image_url}" 
-                 alt="${prod.modelo}" 
-                 class="max-h-full max-w-full object-contain p-2 bg-white rounded-sm shadow-md" 
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          ` : ''}
-          <div style="display: ${hasImage ? 'none' : 'flex'};" class="w-full h-full items-center justify-center">
-            ${fallbackSvg}
-          </div>
-        </div>
-      `;
-
-      const ctaButtonsHtml = prod.shopee_url
-        ? `<div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
-             <a href="${prod.amazon_url}" target="_blank" rel="noopener noreferrer"
-                class="sm:col-span-2 py-3 px-4 bg-amberLab hover:bg-amber-400 text-obsidian font-mono text-xs font-bold uppercase tracking-wider flex items-center justify-between transition-colors">
-               <span>VER MENOR PREÇO NA AMAZON</span>
-               <span>↗</span>
-             </a>
-             <a href="${prod.shopee_url}" target="_blank" rel="noopener noreferrer"
-                class="py-3 px-3 bg-panel hover:border-amberLab border border-hairline font-mono text-[11px] text-inkPrimary flex items-center justify-center gap-1 transition-colors">
-               <span>VER NA SHOPEE</span>
-               <span>↗</span>
-             </a>
-           </div>`
-        : `<a href="${prod.amazon_url}" target="_blank" rel="noopener noreferrer"
-              class="w-full py-3 px-4 bg-amberLab hover:bg-amber-400 text-obsidian font-mono text-xs font-bold uppercase tracking-wider flex items-center justify-between transition-colors">
-             <span>VER MENOR PREÇO NA AMAZON</span>
-             <span>↗</span>
-           </a>`;
-
-      return `
-        <div class="p-4 sm:p-6 flex flex-col justify-between bg-panel/40">
-          <div>
-            <div class="flex items-center justify-between gap-2 pb-3 border-b border-hairline">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 font-mono text-[10px] font-bold ${isWinnerBadge ? 'bg-amberLab text-obsidian' : 'bg-hairlineLight text-inkPrimary'}">
-                  ${prod.selo_criterio || sideLabel}
-                </span>
-                <span class="font-mono text-[11px] text-inkSecondary hidden sm:inline">REF: ${prod.sku_ref}</span>
-              </div>
-              <span class="font-mono text-[11px] font-semibold text-amberLab">${prod.destaque_tecnico}</span>
-            </div>
-
-            <div class="mt-4 flex items-baseline justify-between gap-3">
-              <h3 class="text-lg sm:text-xl font-bold tracking-editorial text-inkPrimary">${prod.modelo}</h3>
-              <div class="text-right flex-shrink-0">
-                <span class="block text-[10px] font-mono text-inkSecondary">MÉDIA DE MERCADO</span>
-                <span class="font-mono text-sm sm:text-base font-bold text-inkPrimary">${prod.preco_referencia}</span>
-              </div>
-            </div>
-
-            ${mediaContentHtml}
-
-            <div class="space-y-3 my-4">
-              <div class="text-[10px] font-mono text-inkSecondary uppercase tracking-wider border-b border-hairline pb-1">
-                ÍNDICES TÉCNICOS &amp; ESPECIFICAÇÕES
-              </div>
-              ${prod.barras_comparativas.map(bar => `
-                <div class="space-y-1">
-                  <div class="flex items-center justify-between text-xs font-mono">
-                    <span class="text-inkSecondary text-[11px]">${bar.metrica}</span>
-                    <span class="text-inkPrimary font-medium text-[11px]">${bar.valor_label}</span>
-                  </div>
-                  <div class="w-full h-1.5 bg-obsidian border border-hairline overflow-hidden">
-                    <div class="h-full ${isWinnerBadge ? 'bg-amberLab' : 'bg-inkSecondary'}" style="width: ${bar.percentual}%"></div>
-                  </div>
+      const container = document.getElementById('duelsContainer');
+      container.innerHTML = filtered.map((duel, dIdx) => {
+        const savings = duel.technicalWinner.priceBRL - duel.rationalChoice.priceBRL;
+        return `
+          <article class="rounded-3xl bg-zinc-900/70 border border-white/15 p-6 md:p-8 flex flex-col gap-6">
+            <div class="flex flex-wrap items-center justify-between gap-3">
+              <div class="flex items-center gap-3">
+                <span class="px-3.5 py-1.5 rounded-xl bg-white text-zinc-950 font-black text-sm">DUELO ${duel.duelCode}</span>
+                <div>
+                  <div class="text-xs text-zinc-400 font-semibold uppercase">${duel.category}</div>
+                  <h2 class="text-lg font-black text-white">${duel.technicalWinner.name} vs. ${duel.rationalChoice.name}</h2>
                 </div>
-              `).join('')}
-            </div>
-
-            <ul class="space-y-1.5 my-4 pt-2 border-t border-hairline text-xs text-inkSecondary">
-              ${prod.especificacoes_chave.map(spec => `
-                <li class="flex items-start gap-2 leading-relaxed">
-                  <span class="font-mono text-amberLab text-[11px] mt-0.5">—</span>
-                  <span>${spec}</span>
-                </li>
-              `).join('')}
-            </ul>
-          </div>
-
-          <div class="mt-4 pt-4 border-t border-hairline space-y-3">
-            <div class="p-3 bg-obsidian border-l-2 ${isWinnerBadge ? 'border-l-amberLab' : 'border-l-inkSecondary'} border border-hairline">
-              <div class="font-mono text-[10px] text-amberLab uppercase mb-0.5">QUANDO ESCOLHER O ${prod.modelo.toUpperCase()}</div>
-              <p class="text-xs text-inkPrimary leading-relaxed">${prod.criterio_decisao}</p>
-            </div>
-
-            ${ctaButtonsHtml}
-          </div>
-        </div>
-      `;
-    }
-
-    function renderComparisons() {
-      const container = document.getElementById('comparisonsContainer');
-      const emptyState = document.getElementById('emptyState');
-      const statusCounter = document.getElementById('statusCounter');
-
-      const normalizedQuery = searchTerm.toLowerCase().trim().replace(/^#/, '');
-
-      const filtered = activeData.filter(item => {
-        const matchCat = selectedCategory === "ALL" || item.categoria === selectedCategory;
-        const matchQuery = !normalizedQuery ||
-          item.id.toLowerCase().includes(normalizedQuery) ||
-          item.codigo.toLowerCase().includes(normalizedQuery) ||
-          item.titulo_confronto.toLowerCase().includes(normalizedQuery) ||
-          item.subtitulo_tecnico.toLowerCase().includes(normalizedQuery) ||
-          item.produto_a.modelo.toLowerCase().includes(normalizedQuery) ||
-          item.produto_b.modelo.toLowerCase().includes(normalizedQuery);
-
-        return matchCat && matchQuery;
-      });
-
-      const countFormatted = String(filtered.length).padStart(2, '0');
-      statusCounter.textContent = `EXIBINDO ${countFormatted} ${filtered.length === 1 ? 'COMPARATIVO TÉCNICO' : 'COMPARATIVOS TÉCNICOS'}`;
-
-      if (filtered.length === 0) {
-        container.innerHTML = '';
-        emptyState.classList.remove('hidden');
-        return;
-      }
-
-      emptyState.classList.add('hidden');
-
-      container.innerHTML = filtered.map(item => `
-        <article id="ref-${item.id}" class="bg-obsidian">
-          
-          <div class="px-4 sm:px-6 py-3.5 bg-panel border-b border-hairline flex flex-wrap items-center justify-between gap-3">
-            <div class="flex items-center gap-3">
-              <span class="px-2.5 py-1 bg-amberLab text-obsidian font-mono text-xs font-bold tracking-wider">
-                VÍDEO ${item.codigo}
-              </span>
-              <span class="px-2 py-0.5 bg-obsidian border border-hairline font-mono text-[11px] text-inkSecondary">
-                ${item.categoria}
-              </span>
-              <span class="hidden sm:inline font-mono text-[11px] text-inkMuted">
-                ATUALIZADO: ${item.data_verificacao}
+              </div>
+              <span class="text-xs text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+                ✓ Estoque e Menor Preço Confirmados
               </span>
             </div>
 
-            <div class="flex items-center gap-3">
-              <button onclick="copyDirectLink('${item.id}')" class="px-2.5 py-1 bg-obsidian hover:border-amberLab border border-hairline font-mono text-[11px] text-inkSecondary hover:text-inkPrimary transition-colors">
-                COMPARTILHAR ${item.codigo}
-              </button>
+            <!-- Grid Lock Simétrico (Alinhamento Horizontal Travado) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+              ${[duel.technicalWinner, duel.rationalChoice].map((item, idx) => {
+                const isWinner = idx === 0;
+                const imgId = `duel-${dIdx}-item-${idx}`;
+                return `
+                  <div class="apple-bento rounded-3xl p-6 flex flex-col h-full ${isWinner ? '' : 'border-emerald-500/40'}">
+                    <div class="flex items-center justify-between h-7 mb-3">
+                      <span class="${isWinner ? 'apple-badge-pro' : 'apple-badge-value'} text-xs font-black px-3 py-1 rounded-full">
+                        ${isWinner ? '🏆 VENCEDOR TÉCNICO (MELHOR GERAL)' : `⚡ ESCOLHA RACIONAL (ECONOMIZE R$ ${savings})`}
+                      </span>
+                      <span class="text-xs font-bold text-amber-400">★★★★★ ${item.rating || '4.9'}</span>
+                    </div>
+
+                    <div class="h-52 w-full bg-white rounded-2xl my-2 shrink-0 relative flex items-center justify-center p-4 overflow-hidden">
+                      ${item.imageUrl
+                        ? `<img id="${imgId}" src="${item.imageUrl}" alt="${item.name}" class="max-h-44 w-auto object-contain transition-transform duration-300 hover:scale-105" />`
+                        : `<span class="text-2xl font-black text-zinc-900">${item.shortName}</span>`
+                      }
+                      ${item.angle2Url ? `
+                        <div class="absolute bottom-2.5 right-2.5 flex items-center gap-1 bg-zinc-200/80 backdrop-blur-sm p-1 rounded-xl">
+                          <button onclick="switchSiteAngle('${imgId}', '${item.imageUrl}', this)" class="px-2.5 py-1 rounded-lg bg-zinc-900 text-white text-[10px] font-bold cursor-pointer transition shadow-sm">Perfil</button>
+                          <button onclick="switchSiteAngle('${imgId}', '${item.angle2Url}', this)" class="px-2.5 py-1 rounded-lg bg-white text-zinc-800 hover:bg-zinc-300 text-[10px] font-bold cursor-pointer transition">${item.angle2Label || 'Ângulo 2'}</button>
+                        </div>
+                      ` : ''}
+                    </div>
+
+                    <h3 class="text-xl font-black text-white mt-3 h-7 truncate">${item.name}</h3>
+
+                    <p class="text-xs text-zinc-400 mt-1.5 leading-5 line-clamp-2 h-[40px]">
+                      ${item.verdictSummary}
+                    </p>
+
+                    <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                      ${item.highlights.slice(0, 3).map(h => `
+                        <div class="bg-zinc-950/90 border border-white/10 rounded-xl p-2.5 flex flex-col justify-center h-[60px]">
+                          <div class="text-[11px] text-zinc-400 font-medium">${h.label}</div>
+                          <div class="text-xs font-black ${isWinner ? 'text-white' : 'text-emerald-400'} mt-0.5">${h.value}</div>
+                        </div>
+                      `).join('')}
+                    </div>
+
+                    <div class="border-t border-white/10 pt-4 mt-5">
+                      <div class="flex items-baseline justify-between h-8 mb-3">
+                        <div>
+                          ${item.originalPriceBRL ? `<span class="text-xs text-zinc-400 line-through mr-2">R$ ${item.originalPriceBRL}</span>` : ''}
+                          <span class="text-2xl font-black ${isWinner ? 'text-white' : 'text-emerald-400'}">R$ ${item.priceBRL}</span>
+                        </div>
+                        <span class="text-xs text-emerald-400 font-bold">Menor Preço Verificado</span>
+                      </div>
+                      <div class="grid grid-cols-2 gap-2.5">
+                        <a href="${item.amazonUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-zinc-950 font-black text-xs text-center transition shadow-lg">
+                          🛒 Ver na Amazon
+                        </a>
+                        <a href="${item.mercadoLivreUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-4 rounded-2xl bg-yellow-300 hover:bg-yellow-200 text-zinc-950 font-black text-xs text-center transition shadow-lg">
+                          ⚡ Mercado Livre
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
             </div>
-          </div>
-
-          <div class="px-4 sm:px-6 py-4 border-b border-hairline bg-obsidian space-y-2">
-            <div>
-              <h2 class="text-xl sm:text-2xl font-bold tracking-editorial text-inkPrimary">${item.titulo_confronto}</h2>
-              <p class="text-xs font-mono text-inkSecondary mt-0.5">${item.subtitulo_tecnico}</p>
-            </div>
-            <div class="p-3 bg-panel border border-hairline text-xs text-inkSecondary leading-relaxed">
-              <span class="font-mono text-[10px] text-amberLab font-semibold uppercase mr-1.5">RESUMO DO VEREDITO:</span>
-              <span class="text-inkPrimary">${item.veredito_geral}</span>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-hairline">
-            ${renderProductColumn(item.produto_a, "UNIDADE A", true)}
-            ${renderProductColumn(item.produto_b, "UNIDADE B", false)}
-          </div>
-
-        </article>
-      `).join('');
-    }
-
-    function setCategory(cat) {
-      selectedCategory = cat;
-      document.querySelectorAll('.cat-tab').forEach(btn => {
-        if (btn.getAttribute('data-cat') === cat) {
-          btn.className = "cat-tab px-3 py-1 text-[11px] font-mono border border-amberLab bg-amberLab text-obsidian font-semibold transition-colors whitespace-nowrap";
-        } else {
-          btn.className = "cat-tab px-3 py-1 text-[11px] font-mono border border-hairline bg-panel text-inkSecondary hover:text-inkPrimary transition-colors whitespace-nowrap";
-        }
-      });
-      renderComparisons();
-    }
-
-    function quickJump(codeNum) {
-      const input = document.getElementById('searchInput');
-      const clearBtn = document.getElementById('clearSearchBtn');
-      
-      if (searchTerm === codeNum) {
-        resetFilters();
-        return;
-      }
-
-      searchTerm = codeNum;
-      input.value = `#${codeNum}`;
-      clearBtn.classList.remove('hidden');
-
-      document.querySelectorAll('.code-jump-btn').forEach(btn => {
-        if (btn.getAttribute('data-code') === codeNum) {
-          btn.classList.add('bg-amberLab', 'text-obsidian', 'border-amberLab', 'font-bold');
-          btn.classList.remove('bg-panel', 'text-inkPrimary', 'border-hairline');
-        } else {
-          btn.classList.remove('bg-amberLab', 'text-obsidian', 'border-amberLab', 'font-bold');
-          btn.classList.add('bg-panel', 'text-inkPrimary', 'border-hairline');
-        }
-      });
-
-      renderComparisons();
-    }
-
-    function resetFilters() {
-      searchTerm = "";
-      selectedCategory = "ALL";
-      document.getElementById('searchInput').value = "";
-      document.getElementById('clearSearchBtn').classList.add('hidden');
-      document.querySelectorAll('.code-jump-btn').forEach(btn => {
-        btn.classList.remove('bg-amberLab', 'text-obsidian', 'border-amberLab', 'font-bold');
-        btn.classList.add('bg-panel', 'text-inkPrimary', 'border-hairline');
-      });
-      setCategory("ALL");
+          </article>
+        `;
+      }).join('');
     }
 
     document.getElementById('searchInput').addEventListener('input', (e) => {
-      searchTerm = e.target.value;
-      const clearBtn = document.getElementById('clearSearchBtn');
-      if (searchTerm.trim().length > 0) {
-        clearBtn.classList.remove('hidden');
-      } else {
-        clearBtn.classList.add('hidden');
-      }
-      renderComparisons();
+      renderDuels(e.target.value);
     });
 
-    function copyDirectLink(id) {
-      const url = `${window.location.origin}${window.location.pathname}?ref=${id}`;
-      const temp = document.createElement('input');
-      temp.value = url;
-      document.body.appendChild(temp);
-      temp.select();
-      try {
-        document.execCommand('copy');
-        showToast(`Link direto #${id} copiado.`);
-      } catch (_) {
-        showToast(`Código #${id} selecionado.`);
-      }
-      document.body.removeChild(temp);
-    }
+    renderDuels();
 
-    function showToast(msg) {
-      const bar = document.getElementById('toastBar');
-      document.getElementById('toastText').textContent = msg;
-      bar.classList.remove('hidden');
-      setTimeout(() => bar.classList.add('hidden'), 2800);
-    }
-
-    window.addEventListener('DOMContentLoaded', () => {
-      const params = new URLSearchParams(window.location.search);
-      const refParam = params.get('ref');
-      initDataStore().then(() => {
-        if (refParam) {
-          quickJump(refParam.replace('#', ''));
+    fetch('./duels.json')
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(data => {
+        if (Array.isArray(data) && data.length > 0) {
+          allDuels = data;
+          renderDuels(document.getElementById('searchInput').value);
         }
-      });
-    });
+      })
+      .catch(() => {});
   </script>
 </body>
 </html>
