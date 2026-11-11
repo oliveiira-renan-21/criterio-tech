@@ -4,6 +4,10 @@ import { webhookCallback } from 'grammy';
 import { curateAndGenerateDuel } from './services/gemini';
 import { createCriterioTelegramBot, sendProposalMessage } from './services/telegram-bot';
 import { buildManyChatDynamicGalleryResponse } from './services/vitrine-publisher';
+import {
+  verifyMetaWebhook,
+  processMetaInstagramWebhook,
+} from './services/instagram-meta';
 
 const PORT = Number(process.env.PORT || 8080);
 const bot = createCriterioTelegramBot();
@@ -57,6 +61,38 @@ const server = http.createServer(async (req, res) => {
     // 3. Webhook do Telegram (Quando você clica em Aprovar pelo celular)
     if (req.method === 'POST' && pathname === '/webhook/telegram') {
       await handleTelegramWebhook(req, res);
+      return;
+    }
+
+    // 4. Webhook Oficial da Meta (Instagram Direct - 100% Gratuito sem ManyChat!)
+    // 4A: Verificação de URL do Meta for Developers (GET)
+    if (req.method === 'GET' && pathname === '/webhook/instagram') {
+      const mode = parsedUrl.searchParams.get('hub.mode');
+      const token = parsedUrl.searchParams.get('hub.verify_token');
+      const challenge = parsedUrl.searchParams.get('hub.challenge');
+
+      const verified = verifyMetaWebhook(mode, token, challenge);
+      if (verified) {
+        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        res.end(verified);
+      } else {
+        res.writeHead(403);
+        res.end('Forbidden');
+      }
+      return;
+    }
+
+    // 4B: Recepção de Comentários nos Reels e Mensagens no Direct (POST)
+    if (req.method === 'POST' && pathname === '/webhook/instagram') {
+      const rawBody = await readRequestBody(req);
+      try {
+        const json = JSON.parse(rawBody);
+        await processMetaInstagramWebhook(json);
+      } catch (err) {
+        console.error('[Meta Webhook Error]', err);
+      }
+      res.writeHead(200, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ status: 'EVENT_RECEIVED' }));
       return;
     }
 
