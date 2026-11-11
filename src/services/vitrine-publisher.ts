@@ -13,9 +13,8 @@ export function withAmazonPartnerTag(rawUrl: string): string {
 }
 
 export function withMercadoLivreAffiliate(rawUrl: string): string {
-  const mattTool = process.env.MERCADOLIVRE_MATT_TOOL;
-  const mattWord = process.env.MERCADOLIVRE_MATT_WORD || 'criteriotech';
-  if (!mattTool) return rawUrl;
+  const mattTool = process.env.MERCADOLIVRE_MATT_TOOL || '70133169';
+  const mattWord = process.env.MERCADOLIVRE_MATT_WORD || 'rj20261108182619164';
   try {
     const u = new URL(rawUrl);
     if (u.hostname.includes('mercadolivre.com')) {

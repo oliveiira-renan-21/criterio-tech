@@ -1,27 +1,19 @@
 {
   "name": "criterio-tech-engine",
   "version": "2.0.0",
-  "description": "Motor Unificado Critério Tech: Curadoria Gemini + Renderização Industrial Remotion + Telegram Bot + Vitrine ZenosTech",
+  "description": "Motor Unificado Critério Tech: Curadoria Gemini + HyperFrames GSAP + Telegram Bot + ManyChat Dynamic API + Vitrine ZenosTech",
   "private": true,
   "scripts": {
-    "studio": "remotion studio src/video/index.ts",
-    "render:sample": "remotion render src/video/index.ts CriterioTechDuel out/duelo-042.mp4",
     "start": "tsx src/server.ts",
     "build": "tsc"
   },
   "dependencies": {
     "@google/genai": "^1.0.0",
-    "@remotion/cli": "^4.0.240",
-    "@remotion/renderer": "^4.0.240",
     "grammy": "^1.30.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "remotion": "^4.0.240"
+    "tsx": "^4.19.2"
   },
   "devDependencies": {
-    "@types/react": "^18.3.12",
     "@types/node": "^22.0.0",
-    "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   }
 }
