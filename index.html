@@ -50,13 +50,13 @@
           Critério Tech — Vitrine Oficial de Duelos
         </h1>
         <p class="text-sm text-zinc-400 mt-1">
-          Digite o código do vídeo (ex: <strong>#042</strong>) ou nome do produto para acessar os links oficiais com menor preço.
+          Digite o código do vídeo (ex: <strong>#001</strong>) ou nome do produto para acessar os links oficiais com menor preço.
         </p>
       </div>
 
       <div class="w-full md:w-80">
         <label class="block text-xs text-zinc-400 font-semibold mb-1.5">Busca Rápida por Código ou Produto:</label>
-        <input id="searchInput" type="text" placeholder="Ex: #042, Logitech, Mouse..." class="w-full bg-zinc-900 border border-white/20 rounded-2xl px-4 py-3 text-sm font-bold text-white focus:outline-none focus:border-white" />
+        <input id="searchInput" type="text" placeholder="Ex: #001, Sony, Mouse..." class="w-full bg-zinc-900 border border-white/20 rounded-2xl px-4 py-3 text-sm font-bold text-white focus:outline-none focus:border-white" />
       </div>
     </header>
 
@@ -66,48 +66,7 @@
   </main>
 
   <script>
-    const FALLBACK_DUELS = [
-      {
-        duelCode: "#042",
-        category: "Periféricos Sem Fio",
-        technicalWinner: {
-          name: "Logitech G Pro X Superlight 2",
-          shortName: "G Pro X2",
-          priceBRL: 889,
-          originalPriceBRL: 1099,
-          rating: 4.9,
-          imageUrl: "./assets/winner-1.png",
-          angle2Url: "./assets/winner-2.png",
-          angle2Label: "Kit Pro X",
-          verdictSummary: "O melhor sensor do mundo (HERO 2 44.000 DPI), switches ópticos híbridos, 95h de bateria e 2 anos de garantia no Brasil.",
-          highlights: [
-            { label: "Sensor", value: "HERO 2 (44K)" },
-            { label: "Bateria / Modo", value: "95h • 4K Hz 🏆" },
-            { label: "Peso Físico", value: "60 Gramas" }
-          ],
-          amazonUrl: "https://www.amazon.com.br/dp/B0CJ9RGJ18?tag=criteriotech-20",
-          mercadoLivreUrl: "https://lista.mercadolivre.com.br/logitech-g-pro-x-superlight-2?matt_tool=70133169&matt_word=rj20261108182619164"
-        },
-        rationalChoice: {
-          name: "Attack Shark X3 Pro (PAW3395)",
-          shortName: "Shark X3 Pro",
-          priceBRL: 239,
-          originalPriceBRL: 349,
-          rating: 4.8,
-          imageUrl: "./assets/rational-1.png",
-          angle2Url: "./assets/rational-2.png",
-          angle2Label: "Vista Topo",
-          verdictSummary: "Entrega 94% da performance competitiva com o sensor topo de linha PAW3395, pesando apenas 49g por um quarto do valor.",
-          highlights: [
-            { label: "Sensor", value: "PAW3395 (26K)" },
-            { label: "Bateria / Modo", value: "65h • Tri-Mode" },
-            { label: "Peso Físico", value: "Só 49g 🏆" }
-          ],
-          amazonUrl: "https://www.amazon.com.br/dp/B0FXBJ8GNV?tag=criteriotech-20",
-          mercadoLivreUrl: "https://lista.mercadolivre.com.br/mouse-gamer-attack-shark-x3?matt_tool=70133169&matt_word=rj20261108182619164"
-        }
-      }
-    ];
+    const FALLBACK_DUELS = [];
 
     let allDuels = FALLBACK_DUELS;
 
@@ -135,6 +94,15 @@
       );
 
       const container = document.getElementById('duelsContainer');
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="rounded-3xl bg-zinc-900/60 border border-white/10 p-12 text-center text-zinc-400">
+            <p class="text-lg font-bold text-white mb-1">Vitrine pronta para o Duelo #001</p>
+            <p class="text-xs">Assim que o próximo duelo for aprovado no Telegram, os links verificados aparecerão automaticamente aqui.</p>
+          </div>
+        `;
+        return;
+      }
       container.innerHTML = filtered.map((duel, dIdx) => {
         const savings = duel.technicalWinner.priceBRL - duel.rationalChoice.priceBRL;
         return `
@@ -224,12 +192,17 @@
       renderDuels(e.target.value);
     });
 
-    renderDuels();
+    const urlDuelParam = new URLSearchParams(location.search).get('duel');
+    if (urlDuelParam) {
+      document.getElementById('searchInput').value = '#' + urlDuelParam.replace(/^#/, '').padStart(3, '0');
+    }
 
-    fetch('./duels.json')
+    renderDuels(document.getElementById('searchInput').value);
+
+    fetch('./duels.json?t=' + Date.now())
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(data => {
-        if (Array.isArray(data) && data.length > 0) {
+        if (Array.isArray(data)) {
           allDuels = data;
           renderDuels(document.getElementById('searchInput').value);
         }
