@@ -179,17 +179,17 @@
                       ` : ''}
                     </div>
 
-                    <h3 class="text-xl font-black text-white mt-3 h-7 truncate">${item.name}</h3>
+                    <h3 class="text-lg sm:text-xl font-black text-white mt-3 min-h-[3.25rem] line-clamp-2 leading-snug">${item.name}</h3>
 
-                    <p class="text-xs text-zinc-400 mt-1.5 leading-5 line-clamp-2 h-[40px]">
+                    <p class="text-xs text-zinc-400 mt-1.5 leading-5 line-clamp-3 min-h-[3.75rem]">
                       ${item.verdictSummary}
                     </p>
 
-                    <div class="grid grid-cols-3 gap-2 mt-4 text-center">
+                    <div class="grid grid-cols-3 gap-2 mt-4 text-center items-stretch">
                       ${item.highlights.slice(0, 3).map(h => `
-                        <div class="bg-zinc-950/90 border border-white/10 rounded-xl p-2.5 flex flex-col justify-center h-[60px]">
-                          <div class="text-[11px] text-zinc-400 font-medium">${h.label}</div>
-                          <div class="text-xs font-black ${isWinner ? 'text-white' : 'text-emerald-400'} mt-0.5">${h.value}</div>
+                        <div class="bg-zinc-950/90 border border-white/10 rounded-xl px-2 py-2.5 flex flex-col justify-center gap-1 min-h-[76px] break-words">
+                          <div class="text-[11px] leading-tight text-zinc-400 font-medium">${h.label}</div>
+                          <div class="text-xs leading-tight font-black ${isWinner ? 'text-white' : 'text-emerald-400'}">${h.value}</div>
                         </div>
                       `).join('')}
                     </div>
