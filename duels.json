@@ -1,1 +1,163 @@
-[]
+[
+  {
+    "duelCode": "#001",
+    "commentTriggerKeyword": "DUELO01",
+    "category": "MOUSES GAMER SEM FIO",
+    "hookQuestion": "Mouse de 800 reais da Logitech ou o rei chinês de 250?",
+    "showcaseUrl": "zenostech.com.br/criteriotech",
+    "createdAt": "2026-11-16T11:23:06.456Z",
+    "technicalWinner": {
+      "id": "logitech-g-pro-x-superlight-2",
+      "role": "TECHNICAL_WINNER",
+      "roleBadge": "VENCEDOR TÉCNICO",
+      "name": "Logitech G PRO X SUPERLIGHT 2 Lightspeed",
+      "shortName": "G PRO X Superlight 2",
+      "brand": "Logitech G",
+      "priceBRL": 789,
+      "originalPriceBRL": 1099,
+      "rating": 4.9,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6556/6556758_sd.jpg",
+      "tagline": "Referência no eSports global com sensor HERO 2 impecável, clique híbrido instantâneo e estabilidade sem fio absoluta.",
+      "highlights": [
+        {
+          "label": "Sensor Óptico",
+          "value": "HERO 2 44.000 DPI"
+        },
+        {
+          "label": "Peso Total",
+          "value": "60g Ultraleve"
+        },
+        {
+          "label": "Switches",
+          "value": "Lightforce Híbrido"
+        }
+      ],
+      "verdictSummary": "Essencial para atletas de eSports e quem exige o máximo em confiabilidade de sinal e garantia nacional.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G+PRO+X+Superlight+2&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g-pro-x-superlight-2?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6556/6556759cv16d.jpg",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G+PRO+X+Superlight+2&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g-pro-x-superlight-2?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "rationalChoice": {
+      "id": "vxe-dragonfly-r1-pro",
+      "role": "RATIONAL_CHOICE",
+      "roleBadge": "ESCOLHA RACIONAL",
+      "name": "ATK VXE Dragonfly R1 Pro Wireless",
+      "shortName": "Dragonfly R1 Pro",
+      "brand": "ATK / VXE",
+      "priceBRL": 249,
+      "originalPriceBRL": 349,
+      "rating": 4.8,
+      "imageUrl": "https://m.media-amazon.com/images/I/61MuVPJC3jL._AC_SL1500_.jpg",
+      "tagline": "Sensor topo de linha PAW3395 e apenas 48 gramas por uma fração do preço dos líderes mundiais do cenário gamer.",
+      "highlights": [
+        {
+          "label": "Sensor Óptico",
+          "value": "PixArt PAW3395"
+        },
+        {
+          "label": "Peso Total",
+          "value": "48g Ultraleve"
+        },
+        {
+          "label": "Switches",
+          "value": "Huano Blue Pink Dot"
+        }
+      ],
+      "verdictSummary": "A melhor relação custo por grama e precisão do mercado para quem busca desempenho de ponta pagando pouco.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/dp/B0FN7H1M99?tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/vxe-dragonfly-r1-pro?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://m.media-amazon.com/images/I/21KkzmZkhAL._AC_SL1500_.jpg",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/dp/B0FN7H1M99?tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/vxe-dragonfly-r1-pro?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "benchmarks": [
+      {
+        "criterion": "Precisão do Sensor",
+        "winnerScore": 99,
+        "rationalScore": 93,
+        "winnerDisplay": "HERO 2 44K",
+        "rationalDisplay": "PAW3395 26K",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Latência de Clique",
+        "winnerScore": 98,
+        "rationalScore": 89,
+        "winnerDisplay": "Lightforce 8K",
+        "rationalDisplay": "Huano 1K/4K",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Construção e Peso",
+        "winnerScore": 88,
+        "rationalScore": 96,
+        "winnerDisplay": "60g Sólido",
+        "rationalDisplay": "48g Ultraleve",
+        "advantage": "RATIONAL"
+      },
+      {
+        "criterion": "Custo por Real",
+        "winnerScore": 61,
+        "rationalScore": 98,
+        "winnerDisplay": "R$ 789",
+        "rationalDisplay": "R$ 249",
+        "advantage": "RATIONAL"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": "hook",
+        "startSec": 0,
+        "endSec": 10.35,
+        "narrationText": "Vale a pena pagar quase R$ 800 no mouse mais famoso do mundo gamer, ou um modelo de R$ 250 entrega exatamente a mesma mira no CS e Valorant?",
+        "spokenText": "Vale a pena pagar quase oitocentos reais no mouse mais famoso do mundo gamer, ou um modelo de duzentos e cinquenta reais entrega exatamente a mesma mira no CS e Valorant?"
+      },
+      {
+        "sceneId": "winner",
+        "startSec": 10.35,
+        "endSec": 23.23,
+        "narrationText": "De um lado, o Logitech G Pro X Superlight 2. O mouse dos pro players traz o sensor HERO 2 com 44.000 DPI, switches Lightforce híbridos sem duplo clique e conexão Lightspeed blindada.",
+        "spokenText": "De um lado, o Logitech G Pro X Superlight dois. O mouse dos pro players traz o sensor HERO dois com quarenta e quatro mil DPI, switches Lightforce híbridos sem duplo clique e conexão Lightspeed blindada."
+      },
+      {
+        "sceneId": "rational",
+        "startSec": 23.23,
+        "endSec": 36.6,
+        "narrationText": "Do outro, o VXE Dragonfly R1 Pro. Custando um terço do valor, ele pesa só 48g, usa o elogiado sensor PixArt PAW3395 e entrega 95% do desempenho de um topo de linha.",
+        "spokenText": "Do outro, o VXE Dragonfly R um Pro. Custando um terço do valor, ele pesa só quarenta e oito gramas, usa o elogiado sensor PixArt PAW três três nove cinco e entrega noventa e cinco por cento do desempenho de um topo de linha."
+      },
+      {
+        "sceneId": "benchmarks",
+        "startSec": 36.6,
+        "endSec": 45.85,
+        "narrationText": "Nos testes: o Superlight 2 lidera em precisão milimétrica e polling rate de 8.000 Hz, enquanto o VXE é mais leve na mão e massacra em custo por real.",
+        "spokenText": "Nos testes: o Superlight dois lidera em precisão milimétrica e polling rate de oito mil Hertz, enquanto o VXE é mais leve na mão e massacra em custo por real."
+      },
+      {
+        "sceneId": "verdict",
+        "startSec": 45.85,
+        "endSec": 56.02,
+        "narrationText": "Se você disputa campeonatos e busca o ápice técnico, compre o Logitech. Mas para ter quase a mesma mira economizando centenas de reais, o Dragonfly é a compra inteligente.",
+        "spokenText": "Se você disputa campeonatos e busca o ápice técnico, compre o Logitech. Mas para ter quase a mesma mira economizando centenas de reais, o Dragonfly é a compra inteligente."
+      }
+    ],
+    "platformEndings": {
+      "instagram": {
+        "narrationText": "Comente DUELO01 aqui embaixo que eu te envio no Direct o link dos dois mouses no menor preço verificado!",
+        "spokenText": "Comente DUELO zero um aqui embaixo que eu te envio no Direct o link dos dois mouses no menor preço verificado!"
+      },
+      "tiktokShorts": {
+        "narrationText": "Os links com o menor preço estão na bio no Duelo 001. E você: investiria no Superlight ou iria no Dragonfly?",
+        "spokenText": "Os links com o menor preço estão na bio no Duelo zero zero um. E você: investiria no Superlight ou iria no Dragonfly?"
+      }
+    }
+  }
+]
