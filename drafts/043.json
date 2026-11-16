@@ -1,0 +1,163 @@
+{
+  "duelCode": "#043",
+  "commentTriggerKeyword": "DUELO43",
+  "category": "HEADPHONES BLUETOOTH ANC",
+  "hookQuestion": "Sony XM4 ou Anker Q30: vale pagar 4 vezes mais pelo topo de linha?",
+  "showcaseUrl": "zenostech.com.br/criteriotech",
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "technicalWinner": {
+    "id": "sony-wh-1000xm4",
+    "role": "TECHNICAL_WINNER",
+    "roleBadge": "VENCEDOR TÉCNICO",
+    "name": "Sony WH-1000XM4 Wireless Noise Cancelling",
+    "shortName": "Sony WH-1000XM4",
+    "brand": "Sony",
+    "priceBRL": 1649,
+    "originalPriceBRL": 2199,
+    "rating": 4.9,
+    "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408356_rd.jpg;maxHeight=640;maxWidth=250?format=webp",
+    "tagline": "Referência mundial em cancelamento ativo de ruído com processador QN1, suporte a LDAC e conforto acústico impecável.",
+    "highlights": [
+      {
+        "label": "Cancelamento de Ruído",
+        "value": "Chip QN1 com sensor duplo de ponta"
+      },
+      {
+        "label": "Bateria e Autonomia",
+        "value": "Até 30h com ANC e carga rápida"
+      },
+      {
+        "label": "Processamento de Áudio",
+        "value": "Drivers de 40mm, LDAC e DSEE Extreme"
+      }
+    ],
+    "verdictSummary": "Ideal para audiófilos, viajantes e profissionais que exigem silêncio de estúdio e a melhor fidelidade sonora do mercado.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/s?k=Sony+WH-1000XM4&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/sony-wh-1000xm4?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://d3d71ba2asa5oz.cloudfront.net/12021657/images/175130__wws1.jpg",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/s?k=Sony+WH-1000XM4&tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/sony-wh-1000xm4?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "rationalChoice": {
+    "id": "anker-soundcore-life-q30",
+    "role": "RATIONAL_CHOICE",
+    "roleBadge": "ESCOLHA RACIONAL",
+    "name": "Anker Soundcore Life Q30 Hybrid ANC",
+    "shortName": "Soundcore Life Q30",
+    "brand": "Anker",
+    "priceBRL": 389,
+    "originalPriceBRL": 549,
+    "rating": 4.8,
+    "imageUrl": "https://m.media-amazon.com/images/I/61l8-Y6+9IL.jpg",
+    "tagline": "Isolamento híbrido eficiente, equalização rica via aplicativo e bateria de até 60 horas por uma fração do preço.",
+    "highlights": [
+      {
+        "label": "Cancelamento de Ruído",
+        "value": "ANC Híbrido com 3 modos no app"
+      },
+      {
+        "label": "Bateria e Autonomia",
+        "value": "Até 40h com ANC e 60h desligado"
+      },
+      {
+        "label": "Processamento de Áudio",
+        "value": "Drivers de 40mm com Hi-Res e EQ custom"
+      }
+    ],
+    "verdictSummary": "A escolha perfeita para estudantes e home office que buscam conforto duradouro e ótimo bloqueio de som sem gastar muito.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/s?k=Anker+Soundcore+Life+Q30&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/anker-soundcore-life-q30?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://m.media-amazon.com/images/I/51LM9OgIkQL._AC_.jpg",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/s?k=Anker+Soundcore+Life+Q30&tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/anker-soundcore-life-q30?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "benchmarks": [
+    {
+      "criterion": "Isolamento Acústico (ANC)",
+      "winnerScore": 98,
+      "rationalScore": 82,
+      "winnerDisplay": "Absoluto (QN1)",
+      "rationalDisplay": "Muito Bom (Híbrido)",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Fidelidade e Resolução Sonora",
+      "winnerScore": 96,
+      "rationalScore": 83,
+      "winnerDisplay": "LDAC / DSEE",
+      "rationalDisplay": "Hi-Res / EQ App",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Autonomia de Bateria",
+      "winnerScore": 79,
+      "rationalScore": 96,
+      "winnerDisplay": "30h com ANC",
+      "rationalDisplay": "40h ANC / 60h Off",
+      "advantage": "RATIONAL"
+    },
+    {
+      "criterion": "Custo por Real Investido",
+      "winnerScore": 64,
+      "rationalScore": 98,
+      "winnerDisplay": "Premium",
+      "rationalDisplay": "Imbatível",
+      "advantage": "RATIONAL"
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "hook",
+      "startSec": 0,
+      "endSec": 10,
+      "narrationText": "Vale a pena pagar R$ 1.649 no lendário Sony XM4 ou o Anker Q30 de R$ 389 entrega quase tudo por uma fração do valor?",
+      "spokenText": "Vale a pena pagar mil seiscentos e quarenta e nove reais no lendário Sony X M quatro ou o Anker Q trinta de trezentos e oitenta e nove reais entrega quase tudo por uma fração do valor?"
+    },
+    {
+      "sceneId": "winner",
+      "startSec": 10,
+      "endSec": 23,
+      "narrationText": "O Sony WH-1000XM4 é a referência mundial. Ele traz o chip dedicado QN1, cancelamento de ruído impecável, suporte a LDAC e o recurso Speak-to-Chat com ergonomia cirúrgica.",
+      "spokenText": "O Sony W H mil X M quatro é a referência mundial. Ele traz o chip dedicado Q N um, cancelamento de ruído impecável, suporte a éle dác e o recurso Spik tu Tchat com ergonomia cirúrgica."
+    },
+    {
+      "sceneId": "rational",
+      "startSec": 23,
+      "endSec": 36,
+      "narrationText": "Mas o Soundcore Life Q30 é o terror dos topos de linha. Ele custa quatro vezes menos, entrega cancelamento híbrido de respeito, equalizador campeão no aplicativo e até 60 horas de bateria.",
+      "spokenText": "Mas o Soundcore Life Q trinta é o terror dos topos de linha. Ele custa quatro vezes menos, entrega cancelamento híbrido de respeito, equalizador campeão no aplicativo e até sessenta horas de bateria."
+    },
+    {
+      "sceneId": "benchmarks",
+      "startSec": 36,
+      "endSec": 48,
+      "narrationText": "Nos testes práticos, o Sony vence em silêncio absoluto e detalhamento instrumental. O Anker, porém, humilha em autonomia de bateria e entrega oitenta e cinco por cento da experiência geral.",
+      "spokenText": "Nos testes práticos, o Sony vence em silêncio absoluto e detalhamento instrumental. O Anker, porém, humilha em autonomia de bateria e entrega oitenta e cinco por cento da experiência geral."
+    },
+    {
+      "sceneId": "verdict",
+      "startSec": 48,
+      "endSec": 58,
+      "narrationText": "Veredito: se você exige isolamento acústico supremo e acabamento de luxo, vá de Sony XM4. Para quem busca inteligência financeira e som encorpado no dia a dia, o Anker Q30 é imbatível.",
+      "spokenText": "Veredito: se você exige isolamento acústico supremo e acabamento de luxo, vá de Sony X M quatro. Para quem busca inteligência financeira e som encorpado no dia a dia, o Anker Q trinta é imbatível."
+    }
+  ],
+  "platformEndings": {
+    "instagram": {
+      "narrationText": "Comente DUELO43 aqui embaixo que eu te envio os links oficiais com o menor preço garantido no seu Direct!",
+      "spokenText": "Comente DUELO quarenta e três aqui embaixo que eu te envio os links oficiais com o menor preço garantido no seu Direct!"
+    },
+    "tiktokShorts": {
+      "narrationText": "Os links com desconto estão na bio no Duelo #043! E para você: vale o investimento no Sony ou iria no Anker?",
+      "spokenText": "Os links com desconto estão na bio no Duelo zero quarenta e três! E para você: vale o investimento no Sony ou iria no Anker?"
+    }
+  }
+}
