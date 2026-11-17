@@ -17,6 +17,7 @@
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       letter-spacing: -0.02em;
+      overflow-x: hidden;
     }
     .apple-bento {
       background: linear-gradient(180deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.03) 100%);
@@ -36,32 +37,32 @@
   </style>
 </head>
 <body class="bg-[#09090B] text-zinc-100 antialiased min-h-screen">
-  <main class="max-w-6xl mx-auto p-6 md:p-10 flex flex-col gap-8">
+  <main class="max-w-6xl mx-auto px-3.5 py-5 sm:p-6 md:p-10 flex flex-col gap-6 sm:gap-8">
 
     <!-- Header & Search Bar -->
-    <header class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-white/10 pb-8">
+    <header class="flex flex-col md:flex-row md:items-end justify-between gap-4 sm:gap-6 border-b border-white/10 pb-6 sm:pb-8">
       <div>
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-semibold text-zinc-300 mb-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] sm:text-xs font-semibold text-zinc-300 mb-2.5">
           <span>⚡ ZenosTech Labs</span>
           <span>•</span>
           <span class="text-emerald-400">Preços Verificados Hoje</span>
         </div>
-        <h1 class="text-3xl md:text-4xl font-black text-white tracking-tight">
-          Critério Tech — Vitrine Oficial de Duelos
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight leading-tight">
+          Critério Tech — Vitrine Oficial
         </h1>
-        <p class="text-sm text-zinc-400 mt-1">
+        <p class="text-xs sm:text-sm text-zinc-400 mt-1.5 leading-relaxed">
           Digite o código do vídeo (ex: <strong>#001</strong>) ou nome do produto para acessar os links oficiais com menor preço.
         </p>
       </div>
 
       <div class="w-full md:w-80">
         <label class="block text-xs text-zinc-400 font-semibold mb-1.5">Busca Rápida por Código ou Produto:</label>
-        <input id="searchInput" type="text" placeholder="Ex: #001, Sony, Mouse..." class="w-full bg-zinc-900 border border-white/20 rounded-2xl px-4 py-3 text-sm font-bold text-white focus:outline-none focus:border-white" />
+        <input id="searchInput" type="text" placeholder="Ex: #001, Logitech, Fone..." class="w-full bg-zinc-900 border border-white/20 rounded-2xl px-4 py-3 text-sm font-bold text-white focus:outline-none focus:border-emerald-400" />
       </div>
     </header>
 
     <!-- Duels List Container -->
-    <div id="duelsContainer" class="flex flex-col gap-8"></div>
+    <div id="duelsContainer" class="flex flex-col gap-6 sm:gap-8"></div>
 
   </main>
 
@@ -96,86 +97,92 @@
       const container = document.getElementById('duelsContainer');
       if (filtered.length === 0) {
         container.innerHTML = `
-          <div class="rounded-3xl bg-zinc-900/60 border border-white/10 p-12 text-center text-zinc-400">
-            <p class="text-lg font-bold text-white mb-1">Vitrine pronta para o Duelo #001</p>
-            <p class="text-xs">Assim que o próximo duelo for aprovado no Telegram, os links verificados aparecerão automaticamente aqui.</p>
+          <div class="rounded-3xl bg-zinc-900/60 border border-white/10 p-8 sm:p-12 text-center text-zinc-400">
+            <p class="text-base sm:text-lg font-bold text-white mb-1">Nenhum duelo encontrado para este filtro</p>
+            <p class="text-xs">Limpe o campo de busca acima para visualizar todos os comparativos publicados.</p>
           </div>
         `;
         return;
       }
       container.innerHTML = filtered.map((duel, dIdx) => {
-        const savings = duel.technicalWinner.priceBRL - duel.rationalChoice.priceBRL;
+        const savings = Math.max(0, duel.technicalWinner.priceBRL - duel.rationalChoice.priceBRL);
         return `
-          <article class="rounded-3xl bg-zinc-900/70 border border-white/15 p-6 md:p-8 flex flex-col gap-6">
-            <div class="flex flex-wrap items-center justify-between gap-3">
-              <div class="flex items-center gap-3">
-                <span class="px-3.5 py-1.5 rounded-xl bg-white text-zinc-950 font-black text-sm">DUELO ${duel.duelCode}</span>
-                <div>
-                  <div class="text-xs text-zinc-400 font-semibold uppercase">${duel.category}</div>
-                  <h2 class="text-lg font-black text-white">${duel.technicalWinner.name} vs. ${duel.rationalChoice.name}</h2>
+          <article class="rounded-3xl bg-zinc-900/70 border border-white/15 p-4 sm:p-6 md:p-8 flex flex-col gap-4 sm:gap-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div class="flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-3 min-w-0">
+                <div class="flex items-center justify-between sm:justify-start gap-2">
+                  <span class="px-3 py-1 rounded-xl bg-white text-zinc-950 font-black text-xs sm:text-sm shrink-0">DUELO ${duel.duelCode}</span>
+                  <span class="sm:hidden text-[11px] text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full">
+                    ✓ Menor Preço Hoje
+                  </span>
+                </div>
+                <div class="min-w-0">
+                  <div class="text-[11px] sm:text-xs text-zinc-400 font-semibold uppercase tracking-wider">${duel.category}</div>
+                  <h2 class="text-base sm:text-lg font-black text-white leading-snug break-words">${duel.technicalWinner.shortName || duel.technicalWinner.name} <span class="text-zinc-500 font-bold">vs.</span> ${duel.rationalChoice.shortName || duel.rationalChoice.name}</h2>
                 </div>
               </div>
-              <span class="text-xs text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+              <span class="hidden sm:inline-flex text-xs text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full shrink-0">
                 ✓ Estoque e Menor Preço Confirmados
               </span>
             </div>
 
-            <!-- Grid Lock Simétrico (Alinhamento Horizontal Travado) -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+            <!-- Grid Responsivo Mobile-First -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 items-stretch">
               ${[duel.technicalWinner, duel.rationalChoice].map((item, idx) => {
                 const isWinner = idx === 0;
                 const imgId = `duel-${dIdx}-item-${idx}`;
                 return `
-                  <div class="apple-bento rounded-3xl p-6 flex flex-col h-full ${isWinner ? '' : 'border-emerald-500/40'}">
-                    <div class="flex items-center justify-between h-7 mb-3">
-                      <span class="${isWinner ? 'apple-badge-pro' : 'apple-badge-value'} text-xs font-black px-3 py-1 rounded-full">
-                        ${isWinner ? '🏆 VENCEDOR TÉCNICO (MELHOR GERAL)' : `⚡ ESCOLHA RACIONAL (ECONOMIZE R$ ${savings})`}
+                  <div class="apple-bento rounded-2xl sm:rounded-3xl p-4 sm:p-6 flex flex-col h-full ${isWinner ? '' : 'border-emerald-500/40'}">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
+                      <span class="${isWinner ? 'apple-badge-pro' : 'apple-badge-value'} text-[10px] sm:text-xs font-black px-2.5 sm:px-3 py-1 rounded-full leading-tight">
+                        ${isWinner ? '🏆 VENCEDOR TÉCNICO' : `⚡ ESCOLHA RACIONAL (-R$ ${savings})`}
                       </span>
-                      <span class="text-xs font-bold text-amber-400">★★★★★ ${item.rating || '4.9'}</span>
+                      <span class="text-xs font-bold text-amber-400 shrink-0">★★★★★ ${item.rating || '4.9'}</span>
                     </div>
 
-                    <div class="h-52 w-full bg-white rounded-2xl my-2 shrink-0 relative flex items-center justify-center p-4 overflow-hidden">
+                    <div class="h-44 sm:h-52 w-full bg-white rounded-2xl my-1.5 shrink-0 relative flex items-center justify-center p-3 sm:p-4 overflow-hidden">
                       ${item.imageUrl
-                        ? `<img id="${imgId}" src="${item.imageUrl}" alt="${item.name}" class="max-h-44 w-auto object-contain transition-transform duration-300 hover:scale-105" />`
-                        : `<span class="text-2xl font-black text-zinc-900">${item.shortName}</span>`
+                        ? `<img id="${imgId}" src="${item.imageUrl}" alt="${item.name}" class="max-h-36 sm:max-h-44 w-auto object-contain transition-transform duration-300 hover:scale-105" />`
+                        : `<span class="text-xl sm:text-2xl font-black text-zinc-900 text-center px-2">${item.shortName}</span>`
                       }
-                      ${item.angle2Url ? `
-                        <div class="absolute bottom-2.5 right-2.5 flex items-center gap-1 bg-zinc-200/80 backdrop-blur-sm p-1 rounded-xl">
+                      ${item.angle2Url && item.angle2Url !== item.imageUrl ? `
+                        <div class="absolute bottom-2 right-2 flex items-center gap-1 bg-zinc-200/85 backdrop-blur-sm p-1 rounded-xl">
                           <button onclick="switchSiteAngle('${imgId}', '${item.imageUrl}', this)" class="px-2.5 py-1 rounded-lg bg-zinc-900 text-white text-[10px] font-bold cursor-pointer transition shadow-sm">Perfil</button>
                           <button onclick="switchSiteAngle('${imgId}', '${item.angle2Url}', this)" class="px-2.5 py-1 rounded-lg bg-white text-zinc-800 hover:bg-zinc-300 text-[10px] font-bold cursor-pointer transition">${item.angle2Label || 'Ângulo 2'}</button>
                         </div>
                       ` : ''}
                     </div>
 
-                    <h3 class="text-lg sm:text-xl font-black text-white mt-3 min-h-[3.25rem] line-clamp-2 leading-snug">${item.name}</h3>
+                    <h3 class="text-base sm:text-xl font-black text-white mt-2.5 sm:mt-3 md:min-h-[3.25rem] leading-snug break-words">${item.name}</h3>
 
-                    <p class="text-xs text-zinc-400 mt-1.5 leading-5 line-clamp-3 min-h-[3.75rem]">
+                    <p class="text-xs text-zinc-400 mt-1.5 leading-relaxed md:min-h-[3.5rem]">
                       ${item.verdictSummary}
                     </p>
 
-                    <div class="grid grid-cols-3 gap-2 mt-4 text-center items-stretch">
+                    <!-- Em telas pequenas: linhas horizontais legíveis; em telas >=sm: 3 colunas Bento -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-3.5 sm:mt-4 items-stretch">
                       ${item.highlights.slice(0, 3).map(h => `
-                        <div class="bg-zinc-950/90 border border-white/10 rounded-xl px-2 py-2.5 flex flex-col justify-center gap-1 min-h-[76px] break-words">
+                        <div class="bg-zinc-950/90 border border-white/10 rounded-xl px-3.5 py-2.5 sm:px-2 sm:py-2.5 flex flex-row sm:flex-col items-center justify-between sm:justify-center text-left sm:text-center gap-2 sm:gap-1 sm:min-h-[74px]">
                           <div class="text-[11px] leading-tight text-zinc-400 font-medium">${h.label}</div>
-                          <div class="text-xs leading-tight font-black ${isWinner ? 'text-white' : 'text-emerald-400'}">${h.value}</div>
+                          <div class="text-xs leading-tight font-black ${isWinner ? 'text-white' : 'text-emerald-400'} text-right sm:text-center">${h.value}</div>
                         </div>
                       `).join('')}
                     </div>
 
-                    <div class="border-t border-white/10 pt-4 mt-5">
-                      <div class="flex items-baseline justify-between h-8 mb-3">
-                        <div>
-                          ${item.originalPriceBRL ? `<span class="text-xs text-zinc-400 line-through mr-2">R$ ${item.originalPriceBRL}</span>` : ''}
-                          <span class="text-2xl font-black ${isWinner ? 'text-white' : 'text-emerald-400'}">R$ ${item.priceBRL}</span>
+                    <div class="border-t border-white/10 pt-3.5 sm:pt-4 mt-4 sm:mt-auto">
+                      <div class="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+                        <div class="flex items-baseline flex-wrap gap-1.5">
+                          ${item.originalPriceBRL ? `<span class="text-xs text-zinc-400 line-through">R$ ${item.originalPriceBRL}</span>` : ''}
+                          <span class="text-xl sm:text-2xl font-black ${isWinner ? 'text-white' : 'text-emerald-400'}">R$ ${item.priceBRL}</span>
                         </div>
-                        <span class="text-xs text-emerald-400 font-bold">Menor Preço Verificado</span>
+                        <span class="text-[11px] sm:text-xs text-emerald-400 font-bold">Menor Preço Verificado</span>
                       </div>
-                      <div class="grid grid-cols-2 gap-2.5">
-                        <a href="${item.amazonUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-zinc-950 font-black text-xs text-center transition shadow-lg">
-                          🛒 Ver na Amazon
+                      <div class="grid grid-cols-2 gap-2 sm:gap-2.5">
+                        <a href="${item.amazonUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-2.5 sm:px-4 rounded-xl sm:rounded-2xl bg-amber-400 hover:bg-amber-300 active:scale-[0.99] text-zinc-950 font-black text-xs text-center transition shadow-lg flex items-center justify-center gap-1">
+                          <span>🛒</span><span>Ver na Amazon</span>
                         </a>
-                        <a href="${item.mercadoLivreUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-4 rounded-2xl bg-yellow-300 hover:bg-yellow-200 text-zinc-950 font-black text-xs text-center transition shadow-lg">
-                          ⚡ Mercado Livre
+                        <a href="${item.mercadoLivreUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-2.5 sm:px-4 rounded-xl sm:rounded-2xl bg-yellow-300 hover:bg-yellow-200 active:scale-[0.99] text-zinc-950 font-black text-xs text-center transition shadow-lg flex items-center justify-center gap-1">
+                          <span>⚡</span><span>Mercado Livre</span>
                         </a>
                       </div>
                     </div>
