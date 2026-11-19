@@ -1,5 +1,166 @@
 [
   {
+    "duelCode": "#004",
+    "commentTriggerKeyword": "DUELO04",
+    "category": "MICROFONES USB",
+    "hookQuestion": "HyperX QuadCast S ou Fifine AM8: qual microfone vale seu dinheiro?",
+    "showcaseUrl": "zenostech.com.br/criteriotech",
+    "createdAt": "2026-11-19T14:01:52.406Z",
+    "technicalWinner": {
+      "id": "hyperx-quadcast-s",
+      "role": "TECHNICAL_WINNER",
+      "roleBadge": "VENCEDOR TÉCNICO",
+      "name": "Microfone Gamer HyperX QuadCast S RGB USB",
+      "shortName": "HyperX QuadCast S",
+      "brand": "HyperX",
+      "priceBRL": 899,
+      "originalPriceBRL": 1199,
+      "rating": 4.8,
+      "imageUrl": "https://images.kabum.com.br/produtos/fotos/386859/hyperx-quadcast-s-usb-wht-microphone-519p0aa_1666817448_original.jpg",
+      "tagline": "Referência visual e técnica para streamers com quatro padrões de captação e isolamento mecânico de estúdio.",
+      "highlights": [
+        {
+          "label": "Tipo e Padrão",
+          "value": "Condensador 4 Modos"
+        },
+        {
+          "label": "Conexões",
+          "value": "USB-C e P3 Fone"
+        },
+        {
+          "label": "Estrutura",
+          "value": "Shockmount e RGB"
+        }
+      ],
+      "verdictSummary": "Essencial para criadores que exigem estética de ponta no setup e versatilidade de múltiplos padrões polares.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=HyperX+QuadCast+S&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/hyperx-quadcast-s?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_973512-MLA83501901326_042025-O.webp",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=HyperX+QuadCast+S&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/hyperx-quadcast-s?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "rationalChoice": {
+      "id": "fifine-ampligame-am8",
+      "role": "RATIONAL_CHOICE",
+      "roleBadge": "ESCOLHA RACIONAL",
+      "name": "Microfone Gamer Fifine AmpliGame AM8 USB e XLR",
+      "shortName": "Fifine AM8",
+      "brand": "Fifine",
+      "priceBRL": 299,
+      "originalPriceBRL": 399,
+      "rating": 4.8,
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_912435-MLA99523947552_122025-O.webp",
+      "tagline": "Cápsula dinâmica que elimina ruídos da sala, conexão dupla USB ou XLR e visual moderno por um terço do preço.",
+      "highlights": [
+        {
+          "label": "Tipo e Padrão",
+          "value": "Dinâmico Cardioide"
+        },
+        {
+          "label": "Conexões",
+          "value": "USB-C e XLR Nativo"
+        },
+        {
+          "label": "Estrutura",
+          "value": "Suporte Mesa e RGB"
+        }
+      ],
+      "verdictSummary": "A melhor compra para quem grava em quarto comum sem tratamento acústico e quer gastar três vezes menos.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=Fifine+AM8&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/fifine-am8?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_674518-MLU73128537392_122023-O.webp",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=Fifine+AM8&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/fifine-am8?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "benchmarks": [
+      {
+        "criterion": "Isolamento Acústico",
+        "winnerScore": 82,
+        "rationalScore": 95,
+        "winnerDisplay": "Sensível",
+        "rationalDisplay": "Rejeita Eco",
+        "advantage": "RATIONAL"
+      },
+      {
+        "criterion": "Padrões Polares",
+        "winnerScore": 98,
+        "rationalScore": 78,
+        "winnerDisplay": "4 Padrões",
+        "rationalDisplay": "Cardioide",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Conectividade",
+        "winnerScore": 82,
+        "rationalScore": 94,
+        "winnerDisplay": "Apenas USB",
+        "rationalDisplay": "USB e XLR",
+        "advantage": "RATIONAL"
+      },
+      {
+        "criterion": "Custo por Real",
+        "winnerScore": 68,
+        "rationalScore": 98,
+        "winnerDisplay": "R$ 899",
+        "rationalDisplay": "R$ 299",
+        "advantage": "RATIONAL"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": "hook",
+        "startSec": 0,
+        "endSec": 11.2,
+        "narrationText": "Vale a pena pagar R$ 899 no HyperX QuadCast S, ou o Fifine AM8 entrega a mesma qualidade de áudio custando apenas R$ 299?",
+        "spokenText": "Vale a pena pagar oitocentos e oitenta e nove reais no HyperX QuadCast S, ou o Fifine AM oito entrega a mesma qualidade de áudio custando apenas duzentos e noventa e nove reais?"
+      },
+      {
+        "sceneId": "winner",
+        "startSec": 11.2,
+        "endSec": 23.48,
+        "narrationText": "O QuadCast S é o queridinho dos criadores. Ele entrega som cristalino com 4 padrões polares, pop filter interno, shock mount antivibração e a iluminação RGB mais bonita da categoria.",
+        "spokenText": "O QuadCast S é o queridinho dos criadores. Ele entrega som cristalino com quatro padrões polares, pop filter interno, shock mount antivibração e a iluminação RGB mais bonita da categoria."
+      },
+      {
+        "sceneId": "rational",
+        "startSec": 23.48,
+        "endSec": 35.63,
+        "narrationText": "Mas o Fifine AM8 surpreende pela inteligência de projeto: sua cápsula dinâmica rejeita ruídos do ambiente e barulhos de teclado, além de incluir saída XLR profissional junto com USB.",
+        "spokenText": "Mas o Fifine AM oito surpreende pela inteligência de projeto: sua cápsula dinâmica rejeita ruídos do ambiente e barulhos de teclado, além de incluir saída xis éle érre profissional junto com u ésse bê."
+      },
+      {
+        "sceneId": "benchmarks",
+        "startSec": 35.63,
+        "endSec": 46.92,
+        "narrationText": "No confronto direto, o HyperX domina em estética e versatilidade para estúdios tratados. Só que o Fifine entrega voz encorpada mesmo em quartos comuns, custando um terço do valor.",
+        "spokenText": "No confronto direto, o HyperX domina em estética e versatilidade para estúdios tratados. Só que o Fifine entrega voz encorpada mesmo em quartos comuns, custando um terço do valor."
+      },
+      {
+        "sceneId": "verdict",
+        "startSec": 46.92,
+        "endSec": 58.67,
+        "narrationText": "Para gravações com várias pessoas e o setup mais chamativo, o QuadCast S é a referência. Para streaming diário e custo-benefício insano, o Fifine AM8 é a escolha racional definitiva.",
+        "spokenText": "Para gravações com várias pessoas e o setup mais chamativo, o QuadCast S é a referência. Para streaming diário e custo-benefício insano, o Fifine AM oito é a escolha racional definitiva."
+      }
+    ],
+    "platformEndings": {
+      "instagram": {
+        "narrationText": "Comente DUELO04 aqui embaixo que eu te envio no Direct os links oficiais com o menor preço garantido!",
+        "spokenText": "Comente duelo zero quatro aqui embaixo que eu te envio no Direct os links oficiais com o menor preço garantido!"
+      },
+      "tiktokShorts": {
+        "narrationText": "Os links oficiais estão no link da bio pelo Duelo #004. Qual dos dois você colocaria no seu setup hoje?",
+        "spokenText": "Os links oficiais estão no link da bio pelo duelo número zero quatro. Qual dos dois você colocaria no seu setup hoje?"
+      }
+    }
+  },
+  {
     "duelCode": "#003",
     "commentTriggerKeyword": "DUELO03",
     "category": "CONTROLES GAMER SEM FIO",
