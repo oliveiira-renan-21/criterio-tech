@@ -113,24 +113,25 @@
       }
       container.innerHTML = filtered.map((duel, dIdx) => {
         const savings = Math.max(0, duel.technicalWinner.priceBRL - duel.rationalChoice.priceBRL);
+        const cleanNum = String(duel.duelCode || '001').replace(/\D+/g, '').padStart(3, '0');
         return `
           <article class="rounded-3xl bg-zinc-900/70 border border-white/15 p-4 sm:p-6 md:p-8 flex flex-col gap-4 sm:gap-6">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div class="flex flex-col sm:flex-row sm:items-center gap-2.5 sm:gap-3 min-w-0">
                 <div class="flex items-center justify-between sm:justify-start gap-2">
                   <span class="px-3 py-1 rounded-xl bg-white text-zinc-950 font-black text-xs sm:text-sm shrink-0">DUELO ${duel.duelCode}</span>
-                  <span class="sm:hidden text-[11px] text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full">
-                    ✓ Menor Preço Hoje
-                  </span>
+                  <a href="/criteriotech/duelo-${cleanNum}.html" class="sm:hidden text-[11px] text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full">
+                    📄 Análise Completa →
+                  </a>
                 </div>
                 <div class="min-w-0">
                   <div class="text-[11px] sm:text-xs text-zinc-400 font-semibold uppercase tracking-wider">${duel.category}</div>
-                  <h2 class="text-base sm:text-lg font-black text-white leading-snug break-words">${duel.technicalWinner.shortName || duel.technicalWinner.name} <span class="text-zinc-500 font-bold">vs.</span> ${duel.rationalChoice.shortName || duel.rationalChoice.name}</h2>
+                  <h2 class="text-base sm:text-lg font-black text-white leading-snug break-words"><a href="/criteriotech/duelo-${cleanNum}.html" class="hover:text-emerald-400 transition">${duel.technicalWinner.shortName || duel.technicalWinner.name} <span class="text-zinc-500 font-bold">vs.</span> ${duel.rationalChoice.shortName || duel.rationalChoice.name}</a></h2>
                 </div>
               </div>
-              <span class="hidden sm:inline-flex text-xs text-emerald-400 font-semibold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full shrink-0">
-                ✓ Estoque e Menor Preço Confirmados
-              </span>
+              <a href="/criteriotech/duelo-${cleanNum}.html" class="hidden sm:inline-flex text-xs text-emerald-400 hover:bg-emerald-500/20 transition font-semibold bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full shrink-0">
+                📄 Ver Análise &amp; Benchmarks →
+              </a>
             </div>
 
             <!-- Grid Responsivo Mobile-First -->
