@@ -1,5 +1,166 @@
 [
   {
+    "duelCode": "#005",
+    "commentTriggerKeyword": "DUELO05",
+    "category": "TECLADOS MECÂNICOS SEM FIO",
+    "hookQuestion": "Teclado gamer de R$ 1.199 ou R$ 389: qual vale o seu investimento?",
+    "showcaseUrl": "zenostech.com.br/criteriotech",
+    "createdAt": "2026-11-20T19:31:50.776Z",
+    "technicalWinner": {
+      "id": "logitech-g915-tkl",
+      "role": "TECHNICAL_WINNER",
+      "roleBadge": "VENCEDOR TÉCNICO",
+      "name": "Teclado Mecânico Gamer Sem Fio Logitech G915 TKL LIGHTSPEED",
+      "shortName": "Logitech G915 TKL",
+      "brand": "Logitech G",
+      "priceBRL": 1199,
+      "originalPriceBRL": 1599,
+      "rating": 4.8,
+      "imageUrl": "https://m.media-amazon.com/images/I/61VvvVl6VCL._AC_.jpg",
+      "tagline": "Chassi ultrafino em alumínio escovado, conexão LIGHTSPEED de 1ms e teclas mecânicas de perfil baixo com alta precisão.",
+      "highlights": [
+        {
+          "label": "Construção",
+          "value": "Alumínio Escovado"
+        },
+        {
+          "label": "Conectividade",
+          "value": "LIGHTSPEED e BT"
+        },
+        {
+          "label": "Switches e Som",
+          "value": "GL Baixo Perfil"
+        }
+      ],
+      "verdictSummary": "Ideal para quem busca formato ultra-slim, acabamento em metal nobre e resposta sem fio competitiva de nível profissional.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G915+TKL&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g915-tkl?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ce4553b8-80c4-4777-a4b7-76d04042beb1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G915+TKL&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g915-tkl?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "rationalChoice": {
+      "id": "aula-f75-tri-mode",
+      "role": "RATIONAL_CHOICE",
+      "roleBadge": "ESCOLHA RACIONAL",
+      "name": "Teclado Mecânico Sem Fio Aula F75 Tri-Mode Gasket Mount",
+      "shortName": "Aula F75 Tri-Mode",
+      "brand": "AULA",
+      "priceBRL": 389,
+      "originalPriceBRL": 599,
+      "rating": 4.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/81X+gEilqXL._AC_SL1500_.jpg",
+      "tagline": "Estrutura Gasket com isolamento de 5 camadas, switches lubrificados de fábrica e som cremoso por um terço do preço.",
+      "highlights": [
+        {
+          "label": "Construção",
+          "value": "Estrutura Gasket"
+        },
+        {
+          "label": "Conectividade",
+          "value": "Sem Fio Tri-Mode"
+        },
+        {
+          "label": "Switches e Som",
+          "value": "LEOBOG Pre-lubed"
+        }
+      ],
+      "verdictSummary": "A melhor escolha para quem prioriza digitação macia, acústica impecável e autonomia prolongada gastando muito pouco.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=Aula+F75&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-aula-f75?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_612828-MLU77523943388_072024-O.webp",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=Aula+F75&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-aula-f75?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "benchmarks": [
+      {
+        "criterion": "Latência sem Fio",
+        "winnerScore": 98,
+        "rationalScore": 90,
+        "winnerDisplay": "1ms LIGHTSPEED",
+        "rationalDisplay": "3ms Dongle 2.4G",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Construção Externa",
+        "winnerScore": 96,
+        "rationalScore": 86,
+        "winnerDisplay": "Liga de Alumínio",
+        "rationalDisplay": "Policarbonato PBT",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Autonomia da Bateria",
+        "winnerScore": 89,
+        "rationalScore": 89,
+        "winnerDisplay": "Até 40h com RGB",
+        "rationalDisplay": "Até 40h com RGB",
+        "advantage": "TIE"
+      },
+      {
+        "criterion": "Custo por Real",
+        "winnerScore": 58,
+        "rationalScore": 97,
+        "winnerDisplay": "R$ 1.199",
+        "rationalDisplay": "R$ 389",
+        "advantage": "RATIONAL"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": "hook",
+        "startSec": 0,
+        "endSec": 9.88,
+        "narrationText": "Vale a pena gastar R$ 1.199 em um teclado mecânico gamer topo de linha, ou uma opção de R$ 389 já entrega tudo o que você precisa no setup?",
+        "spokenText": "Vale a pena gastar mil cento e noventa e nove reais em um teclado mecânico gamer topo de linha, ou uma opção de trezentos e oitenta e nove reais já entrega tudo o que você precisa no setup?"
+      },
+      {
+        "sceneId": "winner",
+        "startSec": 9.88,
+        "endSec": 22.63,
+        "narrationText": "O Logitech G915 TKL é a referência máxima: chassi ultrafino em alumínio escovado, switches GL de alta durabilidade e conexão sem fio LIGHTSPEED com apenas 1ms de resposta.",
+        "spokenText": "O Logitech G novecentos e quinze T K L é a referência máxima: chassi ultrafino em alumínio escovado, switches G L de alta durabilidade e conexão sem fio Lightspeed com apenas um milissegundo de resposta."
+      },
+      {
+        "sceneId": "rational",
+        "startSec": 22.63,
+        "endSec": 35.08,
+        "narrationText": "Do outro lado, o Aula F75 chocou o mercado. Ele traz montagem Gasket Mount com cinco camadas de isolamento acústico, switches lubrificados de fábrica e bateria gigante de 4.000 mAh.",
+        "spokenText": "Do outro lado, o Aula F setenta e cinco chocou o mercado. Ele traz montagem Gasket Mount com cinco camadas de isolamento acústico, switches lubrificados de fábrica e bateria gigante de quatro mil miliamperes-hora."
+      },
+      {
+        "sceneId": "benchmarks",
+        "startSec": 35.08,
+        "endSec": 48.73,
+        "narrationText": "Nos testes, o G915 leva vantagem em latência pura e construção metálica premium. Mas em prazer de digitação, estabilidade e perfil sonoro cremoso, o F75 humilha teclados do triplo do preço.",
+        "spokenText": "Nos testes, o G novecentos e quinze leva vantagem em latência pura e construção metálica premium. Mas em prazer de digitação, estabilidade e perfil sonoro cremoso, o F setenta e cinco humilha teclados do triplo do preço."
+      },
+      {
+        "sceneId": "verdict",
+        "startSec": 48.73,
+        "endSec": 61.55,
+        "narrationText": "Veredito direto: se você exige perfil baixo de metal e software integrado, vá de Logitech. Se quer a melhor sensação acústica e digitação pelo menor investimento, o Aula F75 é a escolha certa.",
+        "spokenText": "Veredito direto: se você exige perfil baixo de metal e software integrado, vá de Logitech. Se quer a melhor sensação acústica e digitação pelo menor investimento, o Aula F setenta e cinco é a escolha certa."
+      }
+    ],
+    "platformEndings": {
+      "instagram": {
+        "narrationText": "Comente DUELO05 aqui embaixo que eu te envio no Direct os links oficiais com o menor preço e frete grátis!",
+        "spokenText": "Comente DUELO zero cinco aqui embaixo que eu te envio no Direct os links oficiais com o menor preço e frete grátis!"
+      },
+      "tiktokShorts": {
+        "narrationText": "Os links oficiais estão no link da bio buscando pelo Duelo 005. Qual desses dois teclados você colocaria no seu setup hoje?",
+        "spokenText": "Os links oficiais estão no link da bio buscando pelo Duelo zero zero cinco. Qual desses dois teclados você colocaria no seu setup hoje?"
+      }
+    }
+  },
+  {
     "duelCode": "#004",
     "commentTriggerKeyword": "DUELO04",
     "category": "MICROFONES USB",
