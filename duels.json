@@ -1,5 +1,166 @@
 [
   {
+    "duelCode": "#006",
+    "commentTriggerKeyword": "DUELO06",
+    "category": "SSDS NVME M.2 GEN4 DE 1TB",
+    "hookQuestion": "SSD Gen4 de 1TB: topo de linha ou custo-benefício para PC e PS5?",
+    "showcaseUrl": "zenostech.com.br/criteriotech",
+    "createdAt": "2026-11-21T12:59:29.387Z",
+    "technicalWinner": {
+      "id": "wd-black-sn850x-1tb",
+      "role": "TECHNICAL_WINNER",
+      "roleBadge": "VENCEDOR TÉCNICO",
+      "name": "WD_BLACK SN850X NVMe M.2 SSD 1TB PCIe Gen4",
+      "shortName": "WD Black SN850X 1TB",
+      "brand": "Western Digital",
+      "priceBRL": 849,
+      "originalPriceBRL": 1099,
+      "rating": 4.9,
+      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/0d51b1ed-8987-4f16-a3fc-19cc04d36abe.png",
+      "tagline": "Velocidade extrema de 7300 MB/s com DRAM dedicada e latência mínima para PC gamer de elite e PS5.",
+      "highlights": [
+        {
+          "label": "Taxa de Leitura",
+          "value": "Até 7.300 MB/s"
+        },
+        {
+          "label": "Memória Cache",
+          "value": "1GB DRAM DDR4"
+        },
+        {
+          "label": "Garantia / TBW",
+          "value": "5 Anos / 600 TBW"
+        }
+      ],
+      "verdictSummary": "Para quem exige velocidade máxima sustentada, edição pesada em 4K e zero engasgos em transferências.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=WD+BLACK+SN850X+1TB&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/wd-black-sn850x-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://media.karousell.com/media/photos/products/2026/10/31/wd_black_sn850x_nvme_ssd_1tb_g_1793469543_8f640e5e_thumbnail.jpg",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=WD+BLACK+SN850X+1TB&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/wd-black-sn850x-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "rationalChoice": {
+      "id": "kingston-nv3-1tb",
+      "role": "RATIONAL_CHOICE",
+      "roleBadge": "ESCOLHA RACIONAL",
+      "name": "Kingston NV3 M.2 2280 NVMe SSD 1TB PCIe 4.0",
+      "shortName": "Kingston NV3 1TB",
+      "brand": "Kingston",
+      "priceBRL": 439,
+      "originalPriceBRL": 549,
+      "rating": 4.7,
+      "imageUrl": "https://m.media-amazon.com/images/I/71c9b+3tKXL._AC_SL1500_.jpg",
+      "tagline": "Desempenho Gen4 de 6000 MB/s que atende aos requisitos do PS5 custando metade dos modelos topo de linha.",
+      "highlights": [
+        {
+          "label": "Taxa de Leitura",
+          "value": "Até 6.000 MB/s"
+        },
+        {
+          "label": "Memória Cache",
+          "value": "DRAM-less com HMB"
+        },
+        {
+          "label": "Garantia / TBW",
+          "value": "3 Anos / 320 TBW"
+        }
+      ],
+      "verdictSummary": "Para quem quer expandir o espaço do PS5 ou do PC gamer gastando o mínimo possível com ótima performance.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=Kingston+NV3+1TB&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/kingston-nv3-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://m.media-amazon.com/images/I/71hRCqiIY5L._AC_SL1500_.jpg",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=Kingston+NV3+1TB&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/kingston-nv3-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "benchmarks": [
+      {
+        "criterion": "Leitura Sequencial",
+        "winnerScore": 98,
+        "rationalScore": 81,
+        "winnerDisplay": "7.300 MB/s",
+        "rationalDisplay": "6.000 MB/s",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Gravação Contínua",
+        "winnerScore": 96,
+        "rationalScore": 75,
+        "winnerDisplay": "DRAM Dedicada",
+        "rationalDisplay": "Sem DRAM (HMB)",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Loading no PS5",
+        "winnerScore": 94,
+        "rationalScore": 92,
+        "winnerDisplay": "6,8 segundos",
+        "rationalDisplay": "7,1 segundos",
+        "advantage": "TIE"
+      },
+      {
+        "criterion": "Custo por Real",
+        "winnerScore": 60,
+        "rationalScore": 97,
+        "winnerDisplay": "R$ 0,85/GB",
+        "rationalDisplay": "R$ 0,44/GB",
+        "advantage": "RATIONAL"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": "hook",
+        "startSec": 0,
+        "endSec": 9.75,
+        "narrationText": "SSD Gen4 de 1TB para PC ou PS5: vale pagar o dobro no modelo mais rápido do mercado ou o básico já entrega tudo nos jogos?",
+        "spokenText": "SSD de quarta geração com um terabyte para PC ou PlayStation cinco: vale pagar o dobro no modelo mais rápido do mercado ou o básico já entrega tudo nos jogos?"
+      },
+      {
+        "sceneId": "winner",
+        "startSec": 9.75,
+        "endSec": 24.3,
+        "narrationText": "O vencedor técnico é o WD Black SN850X de R$ 849. Ele bate 7.300 MB/s de leitura, tem cache DRAM dedicado e não perde desempenho em downloads pesados.",
+        "spokenText": "O vencedor técnico é o Western Digital Black Esse Ene oitocentos e cinquenta Xis de oitocentos e quarenta e nove reais. Ele bate sete mil e trezentos megabytes por segundo de leitura, tem cache de memória dedicada e não perde desempenho em downloads pesados."
+      },
+      {
+        "sceneId": "rational",
+        "startSec": 24.3,
+        "endSec": 35.77,
+        "narrationText": "A escolha racional é o Kingston NV3 por R$ 439. Ele alcança 6.000 MB/s, supera a exigência da Sony para o PS5 e custa metade do preço.",
+        "spokenText": "A escolha racional é o Kingston Ene Vê três por quatrocentos e trinta e nove reais. Ele alcança seis mil megabytes por segundo, supera a exigência da Sony para o PlayStation cinco e custa metade do preço."
+      },
+      {
+        "sceneId": "benchmarks",
+        "startSec": 35.77,
+        "endSec": 45.63,
+        "narrationText": "Nos benchmarks, o SN850X vence em velocidade bruta e gravação contínua. Só que no loading real dos jogos, a diferença é de menos de 1 segundo.",
+        "spokenText": "Nos testes práticos, o Esse Ene oitocentos e cinquenta Xis vence em velocidade bruta e gravação contínua. Só que no carregamento real dos jogos, a diferença é de menos de um segundo."
+      },
+      {
+        "sceneId": "verdict",
+        "startSec": 45.63,
+        "endSec": 57.38,
+        "narrationText": "Veredito: se você edita vídeos em 4K e quer o limite técnico, vá de SN850X. Para expandir o PS5 ou jogar no PC sem gastar muito, o NV3 é a compra inteligente.",
+        "spokenText": "Veredito: se você edita vídeos em quatro K e quer o limite técnico, vá de Esse Ene oitocentos e cinquenta Xis. Para expandir o PlayStation cinco ou jogar no PC sem gastar muito, o Ene Vê três é a compra inteligente."
+      }
+    ],
+    "platformEndings": {
+      "instagram": {
+        "narrationText": "Comente DUELO06 aqui embaixo que eu te envio os links oficiais com o menor preço verificado no Direct!",
+        "spokenText": "Comente DUELO zero seis aqui embaixo que eu te envio os links oficiais com o menor preço verificado no Direct!"
+      },
+      "tiktokShorts": {
+        "narrationText": "Os links confiáveis estão no link da bio no Duelo 006! Você pagaria pelo topo de linha ou iria no custo-benefício?",
+        "spokenText": "Os links confiáveis estão no link da bio no Duelo zero zero seis! Você pagaria pelo topo de linha ou iria no custo-benefício?"
+      }
+    }
+  },
+  {
     "duelCode": "#005",
     "commentTriggerKeyword": "DUELO05",
     "category": "TECLADOS MECÂNICOS SEM FIO",
