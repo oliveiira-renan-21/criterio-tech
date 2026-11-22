@@ -1,0 +1,163 @@
+{
+  "duelCode": "#007",
+  "commentTriggerKeyword": "DUELO07",
+  "category": "ROBÔS ASPIRADORES INTELIGENTES",
+  "hookQuestion": "Roborock Q7 Max ou Xiaomi S10: qual robô aspirador laser vale mais a pena?",
+  "showcaseUrl": "zenostech.com.br/criteriotech",
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "technicalWinner": {
+    "id": "roborock-q7-max",
+    "role": "TECHNICAL_WINNER",
+    "roleBadge": "VENCEDOR TÉCNICO",
+    "name": "Robô Aspirador e Passa Pano Roborock Q7 Max com Mapeamento LiDAR",
+    "shortName": "Roborock Q7 Max",
+    "brand": "Roborock",
+    "priceBRL": 2499,
+    "originalPriceBRL": 3299,
+    "rating": 4.9,
+    "imageUrl": "https://m.media-amazon.com/images/I/41vCiJqoLXL._AC_SL1500_.jpg",
+    "tagline": "Referência absoluta com escova de borracha anti-emaranhado, sucção constante de 4200 Pa e mapa 3D ultrarrápido.",
+    "highlights": [
+      {
+        "label": "Sucção Máxima",
+        "value": "4200 Pa Borracha"
+      },
+      {
+        "label": "Mapeamento / App",
+        "value": "LiDAR PreciSense 3D"
+      },
+      {
+        "label": "Bateria / Tempo",
+        "value": "5200 mAh até 180 min"
+      }
+    ],
+    "verdictSummary": "Essencial para residências grandes com animais de estimação e necessidade de aspiração pesada contínua.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/dp/B0FZ841F1H?tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/roborock-q7-max?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://m.media-amazon.com/images/I/71umhS29PhL._AC_SL1500_.jpg",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/dp/B0FZ841F1H?tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/roborock-q7-max?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "rationalChoice": {
+    "id": "xiaomi-robot-vacuum-s10",
+    "role": "RATIONAL_CHOICE",
+    "roleBadge": "ESCOLHA RACIONAL",
+    "name": "Robô Aspirador de Pó Xiaomi Robot Vacuum S10 Laser LDS Bivolt",
+    "shortName": "Xiaomi Vacuum S10",
+    "brand": "Xiaomi",
+    "priceBRL": 1299,
+    "originalPriceBRL": 1699,
+    "rating": 4.8,
+    "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_947585-MLB96038777701_102025-O.webp",
+    "tagline": "Navegação a laser LiDAR com precisão cirúrgica e sucção de 4000 Pa custando praticamente metade do preço.",
+    "highlights": [
+      {
+        "label": "Sucção Máxima",
+        "value": "4000 Pa Cerda Mista"
+      },
+      {
+        "label": "Mapeamento / App",
+        "value": "LiDAR LDS Mi Home"
+      },
+      {
+        "label": "Bateria / Tempo",
+        "value": "3200 mAh até 130 min"
+      }
+    ],
+    "verdictSummary": "Entrega mapeamento inteligente a laser e sucção excelente em apartamentos por uma fração do preço.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/s?k=Xiaomi+Robot+Vacuum+S10&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/xiaomi-robot-vacuum-s10?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_877550-MLB83812036218_042025-O-rob-aspirador-e-passa-pano-xiaomi-robot-vacuum-s10-bivolt.webp",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/s?k=Xiaomi+Robot+Vacuum+S10&tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/xiaomi-robot-vacuum-s10?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "benchmarks": [
+    {
+      "criterion": "Poder de Sucção",
+      "winnerScore": 96,
+      "rationalScore": 88,
+      "winnerDisplay": "4.200 Pa",
+      "rationalDisplay": "4.000 Pa",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Autonomia Bateria",
+      "winnerScore": 97,
+      "rationalScore": 82,
+      "winnerDisplay": "5.200 mAh",
+      "rationalDisplay": "3.200 mAh",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Navegação a Laser",
+      "winnerScore": 95,
+      "rationalScore": 92,
+      "winnerDisplay": "PreciSense 3D",
+      "rationalDisplay": "LDS 360°",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Custo por Real",
+      "winnerScore": 66,
+      "rationalScore": 96,
+      "winnerDisplay": "R$ 2.499",
+      "rationalDisplay": "R$ 1.299",
+      "advantage": "RATIONAL"
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "hook",
+      "startSec": 0,
+      "endSec": 10,
+      "narrationText": "Robô aspirador inteligente: vale a pena gastar mais no Roborock Q7 Max ou o Xiaomi S10 entrega quase tudo pela metade do valor?",
+      "spokenText": "Robô aspirador inteligente: vale a pena gastar mais no Roborock Q sete Max ou o Xiaomi S dez entrega quase tudo pela metade do valor?"
+    },
+    {
+      "sceneId": "winner",
+      "startSec": 10,
+      "endSec": 23,
+      "narrationText": "O Roborock Q7 Max é o ápice da engenharia. Ele entrega 4.200 Pa de sucção, escova totalmente emborrachada anti-emaranhado e bateria gigante de 5.200 mAh para cobrir 300 m² sem esforço.",
+      "spokenText": "O Roborock Q sete Max é o ápice da engenharia. Ele entrega quatro mil e duzentos pascais de sucção, escova totalmente emborrachada anti-emaranhado e bateria gigante de cinco mil e duzentos miliamperes-hora para cobrir trezentos metros quadrados sem esforço."
+    },
+    {
+      "sceneId": "rational",
+      "startSec": 23,
+      "endSec": 36,
+      "narrationText": "Já o Xiaomi Robot Vacuum S10 é o campeão do custo-benefício. Traz sensor laser LiDAR topo de linha, 4.000 Pa de potência e limpeza em Y por apenas R$ 1.299.",
+      "spokenText": "Já o Xiaomi Robot Vacuum S dez é o campeão do custo-benefício. Traz sensor laser LiDAR topo de linha, quatro mil pascais de potência e limpeza em Ypsilon por apenas mil duzentos e noventa e nove reais."
+    },
+    {
+      "sceneId": "benchmarks",
+      "startSec": 36,
+      "endSec": 48,
+      "narrationText": "No comparativo direto: o Roborock vence em sucção com 96 pontos e autonomia com 97 pontos. O Xiaomi empata na precisão do laser e atropela no custo por real.",
+      "spokenText": "No comparativo direto: o Roborock vence em sucção com noventa e seis pontos e autonomia com noventa e sete pontos. O Xiaomi empata na precisão do laser e atropela no custo por real."
+    },
+    {
+      "sceneId": "verdict",
+      "startSec": 48,
+      "endSec": 58,
+      "narrationText": "Veredito: se você tem casa grande e animais que soltam muito pelo, vá de Roborock Q7 Max. Para apartamentos e uso diário com máxima economia, o Xiaomi S10 é imbatível.",
+      "spokenText": "Veredito: se você tem casa grande e animais que soltam muito pelo, vá de Roborock Q sete Max. Para apartamentos e uso diário com máxima economia, o Xiaomi S dez é imbatível."
+    }
+  ],
+  "platformEndings": {
+    "instagram": {
+      "narrationText": "Comente DUELO07 aqui embaixo que eu te envio os links com desconto verificado direto no seu direct!",
+      "spokenText": "Comente DUELO zero sete aqui embaixo que eu te envio os links com desconto verificado direto no seu direct!"
+    },
+    "tiktokShorts": {
+      "narrationText": "Links verificados com desconto no perfil no duelo 007! Qual dos dois limpa melhor a sua casa?",
+      "spokenText": "Links verificados com desconto no perfil no duelo zero zero sete! Qual dos dois limpa melhor a sua casa?"
+    }
+  }
+}
