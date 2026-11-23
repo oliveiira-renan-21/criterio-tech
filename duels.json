@@ -1,5 +1,166 @@
 [
   {
+    "duelCode": "#007",
+    "commentTriggerKeyword": "DUELO07",
+    "category": "ROBÔS ASPIRADORES INTELIGENTES COM MAPEAMENTO LASER",
+    "hookQuestion": "Roborock Q7 Max ou Xiaomi Robot Vacuum S20: qual robô com laser vale a sua grana?",
+    "showcaseUrl": "zenostech.com.br/criteriotech",
+    "createdAt": "2026-11-23T11:35:40.512Z",
+    "technicalWinner": {
+      "id": "roborock-q7-max",
+      "role": "TECHNICAL_WINNER",
+      "roleBadge": "VENCEDOR TÉCNICO",
+      "name": "Roborock Q7 Max Aspirador Robô Inteligente com Mapeamento LiDAR",
+      "shortName": "Roborock Q7 Max",
+      "brand": "Roborock",
+      "priceBRL": 2699,
+      "originalPriceBRL": 3499,
+      "rating": 4.9,
+      "imageUrl": "https://m.media-amazon.com/images/I/61rblNG4SdL._SL1500_.jpg",
+      "tagline": "Referência global em navegação laser precisa, escova emborrachada antiemaranhado e bateria massiva de longa duração.",
+      "highlights": [
+        {
+          "label": "Mapeamento",
+          "value": "LiDAR PreciSense 3D"
+        },
+        {
+          "label": "Poder de Sucção",
+          "value": "4200 Pa Constante"
+        },
+        {
+          "label": "Bateria / Área",
+          "value": "5200 mAh até 300m²"
+        }
+      ],
+      "verdictSummary": "Essencial para sobrados grandes e lares com muitos pets que soltam pelos longos diariamente.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=Roborock+Q7+Max&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/roborock-q7-max?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://m.media-amazon.com/images/I/71rLTJe97vL._SL1500_.jpg",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=Roborock+Q7+Max&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/roborock-q7-max?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "rationalChoice": {
+      "id": "xiaomi-robot-vacuum-s20",
+      "role": "RATIONAL_CHOICE",
+      "roleBadge": "ESCOLHA RACIONAL",
+      "name": "Xiaomi Robot Vacuum S20 Robô Aspirador e Passa Pano com Laser LDS",
+      "shortName": "Xiaomi Vacuum S20",
+      "brand": "Xiaomi",
+      "priceBRL": 1399,
+      "originalPriceBRL": 1899,
+      "rating": 4.8,
+      "imageUrl": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/61ktQGkyGVL._AC_SL1500_.jpg",
+      "tagline": "Mapeamento LDS a laser avançado e excelente poder de sucção, entregando a faxina completa pela metade do investimento.",
+      "highlights": [
+        {
+          "label": "Mapeamento",
+          "value": "Sensor Laser LDS"
+        },
+        {
+          "label": "Poder de Sucção",
+          "value": "5000 Pa Eficiente"
+        },
+        {
+          "label": "Bateria / Área",
+          "value": "3200 mAh até 140m²"
+        }
+      ],
+      "verdictSummary": "A melhor escolha racional para quem quer automação a laser precisa sem gastar uma fortuna.",
+      "affiliateLinks": {
+        "amazonUrl": "https://www.amazon.com.br/s?k=Xiaomi+Robot+Vacuum+S20&tag=criteriotech-20",
+        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/xiaomi-robot-vacuum-s20?matt_tool=70133169&matt_word=rj20261108182619164"
+      },
+      "angle2Url": "https://m.media-amazon.com/images/I/61ZviZn9JwL._AC_.jpg",
+      "angle2Label": "Outro Ângulo",
+      "amazonUrl": "https://www.amazon.com.br/s?k=Xiaomi+Robot+Vacuum+S20&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/xiaomi-robot-vacuum-s20?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "benchmarks": [
+      {
+        "criterion": "Navegação e Rotas",
+        "winnerScore": 98,
+        "rationalScore": 88,
+        "winnerDisplay": "PreciSense 3D",
+        "rationalDisplay": "LDS 360 Graus",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Autonomia de Bateria",
+        "winnerScore": 96,
+        "rationalScore": 82,
+        "winnerDisplay": "180 min (5200mAh)",
+        "rationalDisplay": "130 min (3200mAh)",
+        "advantage": "WINNER"
+      },
+      {
+        "criterion": "Poder de Aspiração",
+        "winnerScore": 92,
+        "rationalScore": 92,
+        "winnerDisplay": "4200 Pa Real",
+        "rationalDisplay": "5000 Pa Turbo",
+        "advantage": "TIE"
+      },
+      {
+        "criterion": "Custo por Real",
+        "winnerScore": 65,
+        "rationalScore": 97,
+        "winnerDisplay": "Premium",
+        "rationalDisplay": "Imbatível",
+        "advantage": "RATIONAL"
+      }
+    ],
+    "scenes": [
+      {
+        "sceneId": "hook",
+        "startSec": 0,
+        "endSec": 9.8,
+        "narrationText": "Quer um robô aspirador inteligente com sensor laser para não bater em nada, mas não sabe se gasta R$ 1.399 ou R$ 2.699?",
+        "spokenText": "Quer um robô aspirador inteligente com sensor laser para não bater em nada, mas não sabe se gasta mil trezentos e noventa e nove ou dois mil seiscentos e noventa e nove reais?"
+      },
+      {
+        "sceneId": "winner",
+        "startSec": 9.8,
+        "endSec": 23.75,
+        "narrationText": "O vencedor técnico é o Roborock Q7 Max. Referência em mapeamento LiDAR 3D, ele tem sucção de 4200 Pa, escova de borracha anti-emaranhado e bateria gigante de 5200 mAh.",
+        "spokenText": "O vencedor técnico é o Roborock Q sete Max. Referência em mapeamento LiDAR três dê, ele tem sucção de quatro mil e duzentos pascais, escova de borracha anti-emaranhado e bateria gigante de cinco mil e duzentos miliamperes-hora."
+      },
+      {
+        "sceneId": "rational",
+        "startSec": 23.75,
+        "endSec": 36.92,
+        "narrationText": "A escolha racional é o Xiaomi Robot Vacuum S20. Por R$ 1.399, entrega mapeamento LDS a laser, 5000 Pa de potência e controle preciso de água pelo app Mi Home.",
+        "spokenText": "A escolha racional é o Xiaomi Robot Vacuum Esse vinte. Por mil trezentos e noventa e nove reais, entrega mapeamento LDS a laser, cinco mil pascais de potência e controle preciso de água pelo aplicativo Mi Home."
+      },
+      {
+        "sceneId": "benchmarks",
+        "startSec": 36.92,
+        "endSec": 46.92,
+        "narrationText": "Nos testes: o Q7 Max domina em autonomia e limpeza de pelos sem travar a escova. O S20 empata na agilidade da rota e vence com folga no custo por metro quadrado.",
+        "spokenText": "Nos testes: o Q sete Max domina em autonomia e limpeza de pelos sem travar a escova. O Esse vinte empata na agilidade da rota e vence com folga no custo por metro quadrado."
+      },
+      {
+        "sceneId": "verdict",
+        "startSec": 46.92,
+        "endSec": 57.92,
+        "narrationText": "Se tem casa grande ou pets que soltam muito pelo, vá no Q7 Max. Para apartamentos e sobrados padrão, o Xiaomi S20 entrega noventa por cento da experiência pela metade do preço.",
+        "spokenText": "Se tem casa grande ou pets que soltam muito pelo, vá no Q sete Max. Para apartamentos e sobrados padrão, o Xiaomi Esse vinte entrega noventa por cento da experiência pela metade do preço."
+      }
+    ],
+    "platformEndings": {
+      "instagram": {
+        "narrationText": "Comente DUELO07 aqui embaixo que eu te envio os links oficiais com o menor preço no seu Direct!",
+        "spokenText": "Comente DUELO zero sete aqui embaixo que eu te envio os links oficiais com o menor preço no seu Direct!"
+      },
+      "tiktokShorts": {
+        "narrationText": "Links seguros no perfil pelo Duelo #007! Qual robô você colocaria na sua sala hoje?",
+        "spokenText": "Links seguros no perfil pelo Duelo número zero zero sete! Qual robô você colocaria na sua sala hoje?"
+      }
+    }
+  },
+  {
     "duelCode": "#006",
     "commentTriggerKeyword": "DUELO06",
     "category": "SSDS NVME M.2 GEN4 DE 1TB",
