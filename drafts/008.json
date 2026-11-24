@@ -1,0 +1,163 @@
+{
+  "duelCode": "#008",
+  "commentTriggerKeyword": "DUELO08",
+  "category": "SOUNDBARS PARA TV 4K COM SUBWOOFER SEM FIO",
+  "hookQuestion": "Soundbar para TV 4K: Vale investir no Dolby Atmos real ou a campeã de custo-benefício já resolve?",
+  "showcaseUrl": "zenostech.com.br/criteriotech",
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "technicalWinner": {
+    "id": "samsung-hw-q600c",
+    "role": "TECHNICAL_WINNER",
+    "roleBadge": "VENCEDOR TÉCNICO",
+    "name": "Soundbar Samsung HW-Q600C 3.1.2 Canais com Dolby Atmos e Subwoofer Sem Fio",
+    "shortName": "Samsung HW-Q600C",
+    "brand": "Samsung",
+    "priceBRL": 1699,
+    "originalPriceBRL": 2499,
+    "rating": 4.9,
+    "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535893cv11d.jpg",
+    "tagline": "Áudio cinematográfico 3.1.2 canais com Dolby Atmos real e canais de teto para imersão total na sala.",
+    "highlights": [
+      {
+        "label": "Canais de Áudio",
+        "value": "3.1.2 Ch Atmos Real"
+      },
+      {
+        "label": "Potência RMS",
+        "value": "360W RMS Total"
+      },
+      {
+        "label": "Subwoofer Físico",
+        "value": "6.5 Pol. Sem Fio"
+      }
+    ],
+    "verdictSummary": "Essencial para quem exige som 3D imersivo de cinema, canal central nítido e canais de teto na TV.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+HW-Q600C&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-hw-q600c?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/b6eef39c-1222-4d72-82c0-e5fa69239d8a.jpg",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+HW-Q600C&tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-hw-q600c?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "rationalChoice": {
+    "id": "jbl-cinema-sb180",
+    "role": "RATIONAL_CHOICE",
+    "roleBadge": "ESCOLHA RACIONAL",
+    "name": "Soundbar JBL Cinema SB180 2.1 Canais 110W RMS com Subwoofer Sem Fio",
+    "shortName": "JBL Cinema SB180",
+    "brand": "JBL",
+    "priceBRL": 839,
+    "originalPriceBRL": 1099,
+    "rating": 4.8,
+    "imageUrl": "https://m.media-amazon.com/images/I/41zdVy2G3iL._AC_.jpg",
+    "tagline": "Graves potentes com subwoofer sem fio de 6,5 polegadas e conexão HDMI ARC pelo menor custo do mercado.",
+    "highlights": [
+      {
+        "label": "Canais de Áudio",
+        "value": "2.1 Ch Dolby Digital"
+      },
+      {
+        "label": "Potência RMS",
+        "value": "110W RMS Total"
+      },
+      {
+        "label": "Subwoofer Físico",
+        "value": "6.5 Pol. Sem Fio"
+      }
+    ],
+    "verdictSummary": "Perfeito para quem quer graves fortes de cinema gastando metade do preço com subwoofer dedicado.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/s?k=JBL+Cinema+SB180&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/jbl-cinema-sb180?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_741790-MLB74246209575_012024-O.webp",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/s?k=JBL+Cinema+SB180&tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/jbl-cinema-sb180?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "benchmarks": [
+    {
+      "criterion": "Imersão Espacial",
+      "winnerScore": 96,
+      "rationalScore": 81,
+      "winnerDisplay": "Dolby Atmos 3.1.2",
+      "rationalDisplay": "Dolby Digital 2.1",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Clareza de Vozes",
+      "winnerScore": 95,
+      "rationalScore": 84,
+      "winnerDisplay": "Canal Central Físico",
+      "rationalDisplay": "Equalização Estéreo",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Pressão de Graves",
+      "winnerScore": 93,
+      "rationalScore": 89,
+      "winnerDisplay": "Sub 6.5 Pol. 160W",
+      "rationalDisplay": "Sub 6.5 Pol. 58W",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Custo por Real",
+      "winnerScore": 72,
+      "rationalScore": 97,
+      "winnerDisplay": "R$ 1.699",
+      "rationalDisplay": "R$ 839",
+      "advantage": "RATIONAL"
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "hook",
+      "startSec": 0,
+      "endSec": 9,
+      "narrationText": "Quer um som de cinema na sua TV 4K sem gastar à toa? Vale mais pagar caro no Dolby Atmos ou economizar numa soundbar consagrada?",
+      "spokenText": "Quer um som de cinema na sua tevê quatro cá sem gastar à toa? Vale mais pagar caro no Dolby Atmos ou economizar numa soundbar consagrada?"
+    },
+    {
+      "sceneId": "winner",
+      "startSec": 9,
+      "endSec": 21,
+      "narrationText": "A referência é a Samsung HW-Q600C. Por R$ 1.699, ela entrega 3.1.2 canais reais, canais superiores de teto e 360W com graves brutais.",
+      "spokenText": "A referência é a Samsung agá dabliu que seiscentos cê. Por mil seiscentos e noventa e nove reais, ela entrega três ponto um ponto dois canais reais, canais superiores de teto e trezentos e sessenta watts com graves brutais."
+    },
+    {
+      "sceneId": "rational",
+      "startSec": 21,
+      "endSec": 33,
+      "narrationText": "Já a escolha racional é a JBL Cinema SB180, por R$ 839. Ela traz subwoofer sem fio de 6.5 polegadas, HDMI ARC e graves marcantes da JBL.",
+      "spokenText": "Já a escolha racional é a jota bê éle Cinema ésse bê cento e oitenta, por oitocentos e trinta e nove reais. Ela traz subwoofer sem fio de seis polegadas e meia, agá dê éme i arque e os graves marcantes da jota bê éle."
+    },
+    {
+      "sceneId": "benchmarks",
+      "startSec": 33,
+      "endSec": 45,
+      "narrationText": "Em imersão e diálogos, a Samsung domina pelo canal central e som vertical. Mas em graves puros para sala média, a JBL entrega quase o mesmo por metade do preço.",
+      "spokenText": "Em imersão e diálogos, a Samsung domina pelo canal central e pelo som vertical. Mas em impacto de graves para sala média, a jota bê éle entrega quase o mesmo por metade do preço."
+    },
+    {
+      "sceneId": "verdict",
+      "startSec": 45,
+      "endSec": 56,
+      "narrationText": "Se você quer a experiência máxima de cinema tridimensional, vá de Q600C. Se você quer graves potentes gastando o mínimo, a SB180 é a compra mais inteligente.",
+      "spokenText": "Se você quer a experiência máxima de cinema tridimensional, vá de que seiscentos cê. Se você quer graves potentes gastando o mínimo, a ésse bê cento e oitenta é a compra mais inteligente."
+    }
+  ],
+  "platformEndings": {
+    "instagram": {
+      "narrationText": "Comente DUELO08 aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!",
+      "spokenText": "Comente duelo zero zero oito aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu direct!"
+    },
+    "tiktokShorts": {
+      "narrationText": "Os links com desconto estão na bio no Duelo #008! Qual dos dois você colocaria na sua sala?",
+      "spokenText": "Os links com desconto estão no link da bio no duelo número zero zero oito! Qual das duas você colocaria na sua sala?"
+    }
+  }
+}
