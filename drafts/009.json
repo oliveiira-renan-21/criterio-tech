@@ -1,0 +1,163 @@
+{
+  "duelCode": "#009",
+  "commentTriggerKeyword": "DUELO09",
+  "category": "TABLETS PARA ESTUDO, PRODUTIVIDADE E LEITURA",
+  "hookQuestion": "Precisa da S Pen do Tab S9 FE ou o Tab A9+ entrega quase tudo pela metade do preço?",
+  "showcaseUrl": "zenostech.com.br/criteriotech",
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "technicalWinner": {
+    "id": "samsung-galaxy-tab-s9-fe",
+    "role": "TECHNICAL_WINNER",
+    "roleBadge": "VENCEDOR TÉCNICO",
+    "name": "Samsung Galaxy Tab S9 FE 128GB Wi-Fi com S Pen",
+    "shortName": "Galaxy Tab S9 FE",
+    "brand": "Samsung",
+    "priceBRL": 2499,
+    "originalPriceBRL": 3499,
+    "rating": 4.9,
+    "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6557/6557719cv23d.jpg",
+    "tagline": "Referência absoluta para estudantes com S Pen inclusa, proteção IP68 contra água e modo DeX fluido.",
+    "highlights": [
+      {
+        "label": "Tela e Fluidez",
+        "value": "10.9\" 90Hz WUXGA+"
+      },
+      {
+        "label": "Caneta e Notas",
+        "value": "S Pen Ativa Inclusa"
+      },
+      {
+        "label": "Processamento",
+        "value": "Exynos 1380 6GB RAM"
+      }
+    ],
+    "verdictSummary": "Essencial para estudantes que escrevem à mão, desenham e buscam durabilidade extrema com certificação IP68.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+S9+FE+128GB&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-s9-fe-128gb?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6557/6557707cv21d.jpg",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+S9+FE+128GB&tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-s9-fe-128gb?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "rationalChoice": {
+    "id": "samsung-galaxy-tab-a9-plus",
+    "role": "RATIONAL_CHOICE",
+    "roleBadge": "ESCOLHA RACIONAL",
+    "name": "Samsung Galaxy Tab A9+ 64GB Wi-Fi 11 Polegadas",
+    "shortName": "Galaxy Tab A9+",
+    "brand": "Samsung",
+    "priceBRL": 1149,
+    "originalPriceBRL": 1599,
+    "rating": 4.8,
+    "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_982402-MLB82612710591_022025-O.webp",
+    "tagline": "Campeão de custo-benefício com tela fluida de 90Hz, 4 alto-falantes e modo DeX custando menos da metade.",
+    "highlights": [
+      {
+        "label": "Tela e Fluidez",
+        "value": "11.0\" 90Hz WUXGA"
+      },
+      {
+        "label": "Caneta e Notas",
+        "value": "Apenas Capacitiva"
+      },
+      {
+        "label": "Processamento",
+        "value": "Snapdragon 695 4GB"
+      }
+    ],
+    "verdictSummary": "Ideal para leitura de PDFs, videoaulas e multitarefa leve com teclado sem gastar uma fortuna.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+A9+Plus+64GB&tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-64gb?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6566/6566195_sd.jpg",
+    "angle2Label": "Outro Ângulo",
+    "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+A9+Plus+64GB&tag=criteriotech-20",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-64gb?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "benchmarks": [
+    {
+      "criterion": "Escrita e Caneta",
+      "winnerScore": 97,
+      "rationalScore": 55,
+      "winnerDisplay": "S Pen 4096 Níveis",
+      "rationalDisplay": "Sem Caneta Ativa",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Multitarefa e DeX",
+      "winnerScore": 92,
+      "rationalScore": 82,
+      "winnerDisplay": "DeX + 6GB RAM",
+      "rationalDisplay": "DeX + 4GB RAM",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Tela e Multimídia",
+      "winnerScore": 90,
+      "rationalScore": 90,
+      "winnerDisplay": "90Hz Som Duplo AKG",
+      "rationalDisplay": "90Hz 4 Alto-falantes",
+      "advantage": "TIE"
+    },
+    {
+      "criterion": "Custo por Real",
+      "winnerScore": 65,
+      "rationalScore": 96,
+      "winnerDisplay": "R$ 2.499",
+      "rationalDisplay": "R$ 1.149",
+      "advantage": "RATIONAL"
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "hook",
+      "startSec": 0,
+      "endSec": 10,
+      "narrationText": "Quer um tablet para estudar e produzir sem errar? De um lado, o Galaxy Tab S9 FE, referência com caneta. Do outro, o Galaxy Tab A9+, líder em custo-benefício. Qual vale o seu dinheiro?",
+      "spokenText": "Quer um tablet para estudar e produzir sem errar? De um lado, o Galaxy Tab Esse Nove Éfe É, referência com caneta. Do outro, o Galaxy Tab Á Nove Mais, líder em custo-benefício. Qual vale o seu dinheiro?"
+    },
+    {
+      "sceneId": "winner",
+      "startSec": 10,
+      "endSec": 23,
+      "narrationText": "O Tab S9 FE custa R$ 2.499 e é o campeão técnico: tela de 10,9 polegadas em 90Hz, proteção IP68 contra água e a S Pen inclusa com rejeição de palma perfeita para anotações.",
+      "spokenText": "O Tab Esse Nove Éfe É custa dois mil quatrocentos e noventa e nove reais e é o campeão técnico: tela de dez vírgula nove polegadas em noventa hertz, proteção Í Pê meia oito contra água e a Esse Pen inclusa com rejeição de palma perfeita para anotações."
+    },
+    {
+      "sceneId": "rational",
+      "startSec": 23,
+      "endSec": 36,
+      "narrationText": "O Tab A9+ custa só R$ 1.149. Ele entrega tela de 11 polegadas em 90Hz, quatro alto-falantes Dolby Atmos e suporte ao Samsung DeX para multitarefa, custando menos da metade.",
+      "spokenText": "O Tab Á Nove Mais custa só mil cento e quarenta e nove reais. Ele entrega tela de onze polegadas em noventa hertz, quatro alto-falantes Dolby Atmos e suporte ao Samsung DeX para multitarefa, custando menos da metade."
+    },
+    {
+      "sceneId": "benchmarks",
+      "startSec": 36,
+      "endSec": 48,
+      "narrationText": "Nos testes: o S9 FE domina em escrita e resistência física. O A9+ empata em consumo de aulas e leitura, vencendo de lavada no bolso para quem estuda digitando.",
+      "spokenText": "Nos testes: o Esse Nove Éfe É domina em escrita e resistência física. O Á Nove Mais empata em consumo de aulas e leitura, vencendo de lavada no bolso para quem estuda digitando."
+    },
+    {
+      "sceneId": "verdict",
+      "startSec": 48,
+      "endSec": 58,
+      "narrationText": "Veredito: se escrita manual e desenho são prioridade, vá no S9 FE. Se o foco é ler PDFs, ver videoaulas e multitarefa leve, o Tab A9+ é a escolha racional imbatível.",
+      "spokenText": "Veredito: se escrita manual e desenho são prioridade, vá no Esse Nove Éfe É. Se o foco é ler PDFs, ver videoaulas e multitarefa leve, o Tab Á Nove Mais é a escolha racional imbatível."
+    }
+  ],
+  "platformEndings": {
+    "instagram": {
+      "narrationText": "Comente DUELO09 aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!",
+      "spokenText": "Comente DUELO zero nove aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!"
+    },
+    "tiktokShorts": {
+      "narrationText": "Links confiáveis no link do perfil pelo código #009! Você prefere caneta ativa ou economizar metade do valor?",
+      "spokenText": "Links confiáveis no link do perfil pelo código número zero zero nove! Você prefere caneta ativa ou economizar metade do valor?"
+    }
+  }
+}
