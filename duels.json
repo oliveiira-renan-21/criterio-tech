@@ -1,1451 +1,1451 @@
 [
-  {
-    "duelCode": "#009",
-    "commentTriggerKeyword": "DUELO09",
-    "category": "TABLETS PARA ESTUDO, PRODUTIVIDADE E LEITURA",
-    "hookQuestion": "Precisa da S Pen do Tab S9 FE ou o Tab A9+ entrega quase tudo pela metade do preço?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-25T13:44:06.654Z",
-    "technicalWinner": {
-      "id": "samsung-galaxy-tab-s9-fe",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Samsung Galaxy Tab S9 FE 128GB Wi-Fi com S Pen",
-      "shortName": "Galaxy Tab S9 FE",
-      "brand": "Samsung",
-      "priceBRL": 2499,
-      "originalPriceBRL": 3499,
-      "rating": 4.9,
-      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6557/6557719cv23d.jpg",
-      "tagline": "Referência absoluta para estudantes com S Pen inclusa, proteção IP68 contra água e modo DeX fluido.",
-      "highlights": [
-        {
-          "label": "Tela e Fluidez",
-          "value": "10.9\" 90Hz WUXGA+"
-        },
-        {
-          "label": "Caneta e Notas",
-          "value": "S Pen Ativa Inclusa"
-        },
-        {
-          "label": "Processamento",
-          "value": "Exynos 1380 6GB RAM"
-        }
-      ],
-      "verdictSummary": "Essencial para estudantes que escrevem à mão, desenham e buscam durabilidade extrema com certificação IP68.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+S9+FE+128GB&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-s9-fe-128gb?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6557/6557707cv21d.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+S9+FE+128GB&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-s9-fe-128gb?matt_tool=70133169&matt_word=rj20261108182619164"
+    {
+        "duelCode":  "#009",
+        "commentTriggerKeyword":  "DUELO09",
+        "category":  "TABLETS PARA ESTUDO, PRODUTIVIDADE E LEITURA",
+        "hookQuestion":  "Precisa da S Pen do Tab S9 FE ou o Tab A9+ entrega quase tudo pela metade do preço?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-25T13:44:06.654Z",
+        "technicalWinner":  {
+                                "id":  "samsung-galaxy-tab-s9-fe",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Samsung Galaxy Tab S9 FE 128GB Wi-Fi com S Pen",
+                                "shortName":  "Galaxy Tab S9 FE",
+                                "brand":  "Samsung",
+                                "priceBRL":  2499,
+                                "originalPriceBRL":  3499,
+                                "rating":  4.9,
+                                "imageUrl":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6557/6557719cv23d.jpg",
+                                "tagline":  "Referência absoluta para estudantes com S Pen inclusa, proteção IP68 contra água e modo DeX fluido.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Tela e Fluidez",
+                                                       "value":  "10.9\" 90Hz WUXGA+"
+                                                   },
+                                                   {
+                                                       "label":  "Caneta e Notas",
+                                                       "value":  "S Pen Ativa Inclusa"
+                                                   },
+                                                   {
+                                                       "label":  "Processamento",
+                                                       "value":  "Exynos 1380 6GB RAM"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Essencial para estudantes que escrevem à mão, desenham e buscam durabilidade extrema com certificação IP68.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0156PZOBI?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/tablet-samsung-galaxy-tab-s9-fe-wifi-128gb-6gb-ram-tela-imersiva-de-109-90hz-camera-traseira-de-8mp-camera-frontal-de-12mp-ultra-wide-ip68-android-14/p/MLB29064092?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6557/6557707cv21d.jpg",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0156PZOBI?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/tablet-samsung-galaxy-tab-s9-fe-wifi-128gb-6gb-ram-tela-imersiva-de-109-90hz-camera-traseira-de-8mp-camera-frontal-de-12mp-ultra-wide-ip68-android-14/p/MLB29064092?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "samsung-galaxy-tab-a9-plus",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Samsung Galaxy Tab A9+ 64GB Wi-Fi 11 Polegadas",
+                               "shortName":  "Galaxy Tab A9+",
+                               "brand":  "Samsung",
+                               "priceBRL":  1149,
+                               "originalPriceBRL":  1599,
+                               "rating":  4.8,
+                               "imageUrl":  "https://http2.mlstatic.com/D_NQ_NP_982402-MLB82612710591_022025-O.webp",
+                               "tagline":  "Campeão de custo-benefício com tela fluida de 90Hz, 4 alto-falantes e modo DeX custando menos da metade.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Tela e Fluidez",
+                                                      "value":  "11.0\" 90Hz WUXGA"
+                                                  },
+                                                  {
+                                                      "label":  "Caneta e Notas",
+                                                      "value":  "Apenas Capacitiva"
+                                                  },
+                                                  {
+                                                      "label":  "Processamento",
+                                                      "value":  "Snapdragon 695 4GB"
+                                                  }
+                                              ],
+                               "verdictSummary":  "Ideal para leitura de PDFs, videoaulas e multitarefa leve com teclado sem gastar uma fortuna.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0CK817PBF?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-2024-smx210nzaazto/up/MLBU4143088575?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6566/6566195_sd.jpg",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0CK817PBF?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-2024-smx210nzaazto/up/MLBU4143088575?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Escrita e Caneta",
+                               "winnerScore":  97,
+                               "rationalScore":  55,
+                               "winnerDisplay":  "S Pen 4096 Níveis",
+                               "rationalDisplay":  "Sem Caneta Ativa",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Multitarefa e DeX",
+                               "winnerScore":  92,
+                               "rationalScore":  82,
+                               "winnerDisplay":  "DeX + 6GB RAM",
+                               "rationalDisplay":  "DeX + 4GB RAM",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Tela e Multimídia",
+                               "winnerScore":  90,
+                               "rationalScore":  90,
+                               "winnerDisplay":  "90Hz Som Duplo AKG",
+                               "rationalDisplay":  "90Hz 4 Alto-falantes",
+                               "advantage":  "TIE"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  65,
+                               "rationalScore":  96,
+                               "winnerDisplay":  "R$ 2.499",
+                               "rationalDisplay":  "R$ 1.149",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  12.28,
+                           "narrationText":  "Quer um tablet para estudar e produzir sem errar? De um lado, o Galaxy Tab S9 FE, referência com caneta. Do outro, o Galaxy Tab A9+, líder em custo-benefício. Qual vale o seu dinheiro?",
+                           "spokenText":  "Quer um tablet para estudar e produzir sem errar? De um lado, o Galaxy Tab Esse Nove Éfe É, referência com caneta. Do outro, o Galaxy Tab Á Nove Mais, líder em custo-benefício. Qual vale o seu dinheiro?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  12.28,
+                           "endSec":  27.27,
+                           "narrationText":  "O Tab S9 FE custa R$ 2.499 e é o campeão técnico: tela de 10,9 polegadas em 90Hz, proteção IP68 contra água e a S Pen inclusa com rejeição de palma perfeita para anotações.",
+                           "spokenText":  "O Tab Esse Nove Éfe É custa dois mil quatrocentos e noventa e nove reais e é o campeão técnico: tela de dez vírgula nove polegadas em noventa hertz, proteção Í Pê meia oito contra água e a Esse Pen inclusa com rejeição de palma perfeita para anotações."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  27.27,
+                           "endSec":  39.86,
+                           "narrationText":  "O Tab A9+ custa só R$ 1.149. Ele entrega tela de 11 polegadas em 90Hz, quatro alto-falantes Dolby Atmos e suporte ao Samsung DeX para multitarefa, custando menos da metade.",
+                           "spokenText":  "O Tab Á Nove Mais custa só mil cento e quarenta e nove reais. Ele entrega tela de onze polegadas em noventa hertz, quatro alto-falantes Dolby Atmos e suporte ao Samsung DeX para multitarefa, custando menos da metade."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  39.86,
+                           "endSec":  49.75,
+                           "narrationText":  "Nos testes: o S9 FE domina em escrita e resistência física. O A9+ empata em consumo de aulas e leitura, vencendo de lavada no bolso para quem estuda digitando.",
+                           "spokenText":  "Nos testes: o Esse Nove Éfe É domina em escrita e resistência física. O Á Nove Mais empata em consumo de aulas e leitura, vencendo de lavada no bolso para quem estuda digitando."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  49.75,
+                           "endSec":  61.27,
+                           "narrationText":  "Veredito: se escrita manual e desenho são prioridade, vá no S9 FE. Se o foco é ler PDFs, ver videoaulas e multitarefa leve, o Tab A9+ é a escolha racional imbatível.",
+                           "spokenText":  "Veredito: se escrita manual e desenho são prioridade, vá no Esse Nove Éfe É. Se o foco é ler PDFs, ver videoaulas e multitarefa leve, o Tab Á Nove Mais é a escolha racional imbatível."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO09 aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!",
+                                                  "spokenText":  "Comente DUELO zero nove aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Links confiáveis no link do perfil pelo código #009! Você prefere caneta ativa ou economizar metade do valor?",
+                                                     "spokenText":  "Links confiáveis no link do perfil pelo código número zero zero nove! Você prefere caneta ativa ou economizar metade do valor?"
+                                                 }
+                            }
     },
-    "rationalChoice": {
-      "id": "samsung-galaxy-tab-a9-plus",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Samsung Galaxy Tab A9+ 64GB Wi-Fi 11 Polegadas",
-      "shortName": "Galaxy Tab A9+",
-      "brand": "Samsung",
-      "priceBRL": 1149,
-      "originalPriceBRL": 1599,
-      "rating": 4.8,
-      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_982402-MLB82612710591_022025-O.webp",
-      "tagline": "Campeão de custo-benefício com tela fluida de 90Hz, 4 alto-falantes e modo DeX custando menos da metade.",
-      "highlights": [
-        {
-          "label": "Tela e Fluidez",
-          "value": "11.0\" 90Hz WUXGA"
-        },
-        {
-          "label": "Caneta e Notas",
-          "value": "Apenas Capacitiva"
-        },
-        {
-          "label": "Processamento",
-          "value": "Snapdragon 695 4GB"
-        }
-      ],
-      "verdictSummary": "Ideal para leitura de PDFs, videoaulas e multitarefa leve com teclado sem gastar uma fortuna.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+A9+Plus+64GB&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-64gb?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6566/6566195_sd.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+Galaxy+Tab+A9+Plus+64GB&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-galaxy-tab-a9-plus-64gb?matt_tool=70133169&matt_word=rj20261108182619164"
+    {
+        "duelCode":  "#008",
+        "commentTriggerKeyword":  "DUELO08",
+        "category":  "SOUNDBARS PARA TV 4K COM SUBWOOFER SEM FIO",
+        "hookQuestion":  "Soundbar para TV 4K: Vale investir no Dolby Atmos real ou a campeã de custo-benefício já resolve?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-24T14:14:13.898Z",
+        "technicalWinner":  {
+                                "id":  "samsung-hw-q600c",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Soundbar Samsung HW-Q600C 3.1.2 Canais com Dolby Atmos e Subwoofer Sem Fio",
+                                "shortName":  "Samsung HW-Q600C",
+                                "brand":  "Samsung",
+                                "priceBRL":  1699,
+                                "originalPriceBRL":  2499,
+                                "rating":  4.9,
+                                "imageUrl":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535893cv11d.jpg",
+                                "tagline":  "Áudio cinematográfico 3.1.2 canais com Dolby Atmos real e canais de teto para imersão total na sala.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Canais de Áudio",
+                                                       "value":  "3.1.2 Ch Atmos Real"
+                                                   },
+                                                   {
+                                                       "label":  "Potência RMS",
+                                                       "value":  "360W RMS Total"
+                                                   },
+                                                   {
+                                                       "label":  "Subwoofer Físico",
+                                                       "value":  "6.5 Pol. Sem Fio"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Essencial para quem exige som 3D imersivo de cinema, canal central nítido e canais de teto na TV.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0H2N8RJWX?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/barra-de-som-samsung-q600c-soundbar-subwoofer-312-ch-cor-preta/p/MLB28291883?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/b6eef39c-1222-4d72-82c0-e5fa69239d8a.jpg",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0H2N8RJWX?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/barra-de-som-samsung-q600c-soundbar-subwoofer-312-ch-cor-preta/p/MLB28291883?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "jbl-cinema-sb180",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Soundbar JBL Cinema SB180 2.1 Canais 110W RMS com Subwoofer Sem Fio",
+                               "shortName":  "JBL Cinema SB180",
+                               "brand":  "JBL",
+                               "priceBRL":  839,
+                               "originalPriceBRL":  1099,
+                               "rating":  4.8,
+                               "imageUrl":  "https://m.media-amazon.com/images/I/41zdVy2G3iL._AC_.jpg",
+                               "tagline":  "Graves potentes com subwoofer sem fio de 6,5 polegadas e conexão HDMI ARC pelo menor custo do mercado.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Canais de Áudio",
+                                                      "value":  "2.1 Ch Dolby Digital"
+                                                  },
+                                                  {
+                                                      "label":  "Potência RMS",
+                                                      "value":  "110W RMS Total"
+                                                  },
+                                                  {
+                                                      "label":  "Subwoofer Físico",
+                                                      "value":  "6.5 Pol. Sem Fio"
+                                                  }
+                                              ],
+                               "verdictSummary":  "Perfeito para quem quer graves fortes de cinema gastando metade do preço com subwoofer dedicado.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0FZL6ZZRD?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/soundbar-jbl-cinema-sb180-21-canais-110w-rms-subwoofer-sem-fio-de-65-bluetooth-hdmi-arc-e-modos-cinema-musica-e-noticias-preta/p/MLB65549139?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_741790-MLB74246209575_012024-O.webp",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0FZL6ZZRD?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/soundbar-jbl-cinema-sb180-21-canais-110w-rms-subwoofer-sem-fio-de-65-bluetooth-hdmi-arc-e-modos-cinema-musica-e-noticias-preta/p/MLB65549139?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Imersão Espacial",
+                               "winnerScore":  96,
+                               "rationalScore":  81,
+                               "winnerDisplay":  "Dolby Atmos 3.1.2",
+                               "rationalDisplay":  "Dolby Digital 2.1",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Clareza de Vozes",
+                               "winnerScore":  95,
+                               "rationalScore":  84,
+                               "winnerDisplay":  "Canal Central Físico",
+                               "rationalDisplay":  "Equalização Estéreo",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Pressão de Graves",
+                               "winnerScore":  93,
+                               "rationalScore":  89,
+                               "winnerDisplay":  "Sub 6.5 Pol. 160W",
+                               "rationalDisplay":  "Sub 6.5 Pol. 58W",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  72,
+                               "rationalScore":  97,
+                               "winnerDisplay":  "R$ 1.699",
+                               "rationalDisplay":  "R$ 839",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  8.9,
+                           "narrationText":  "Quer um som de cinema na sua TV 4K sem gastar à toa? Vale mais pagar caro no Dolby Atmos ou economizar numa soundbar consagrada?",
+                           "spokenText":  "Quer um som de cinema na sua tevê quatro cá sem gastar à toa? Vale mais pagar caro no Dolby Atmos ou economizar numa soundbar consagrada?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  8.9,
+                           "endSec":  22.9,
+                           "narrationText":  "A referência é a Samsung HW-Q600C. Por R$ 1.699, ela entrega 3.1.2 canais reais, canais superiores de teto e 360W com graves brutais.",
+                           "spokenText":  "A referência é a Samsung agá dabliu que seiscentos cê. Por mil seiscentos e noventa e nove reais, ela entrega três ponto um ponto dois canais reais, canais superiores de teto e trezentos e sessenta watts com graves brutais."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  22.9,
+                           "endSec":  35.95,
+                           "narrationText":  "Já a escolha racional é a JBL Cinema SB180, por R$ 839. Ela traz subwoofer sem fio de 6.5 polegadas, HDMI ARC e graves marcantes da JBL.",
+                           "spokenText":  "Já a escolha racional é a jota bê éle Cinema ésse bê cento e oitenta, por oitocentos e trinta e nove reais. Ela traz subwoofer sem fio de seis polegadas e meia, agá dê éme i arque e os graves marcantes da jota bê éle."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  35.95,
+                           "endSec":  46.85,
+                           "narrationText":  "Em imersão e diálogos, a Samsung domina pelo canal central e som vertical. Mas em graves puros para sala média, a JBL entrega quase o mesmo por metade do preço.",
+                           "spokenText":  "Em imersão e diálogos, a Samsung domina pelo canal central e pelo som vertical. Mas em impacto de graves para sala média, a jota bê éle entrega quase o mesmo por metade do preço."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  46.85,
+                           "endSec":  57.5,
+                           "narrationText":  "Se você quer a experiência máxima de cinema tridimensional, vá de Q600C. Se você quer graves potentes gastando o mínimo, a SB180 é a compra mais inteligente.",
+                           "spokenText":  "Se você quer a experiência máxima de cinema tridimensional, vá de que seiscentos cê. Se você quer graves potentes gastando o mínimo, a ésse bê cento e oitenta é a compra mais inteligente."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO08 aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!",
+                                                  "spokenText":  "Comente duelo zero zero oito aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu direct!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Os links com desconto estão na bio no Duelo #008! Qual dos dois você colocaria na sua sala?",
+                                                     "spokenText":  "Os links com desconto estão no link da bio no duelo número zero zero oito! Qual das duas você colocaria na sua sala?"
+                                                 }
+                            }
     },
-    "benchmarks": [
-      {
-        "criterion": "Escrita e Caneta",
-        "winnerScore": 97,
-        "rationalScore": 55,
-        "winnerDisplay": "S Pen 4096 Níveis",
-        "rationalDisplay": "Sem Caneta Ativa",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Multitarefa e DeX",
-        "winnerScore": 92,
-        "rationalScore": 82,
-        "winnerDisplay": "DeX + 6GB RAM",
-        "rationalDisplay": "DeX + 4GB RAM",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Tela e Multimídia",
-        "winnerScore": 90,
-        "rationalScore": 90,
-        "winnerDisplay": "90Hz Som Duplo AKG",
-        "rationalDisplay": "90Hz 4 Alto-falantes",
-        "advantage": "TIE"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 65,
-        "rationalScore": 96,
-        "winnerDisplay": "R$ 2.499",
-        "rationalDisplay": "R$ 1.149",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 12.28,
-        "narrationText": "Quer um tablet para estudar e produzir sem errar? De um lado, o Galaxy Tab S9 FE, referência com caneta. Do outro, o Galaxy Tab A9+, líder em custo-benefício. Qual vale o seu dinheiro?",
-        "spokenText": "Quer um tablet para estudar e produzir sem errar? De um lado, o Galaxy Tab Esse Nove Éfe É, referência com caneta. Do outro, o Galaxy Tab Á Nove Mais, líder em custo-benefício. Qual vale o seu dinheiro?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 12.28,
-        "endSec": 27.27,
-        "narrationText": "O Tab S9 FE custa R$ 2.499 e é o campeão técnico: tela de 10,9 polegadas em 90Hz, proteção IP68 contra água e a S Pen inclusa com rejeição de palma perfeita para anotações.",
-        "spokenText": "O Tab Esse Nove Éfe É custa dois mil quatrocentos e noventa e nove reais e é o campeão técnico: tela de dez vírgula nove polegadas em noventa hertz, proteção Í Pê meia oito contra água e a Esse Pen inclusa com rejeição de palma perfeita para anotações."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 27.27,
-        "endSec": 39.86,
-        "narrationText": "O Tab A9+ custa só R$ 1.149. Ele entrega tela de 11 polegadas em 90Hz, quatro alto-falantes Dolby Atmos e suporte ao Samsung DeX para multitarefa, custando menos da metade.",
-        "spokenText": "O Tab Á Nove Mais custa só mil cento e quarenta e nove reais. Ele entrega tela de onze polegadas em noventa hertz, quatro alto-falantes Dolby Atmos e suporte ao Samsung DeX para multitarefa, custando menos da metade."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 39.86,
-        "endSec": 49.75,
-        "narrationText": "Nos testes: o S9 FE domina em escrita e resistência física. O A9+ empata em consumo de aulas e leitura, vencendo de lavada no bolso para quem estuda digitando.",
-        "spokenText": "Nos testes: o Esse Nove Éfe É domina em escrita e resistência física. O Á Nove Mais empata em consumo de aulas e leitura, vencendo de lavada no bolso para quem estuda digitando."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 49.75,
-        "endSec": 61.27,
-        "narrationText": "Veredito: se escrita manual e desenho são prioridade, vá no S9 FE. Se o foco é ler PDFs, ver videoaulas e multitarefa leve, o Tab A9+ é a escolha racional imbatível.",
-        "spokenText": "Veredito: se escrita manual e desenho são prioridade, vá no Esse Nove Éfe É. Se o foco é ler PDFs, ver videoaulas e multitarefa leve, o Tab Á Nove Mais é a escolha racional imbatível."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO09 aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!",
-        "spokenText": "Comente DUELO zero nove aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Links confiáveis no link do perfil pelo código #009! Você prefere caneta ativa ou economizar metade do valor?",
-        "spokenText": "Links confiáveis no link do perfil pelo código número zero zero nove! Você prefere caneta ativa ou economizar metade do valor?"
-      }
+    {
+        "duelCode":  "#007",
+        "commentTriggerKeyword":  "DUELO07",
+        "category":  "ROBÔS ASPIRADORES INTELIGENTES COM MAPEAMENTO LASER",
+        "hookQuestion":  "Roborock Q7 Max ou Xiaomi Robot Vacuum S20: qual robô com laser vale a sua grana?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-23T11:35:40.512Z",
+        "technicalWinner":  {
+                                "id":  "roborock-q7-max",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Roborock Q7 Max Aspirador Robô Inteligente com Mapeamento LiDAR",
+                                "shortName":  "Roborock Q7 Max",
+                                "brand":  "Roborock",
+                                "priceBRL":  2699,
+                                "originalPriceBRL":  3499,
+                                "rating":  4.9,
+                                "imageUrl":  "https://m.media-amazon.com/images/I/61rblNG4SdL._SL1500_.jpg",
+                                "tagline":  "Referência global em navegação laser precisa, escova emborrachada antiemaranhado e bateria massiva de longa duração.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Mapeamento",
+                                                       "value":  "LiDAR PreciSense 3D"
+                                                   },
+                                                   {
+                                                       "label":  "Poder de Sucção",
+                                                       "value":  "4200 Pa Constante"
+                                                   },
+                                                   {
+                                                       "label":  "Bateria / Área",
+                                                       "value":  "5200 mAh até 300m²"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Essencial para sobrados grandes e lares com muitos pets que soltam pelos longos diariamente.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0DWMVY8CZ?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/robo-aspirador-de-po-roborock-q7-max-4200-pa-cor-branco/p/MLB27577471?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://m.media-amazon.com/images/I/71rLTJe97vL._SL1500_.jpg",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0DWMVY8CZ?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/robo-aspirador-de-po-roborock-q7-max-4200-pa-cor-branco/p/MLB27577471?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "xiaomi-robot-vacuum-s20",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Xiaomi Robot Vacuum S20 Robô Aspirador e Passa Pano com Laser LDS",
+                               "shortName":  "Xiaomi Vacuum S20",
+                               "brand":  "Xiaomi",
+                               "priceBRL":  1399,
+                               "originalPriceBRL":  1899,
+                               "rating":  4.8,
+                               "imageUrl":  "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/61ktQGkyGVL._AC_SL1500_.jpg",
+                               "tagline":  "Mapeamento LDS a laser avançado e excelente poder de sucção, entregando a faxina completa pela metade do investimento.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Mapeamento",
+                                                      "value":  "Sensor Laser LDS"
+                                                  },
+                                                  {
+                                                      "label":  "Poder de Sucção",
+                                                      "value":  "5000 Pa Eficiente"
+                                                  },
+                                                  {
+                                                      "label":  "Bateria / Área",
+                                                      "value":  "3200 mAh até 140m²"
+                                                  }
+                                              ],
+                               "verdictSummary":  "A melhor escolha racional para quem quer automação a laser precisa sem gastar uma fortuna.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0FX5MSQFH?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/robo-aspirador-xiaomi-vacuum-s20-preto/p/MLB39940291?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://m.media-amazon.com/images/I/61ZviZn9JwL._AC_.jpg",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0FX5MSQFH?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/robo-aspirador-xiaomi-vacuum-s20-preto/p/MLB39940291?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Navegação e Rotas",
+                               "winnerScore":  98,
+                               "rationalScore":  88,
+                               "winnerDisplay":  "PreciSense 3D",
+                               "rationalDisplay":  "LDS 360 Graus",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Autonomia de Bateria",
+                               "winnerScore":  96,
+                               "rationalScore":  82,
+                               "winnerDisplay":  "180 min (5200mAh)",
+                               "rationalDisplay":  "130 min (3200mAh)",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Poder de Aspiração",
+                               "winnerScore":  92,
+                               "rationalScore":  92,
+                               "winnerDisplay":  "4200 Pa Real",
+                               "rationalDisplay":  "5000 Pa Turbo",
+                               "advantage":  "TIE"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  65,
+                               "rationalScore":  97,
+                               "winnerDisplay":  "Premium",
+                               "rationalDisplay":  "Imbatível",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  9.8,
+                           "narrationText":  "Quer um robô aspirador inteligente com sensor laser para não bater em nada, mas não sabe se gasta R$ 1.399 ou R$ 2.699?",
+                           "spokenText":  "Quer um robô aspirador inteligente com sensor laser para não bater em nada, mas não sabe se gasta mil trezentos e noventa e nove ou dois mil seiscentos e noventa e nove reais?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  9.8,
+                           "endSec":  23.75,
+                           "narrationText":  "O vencedor técnico é o Roborock Q7 Max. Referência em mapeamento LiDAR 3D, ele tem sucção de 4200 Pa, escova de borracha anti-emaranhado e bateria gigante de 5200 mAh.",
+                           "spokenText":  "O vencedor técnico é o Roborock Q sete Max. Referência em mapeamento LiDAR três dê, ele tem sucção de quatro mil e duzentos pascais, escova de borracha anti-emaranhado e bateria gigante de cinco mil e duzentos miliamperes-hora."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  23.75,
+                           "endSec":  36.92,
+                           "narrationText":  "A escolha racional é o Xiaomi Robot Vacuum S20. Por R$ 1.399, entrega mapeamento LDS a laser, 5000 Pa de potência e controle preciso de água pelo app Mi Home.",
+                           "spokenText":  "A escolha racional é o Xiaomi Robot Vacuum Esse vinte. Por mil trezentos e noventa e nove reais, entrega mapeamento LDS a laser, cinco mil pascais de potência e controle preciso de água pelo aplicativo Mi Home."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  36.92,
+                           "endSec":  46.92,
+                           "narrationText":  "Nos testes: o Q7 Max domina em autonomia e limpeza de pelos sem travar a escova. O S20 empata na agilidade da rota e vence com folga no custo por metro quadrado.",
+                           "spokenText":  "Nos testes: o Q sete Max domina em autonomia e limpeza de pelos sem travar a escova. O Esse vinte empata na agilidade da rota e vence com folga no custo por metro quadrado."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  46.92,
+                           "endSec":  57.92,
+                           "narrationText":  "Se tem casa grande ou pets que soltam muito pelo, vá no Q7 Max. Para apartamentos e sobrados padrão, o Xiaomi S20 entrega noventa por cento da experiência pela metade do preço.",
+                           "spokenText":  "Se tem casa grande ou pets que soltam muito pelo, vá no Q sete Max. Para apartamentos e sobrados padrão, o Xiaomi Esse vinte entrega noventa por cento da experiência pela metade do preço."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO07 aqui embaixo que eu te envio os links oficiais com o menor preço no seu Direct!",
+                                                  "spokenText":  "Comente DUELO zero sete aqui embaixo que eu te envio os links oficiais com o menor preço no seu Direct!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Links seguros no perfil pelo Duelo #007! Qual robô você colocaria na sua sala hoje?",
+                                                     "spokenText":  "Links seguros no perfil pelo Duelo número zero zero sete! Qual robô você colocaria na sua sala hoje?"
+                                                 }
+                            }
+    },
+    {
+        "duelCode":  "#006",
+        "commentTriggerKeyword":  "DUELO06",
+        "category":  "SSDS NVME M.2 GEN4 DE 1TB",
+        "hookQuestion":  "SSD Gen4 de 1TB: topo de linha ou custo-benefício para PC e PS5?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-21T12:59:29.387Z",
+        "technicalWinner":  {
+                                "id":  "wd-black-sn850x-1tb",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "WD_BLACK SN850X NVMe M.2 SSD 1TB PCIe Gen4",
+                                "shortName":  "WD Black SN850X 1TB",
+                                "brand":  "Western Digital",
+                                "priceBRL":  849,
+                                "originalPriceBRL":  1099,
+                                "rating":  4.9,
+                                "imageUrl":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/0d51b1ed-8987-4f16-a3fc-19cc04d36abe.png",
+                                "tagline":  "Velocidade extrema de 7300 MB/s com DRAM dedicada e latência mínima para PC gamer de elite e PS5.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Taxa de Leitura",
+                                                       "value":  "Até 7.300 MB/s"
+                                                   },
+                                                   {
+                                                       "label":  "Memória Cache",
+                                                       "value":  "1GB DRAM DDR4"
+                                                   },
+                                                   {
+                                                       "label":  "Garantia / TBW",
+                                                       "value":  "5 Anos / 600 TBW"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Para quem exige velocidade máxima sustentada, edição pesada em 4K e zero engasgos em transferências.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0B7CKVCCV?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/disco-ssd-wdblack-sn850x-m2-2280-nvme-pcie-gen4-1-tb/p/MLB2059165745?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://media.karousell.com/media/photos/products/2026/10/31/wd_black_sn850x_nvme_ssd_1tb_g_1793469543_8f640e5e_thumbnail.jpg",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0B7CKVCCV?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/disco-ssd-wdblack-sn850x-m2-2280-nvme-pcie-gen4-1-tb/p/MLB2059165745?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "kingston-nv3-1tb",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Kingston NV3 M.2 2280 NVMe SSD 1TB PCIe 4.0",
+                               "shortName":  "Kingston NV3 1TB",
+                               "brand":  "Kingston",
+                               "priceBRL":  439,
+                               "originalPriceBRL":  549,
+                               "rating":  4.7,
+                               "imageUrl":  "https://m.media-amazon.com/images/I/71c9b+3tKXL._AC_SL1500_.jpg",
+                               "tagline":  "Desempenho Gen4 de 6000 MB/s que atende aos requisitos do PS5 custando metade dos modelos topo de linha.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Taxa de Leitura",
+                                                      "value":  "Até 6.000 MB/s"
+                                                  },
+                                                  {
+                                                      "label":  "Memória Cache",
+                                                      "value":  "DRAM-less com HMB"
+                                                  },
+                                                  {
+                                                      "label":  "Garantia / TBW",
+                                                      "value":  "3 Anos / 320 TBW"
+                                                  }
+                                              ],
+                               "verdictSummary":  "Para quem quer expandir o espaço do PS5 ou do PC gamer gastando o mínimo possível com ótima performance.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0DBR3DZWG?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/ssd-kingston-nv3-de-1-tb-m2-pcie40-nvme-leitura-6000-mb/p/MLB2058578787?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://m.media-amazon.com/images/I/71hRCqiIY5L._AC_SL1500_.jpg",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0DBR3DZWG?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/ssd-kingston-nv3-de-1-tb-m2-pcie40-nvme-leitura-6000-mb/p/MLB2058578787?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Leitura Sequencial",
+                               "winnerScore":  98,
+                               "rationalScore":  81,
+                               "winnerDisplay":  "7.300 MB/s",
+                               "rationalDisplay":  "6.000 MB/s",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Gravação Contínua",
+                               "winnerScore":  96,
+                               "rationalScore":  75,
+                               "winnerDisplay":  "DRAM Dedicada",
+                               "rationalDisplay":  "Sem DRAM (HMB)",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Loading no PS5",
+                               "winnerScore":  94,
+                               "rationalScore":  92,
+                               "winnerDisplay":  "6,8 segundos",
+                               "rationalDisplay":  "7,1 segundos",
+                               "advantage":  "TIE"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  60,
+                               "rationalScore":  97,
+                               "winnerDisplay":  "R$ 0,85/GB",
+                               "rationalDisplay":  "R$ 0,44/GB",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  9.75,
+                           "narrationText":  "SSD Gen4 de 1TB para PC ou PS5: vale pagar o dobro no modelo mais rápido do mercado ou o básico já entrega tudo nos jogos?",
+                           "spokenText":  "SSD de quarta geração com um terabyte para PC ou PlayStation cinco: vale pagar o dobro no modelo mais rápido do mercado ou o básico já entrega tudo nos jogos?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  9.75,
+                           "endSec":  24.3,
+                           "narrationText":  "O vencedor técnico é o WD Black SN850X de R$ 849. Ele bate 7.300 MB/s de leitura, tem cache DRAM dedicado e não perde desempenho em downloads pesados.",
+                           "spokenText":  "O vencedor técnico é o Western Digital Black Esse Ene oitocentos e cinquenta Xis de oitocentos e quarenta e nove reais. Ele bate sete mil e trezentos megabytes por segundo de leitura, tem cache de memória dedicada e não perde desempenho em downloads pesados."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  24.3,
+                           "endSec":  35.77,
+                           "narrationText":  "A escolha racional é o Kingston NV3 por R$ 439. Ele alcança 6.000 MB/s, supera a exigência da Sony para o PS5 e custa metade do preço.",
+                           "spokenText":  "A escolha racional é o Kingston Ene Vê três por quatrocentos e trinta e nove reais. Ele alcança seis mil megabytes por segundo, supera a exigência da Sony para o PlayStation cinco e custa metade do preço."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  35.77,
+                           "endSec":  45.63,
+                           "narrationText":  "Nos benchmarks, o SN850X vence em velocidade bruta e gravação contínua. Só que no loading real dos jogos, a diferença é de menos de 1 segundo.",
+                           "spokenText":  "Nos testes práticos, o Esse Ene oitocentos e cinquenta Xis vence em velocidade bruta e gravação contínua. Só que no carregamento real dos jogos, a diferença é de menos de um segundo."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  45.63,
+                           "endSec":  57.38,
+                           "narrationText":  "Veredito: se você edita vídeos em 4K e quer o limite técnico, vá de SN850X. Para expandir o PS5 ou jogar no PC sem gastar muito, o NV3 é a compra inteligente.",
+                           "spokenText":  "Veredito: se você edita vídeos em quatro K e quer o limite técnico, vá de Esse Ene oitocentos e cinquenta Xis. Para expandir o PlayStation cinco ou jogar no PC sem gastar muito, o Ene Vê três é a compra inteligente."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO06 aqui embaixo que eu te envio os links oficiais com o menor preço verificado no Direct!",
+                                                  "spokenText":  "Comente DUELO zero seis aqui embaixo que eu te envio os links oficiais com o menor preço verificado no Direct!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Os links confiáveis estão no link da bio no Duelo 006! Você pagaria pelo topo de linha ou iria no custo-benefício?",
+                                                     "spokenText":  "Os links confiáveis estão no link da bio no Duelo zero zero seis! Você pagaria pelo topo de linha ou iria no custo-benefício?"
+                                                 }
+                            }
+    },
+    {
+        "duelCode":  "#005",
+        "commentTriggerKeyword":  "DUELO05",
+        "category":  "TECLADOS MECÂNICOS SEM FIO",
+        "hookQuestion":  "Teclado gamer de R$ 1.199 ou R$ 389: qual vale o seu investimento?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-20T19:31:50.776Z",
+        "technicalWinner":  {
+                                "id":  "logitech-g915-tkl",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Teclado Mecânico Gamer Sem Fio Logitech G915 TKL LIGHTSPEED",
+                                "shortName":  "Logitech G915 TKL",
+                                "brand":  "Logitech G",
+                                "priceBRL":  1199,
+                                "originalPriceBRL":  1599,
+                                "rating":  4.8,
+                                "imageUrl":  "https://m.media-amazon.com/images/I/61VvvVl6VCL._AC_.jpg",
+                                "tagline":  "Chassi ultrafino em alumínio escovado, conexão LIGHTSPEED de 1ms e teclas mecânicas de perfil baixo com alta precisão.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Construção",
+                                                       "value":  "Alumínio Escovado"
+                                                   },
+                                                   {
+                                                       "label":  "Conectividade",
+                                                       "value":  "LIGHTSPEED e BT"
+                                                   },
+                                                   {
+                                                       "label":  "Switches e Som",
+                                                       "value":  "GL Baixo Perfil"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Ideal para quem busca formato ultra-slim, acabamento em metal nobre e resposta sem fio competitiva de nível profissional.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0DB1X3LLT?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/teclado-mecanico-gamer-sem-fio-logitech-g915-x-tkl-preto/p/MLB43112172?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ce4553b8-80c4-4777-a4b7-76d04042beb1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0DB1X3LLT?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/teclado-mecanico-gamer-sem-fio-logitech-g915-x-tkl-preto/p/MLB43112172?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "aula-f75-tri-mode",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Teclado Mecânico Sem Fio Aula F75 Tri-Mode Gasket Mount",
+                               "shortName":  "Aula F75 Tri-Mode",
+                               "brand":  "AULA",
+                               "priceBRL":  389,
+                               "originalPriceBRL":  599,
+                               "rating":  4.9,
+                               "imageUrl":  "https://m.media-amazon.com/images/I/81X+gEilqXL._AC_SL1500_.jpg",
+                               "tagline":  "Estrutura Gasket com isolamento de 5 camadas, switches lubrificados de fábrica e som cremoso por um terço do preço.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Construção",
+                                                      "value":  "Estrutura Gasket"
+                                                  },
+                                                  {
+                                                      "label":  "Conectividade",
+                                                      "value":  "Sem Fio Tri-Mode"
+                                                  },
+                                                  {
+                                                      "label":  "Switches e Som",
+                                                      "value":  "LEOBOG Pre-lubed"
+                                                  }
+                                              ],
+                               "verdictSummary":  "A melhor escolha para quem prioriza digitação macia, acústica impecável e autonomia prolongada gastando muito pouco.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0HLQ1LPP9?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/teclado-mecanico-aula-f75-preto-sem-fio-tri-mode-75-hotswap-rgb-idioma-ingles-us/p/MLB45160559?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_612828-MLU77523943388_072024-O.webp",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0HLQ1LPP9?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/teclado-mecanico-aula-f75-preto-sem-fio-tri-mode-75-hotswap-rgb-idioma-ingles-us/p/MLB45160559?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Latência sem Fio",
+                               "winnerScore":  98,
+                               "rationalScore":  90,
+                               "winnerDisplay":  "1ms LIGHTSPEED",
+                               "rationalDisplay":  "3ms Dongle 2.4G",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Construção Externa",
+                               "winnerScore":  96,
+                               "rationalScore":  86,
+                               "winnerDisplay":  "Liga de Alumínio",
+                               "rationalDisplay":  "Policarbonato PBT",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Autonomia da Bateria",
+                               "winnerScore":  89,
+                               "rationalScore":  89,
+                               "winnerDisplay":  "Até 40h com RGB",
+                               "rationalDisplay":  "Até 40h com RGB",
+                               "advantage":  "TIE"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  58,
+                               "rationalScore":  97,
+                               "winnerDisplay":  "R$ 1.199",
+                               "rationalDisplay":  "R$ 389",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  9.88,
+                           "narrationText":  "Vale a pena gastar R$ 1.199 em um teclado mecânico gamer topo de linha, ou uma opção de R$ 389 já entrega tudo o que você precisa no setup?",
+                           "spokenText":  "Vale a pena gastar mil cento e noventa e nove reais em um teclado mecânico gamer topo de linha, ou uma opção de trezentos e oitenta e nove reais já entrega tudo o que você precisa no setup?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  9.88,
+                           "endSec":  22.63,
+                           "narrationText":  "O Logitech G915 TKL é a referência máxima: chassi ultrafino em alumínio escovado, switches GL de alta durabilidade e conexão sem fio LIGHTSPEED com apenas 1ms de resposta.",
+                           "spokenText":  "O Logitech G novecentos e quinze T K L é a referência máxima: chassi ultrafino em alumínio escovado, switches G L de alta durabilidade e conexão sem fio Lightspeed com apenas um milissegundo de resposta."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  22.63,
+                           "endSec":  35.08,
+                           "narrationText":  "Do outro lado, o Aula F75 chocou o mercado. Ele traz montagem Gasket Mount com cinco camadas de isolamento acústico, switches lubrificados de fábrica e bateria gigante de 4.000 mAh.",
+                           "spokenText":  "Do outro lado, o Aula F setenta e cinco chocou o mercado. Ele traz montagem Gasket Mount com cinco camadas de isolamento acústico, switches lubrificados de fábrica e bateria gigante de quatro mil miliamperes-hora."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  35.08,
+                           "endSec":  48.73,
+                           "narrationText":  "Nos testes, o G915 leva vantagem em latência pura e construção metálica premium. Mas em prazer de digitação, estabilidade e perfil sonoro cremoso, o F75 humilha teclados do triplo do preço.",
+                           "spokenText":  "Nos testes, o G novecentos e quinze leva vantagem em latência pura e construção metálica premium. Mas em prazer de digitação, estabilidade e perfil sonoro cremoso, o F setenta e cinco humilha teclados do triplo do preço."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  48.73,
+                           "endSec":  61.55,
+                           "narrationText":  "Veredito direto: se você exige perfil baixo de metal e software integrado, vá de Logitech. Se quer a melhor sensação acústica e digitação pelo menor investimento, o Aula F75 é a escolha certa.",
+                           "spokenText":  "Veredito direto: se você exige perfil baixo de metal e software integrado, vá de Logitech. Se quer a melhor sensação acústica e digitação pelo menor investimento, o Aula F setenta e cinco é a escolha certa."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO05 aqui embaixo que eu te envio no Direct os links oficiais com o menor preço e frete grátis!",
+                                                  "spokenText":  "Comente DUELO zero cinco aqui embaixo que eu te envio no Direct os links oficiais com o menor preço e frete grátis!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Os links oficiais estão no link da bio buscando pelo Duelo 005. Qual desses dois teclados você colocaria no seu setup hoje?",
+                                                     "spokenText":  "Os links oficiais estão no link da bio buscando pelo Duelo zero zero cinco. Qual desses dois teclados você colocaria no seu setup hoje?"
+                                                 }
+                            }
+    },
+    {
+        "duelCode":  "#004",
+        "commentTriggerKeyword":  "DUELO04",
+        "category":  "MICROFONES USB",
+        "hookQuestion":  "HyperX QuadCast S ou Fifine AM8: qual microfone vale seu dinheiro?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-19T14:01:52.406Z",
+        "technicalWinner":  {
+                                "id":  "hyperx-quadcast-s",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Microfone Gamer HyperX QuadCast S RGB USB",
+                                "shortName":  "HyperX QuadCast S",
+                                "brand":  "HyperX",
+                                "priceBRL":  899,
+                                "originalPriceBRL":  1199,
+                                "rating":  4.8,
+                                "imageUrl":  "https://images.kabum.com.br/produtos/fotos/386859/hyperx-quadcast-s-usb-wht-microphone-519p0aa_1666817448_original.jpg",
+                                "tagline":  "Referência visual e técnica para streamers com quatro padrões de captação e isolamento mecânico de estúdio.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Tipo e Padrão",
+                                                       "value":  "Condensador 4 Modos"
+                                                   },
+                                                   {
+                                                       "label":  "Conexões",
+                                                       "value":  "USB-C e P3 Fone"
+                                                   },
+                                                   {
+                                                       "label":  "Estrutura",
+                                                       "value":  "Shockmount e RGB"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Essencial para criadores que exigem estética de ponta no setup e versatilidade de múltiplos padrões polares.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0DG9X4WHW?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/hyperx-quadcast-s-microfono-de-condensador-usb-rgb-para-microfono/p/MLB2062184722?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_973512-MLA83501901326_042025-O.webp",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0DG9X4WHW?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/hyperx-quadcast-s-microfono-de-condensador-usb-rgb-para-microfono/p/MLB2062184722?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "fifine-ampligame-am8",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Microfone Gamer Fifine AmpliGame AM8 USB e XLR",
+                               "shortName":  "Fifine AM8",
+                               "brand":  "Fifine",
+                               "priceBRL":  299,
+                               "originalPriceBRL":  399,
+                               "rating":  4.8,
+                               "imageUrl":  "https://http2.mlstatic.com/D_NQ_NP_912435-MLA99523947552_122025-O.webp",
+                               "tagline":  "Cápsula dinâmica que elimina ruídos da sala, conexão dupla USB ou XLR e visual moderno por um terço do preço.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Tipo e Padrão",
+                                                      "value":  "Dinâmico Cardioide"
+                                                  },
+                                                  {
+                                                      "label":  "Conexões",
+                                                      "value":  "USB-C e XLR Nativo"
+                                                  },
+                                                  {
+                                                      "label":  "Estrutura",
+                                                      "value":  "Suporte Mesa e RGB"
+                                                  }
+                                              ],
+                               "verdictSummary":  "A melhor compra para quem grava em quarto comum sem tratamento acústico e quer gastar três vezes menos.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0C74JX2JL?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/microfone-dinamico-fifine-am8-para-streaming-e-podcast-com-usb-e-xlr/p/MLB65453832?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_674518-MLU73128537392_122023-O.webp",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0C74JX2JL?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/microfone-dinamico-fifine-am8-para-streaming-e-podcast-com-usb-e-xlr/p/MLB65453832?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Isolamento Acústico",
+                               "winnerScore":  82,
+                               "rationalScore":  95,
+                               "winnerDisplay":  "Sensível",
+                               "rationalDisplay":  "Rejeita Eco",
+                               "advantage":  "RATIONAL"
+                           },
+                           {
+                               "criterion":  "Padrões Polares",
+                               "winnerScore":  98,
+                               "rationalScore":  78,
+                               "winnerDisplay":  "4 Padrões",
+                               "rationalDisplay":  "Cardioide",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Conectividade",
+                               "winnerScore":  82,
+                               "rationalScore":  94,
+                               "winnerDisplay":  "Apenas USB",
+                               "rationalDisplay":  "USB e XLR",
+                               "advantage":  "RATIONAL"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  68,
+                               "rationalScore":  98,
+                               "winnerDisplay":  "R$ 899",
+                               "rationalDisplay":  "R$ 299",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  11.2,
+                           "narrationText":  "Vale a pena pagar R$ 899 no HyperX QuadCast S, ou o Fifine AM8 entrega a mesma qualidade de áudio custando apenas R$ 299?",
+                           "spokenText":  "Vale a pena pagar oitocentos e oitenta e nove reais no HyperX QuadCast S, ou o Fifine AM oito entrega a mesma qualidade de áudio custando apenas duzentos e noventa e nove reais?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  11.2,
+                           "endSec":  23.48,
+                           "narrationText":  "O QuadCast S é o queridinho dos criadores. Ele entrega som cristalino com 4 padrões polares, pop filter interno, shock mount antivibração e a iluminação RGB mais bonita da categoria.",
+                           "spokenText":  "O QuadCast S é o queridinho dos criadores. Ele entrega som cristalino com quatro padrões polares, pop filter interno, shock mount antivibração e a iluminação RGB mais bonita da categoria."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  23.48,
+                           "endSec":  35.63,
+                           "narrationText":  "Mas o Fifine AM8 surpreende pela inteligência de projeto: sua cápsula dinâmica rejeita ruídos do ambiente e barulhos de teclado, além de incluir saída XLR profissional junto com USB.",
+                           "spokenText":  "Mas o Fifine AM oito surpreende pela inteligência de projeto: sua cápsula dinâmica rejeita ruídos do ambiente e barulhos de teclado, além de incluir saída xis éle érre profissional junto com u ésse bê."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  35.63,
+                           "endSec":  46.92,
+                           "narrationText":  "No confronto direto, o HyperX domina em estética e versatilidade para estúdios tratados. Só que o Fifine entrega voz encorpada mesmo em quartos comuns, custando um terço do valor.",
+                           "spokenText":  "No confronto direto, o HyperX domina em estética e versatilidade para estúdios tratados. Só que o Fifine entrega voz encorpada mesmo em quartos comuns, custando um terço do valor."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  46.92,
+                           "endSec":  58.67,
+                           "narrationText":  "Para gravações com várias pessoas e o setup mais chamativo, o QuadCast S é a referência. Para streaming diário e custo-benefício insano, o Fifine AM8 é a escolha racional definitiva.",
+                           "spokenText":  "Para gravações com várias pessoas e o setup mais chamativo, o QuadCast S é a referência. Para streaming diário e custo-benefício insano, o Fifine AM oito é a escolha racional definitiva."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO04 aqui embaixo que eu te envio no Direct os links oficiais com o menor preço garantido!",
+                                                  "spokenText":  "Comente duelo zero quatro aqui embaixo que eu te envio no Direct os links oficiais com o menor preço garantido!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Os links oficiais estão no link da bio pelo Duelo #004. Qual dos dois você colocaria no seu setup hoje?",
+                                                     "spokenText":  "Os links oficiais estão no link da bio pelo duelo número zero quatro. Qual dos dois você colocaria no seu setup hoje?"
+                                                 }
+                            }
+    },
+    {
+        "duelCode":  "#003",
+        "commentTriggerKeyword":  "DUELO03",
+        "category":  "CONTROLES GAMER SEM FIO",
+        "hookQuestion":  "8BitDo Ultimate ou GameSir Nova Lite: qual controle sem drift comprar em 2026?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-18T11:11:50.813Z",
+        "technicalWinner":  {
+                                "id":  "8bitdo-ultimate-sem-fio",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Controle Sem Fio 8BitDo Ultimate com Dock de Carregamento",
+                                "shortName":  "8BitDo Ultimate",
+                                "brand":  "8BitDo",
+                                "priceBRL":  449,
+                                "originalPriceBRL":  599,
+                                "rating":  4.9,
+                                "imageUrl":  "https://http2.mlstatic.com/D_NQ_NP_936189-MLA100025367467_122025-O.webp",
+                                "tagline":  "Construção premium com analógicos magnéticos anti-drift, dock de carregamento rápido e botões traseiros programáveis.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Analógicos",
+                                                       "value":  "Hall Effect Magnét."
+                                                   },
+                                                   {
+                                                       "label":  "Conectividade",
+                                                       "value":  "Dongle e Bluetooth"
+                                                   },
+                                                   {
+                                                       "label":  "Construção",
+                                                       "value":  "Dock Carga e Pás"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Ideal para jogadores exigentes que valorizam base de mesa, botões extras e construção impecável.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0DR8V899R?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/controlador-8bitdo-ultimate-de-3-modos-para-xbox-jade-jade/p/MLB54801536?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_823018-MLA91956923899_092025-O.webp",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0DR8V899R?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/controlador-8bitdo-ultimate-de-3-modos-para-xbox-jade-jade/p/MLB54801536?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "gamesir-nova-lite-sem-fio",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Controle Sem Fio GameSir Nova Lite Hall Effect",
+                               "shortName":  "GameSir Nova Lite",
+                               "brand":  "GameSir",
+                               "priceBRL":  179,
+                               "originalPriceBRL":  269,
+                               "rating":  4.8,
+                               "imageUrl":  "https://http2.mlstatic.com/D_NQ_NP_982733-MLA82715473197_022025-O.webp",
+                               "tagline":  "O melhor custo-benefício com analógicos Hall Effect imunes a drift, tripla conexão e pegada ergonômica precisa.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Analógicos",
+                                                      "value":  "Hall Effect Magnét."
+                                                  },
+                                                  {
+                                                      "label":  "Conectividade",
+                                                      "value":  "Dongle e Bluetooth"
+                                                  },
+                                                  {
+                                                      "label":  "Construção",
+                                                      "value":  "Grip Duplo e Rumble"
+                                                  }
+                                              ],
+                               "verdictSummary":  "A melhor porta de entrada para analógicos magnéticos imunes a drift pelo menor preço do mercado.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0F3D25PD3?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/controle-gamesir-nova-lite-hall-effect-bluetooth-switch-pc-cor-preto-translucido/p/MLB65453622?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_730848-MLA91958343523_092025-O.webp",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0F3D25PD3?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/controle-gamesir-nova-lite-hall-effect-bluetooth-switch-pc-cor-preto-translucido/p/MLB65453622?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Precisão dos Analógicos",
+                               "winnerScore":  97,
+                               "rationalScore":  94,
+                               "winnerDisplay":  "0,5% erro",
+                               "rationalDisplay":  "1,1% erro",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Recursos e Acessórios",
+                               "winnerScore":  98,
+                               "rationalScore":  75,
+                               "winnerDisplay":  "Dock + 2 Pás",
+                               "rationalDisplay":  "Sem Dock/Pás",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Polidez e Latência",
+                               "winnerScore":  95,
+                               "rationalScore":  91,
+                               "winnerDisplay":  "1000 Hz",
+                               "rationalDisplay":  "500 Hz",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  68,
+                               "rationalScore":  98,
+                               "winnerDisplay":  "R$ 449",
+                               "rationalDisplay":  "R$ 179",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  11.25,
+                           "narrationText":  "Você ainda gasta R$ 450 num controle comum que vai dar drift em meses? A tecnologia magnética mudou tudo. Mas qual modelo entrega mais pelo seu dinheiro?",
+                           "spokenText":  "Você ainda gasta quatrocentos e cinquenta reais num controle comum que vai dar drift em meses? A tecnologia magnética mudou tudo. Mas qual modelo entrega mais pelo seu dinheiro?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  11.25,
+                           "endSec":  24.6,
+                           "narrationText":  "O 8BitDo Ultimate Sem Fio por R$ 449 é a referência. Vem com dock de carregamento, analógicos Hall Effect imunes a desgaste, botões traseiros e taxa de resposta de 1000Hz.",
+                           "spokenText":  "O Oito Bit Do Ultimate Sem Fio por quatrocentos e quarenta e nove reais é a referência. Vem com dock de carregamento, analógicos Hall Effect imunes a desgaste, botões traseiros e taxa de resposta de mil hertz."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  24.6,
+                           "endSec":  37.95,
+                           "narrationText":  "Já o GameSir Nova Lite custa apenas R$ 179 e traz os mesmos analógicos magnéticos anti-drift, dongle 2.4G incluso, vibração dupla e suporte a PC, Switch e celular.",
+                           "spokenText":  "Já o GameSir Nova Lite custa apenas cento e setenta e nove reais e traz os mesmos analógicos magnéticos anti-drift, dongle dois ponto quatro giga hertz incluso, vibração dupla e suporte a PC, Switch e celular."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  37.95,
+                           "endSec":  47.8,
+                           "narrationText":  "Nos testes, o 8BitDo vence em latência e ergonomia premium com sua base. Mas o Nova Lite entrega 90% da precisão custando menos da metade do preço.",
+                           "spokenText":  "Nos testes, o Oito Bit Do vence em latência e ergonomia premium com sua base. Mas o Nova Lite entrega noventa por cento da precisão custando menos da metade do preço."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  47.8,
+                           "endSec":  56.88,
+                           "narrationText":  "Para quem busca acabamento de ponta e praticidade da dock, o 8BitDo domina. Mas para fugir do drift gastando o mínimo, o Nova Lite é a compra mais racional.",
+                           "spokenText":  "Para quem busca acabamento de ponta e praticidade da dock, o Oito Bit Do domina. Mas para fugir do drift gastando o mínimo, o Nova Lite é a compra mais racional."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO03 para receber os links com estoque no Brasil e menor preço direto no direct!",
+                                                  "spokenText":  "Comente DUELO zero três para receber os links com estoque no Brasil e menor preço direto no direct!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Links no Duelo #003 na bio! Você prefere pagar pela dock ou economizar no básico?",
+                                                     "spokenText":  "Links no Duelo número zero zero três na bio! Você prefere pagar pela dock ou economizar no básico?"
+                                                 }
+                            }
+    },
+    {
+        "duelCode":  "#002",
+        "commentTriggerKeyword":  "DUELO02",
+        "category":  "FONES BLUETOOTH OVER-EAR ANC",
+        "hookQuestion":  "Sony WH-1000XM4 ou Anker Q30: vale pagar 5 vezes mais pelo topo de linha?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-17T16:05:44.848Z",
+        "technicalWinner":  {
+                                "id":  "sony-wh-1000xm4",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Sony WH-1000XM4 Fone de Ouvido Bluetooth com ANC",
+                                "shortName":  "Sony WH-1000XM4",
+                                "brand":  "Sony",
+                                "priceBRL":  1899,
+                                "originalPriceBRL":  2499,
+                                "rating":  4.8,
+                                "imageUrl":  "https://http2.mlstatic.com/D_NQ_NP_763057-MLU73287848170_122023-O.webp",
+                                "tagline":  "O padrão da indústria em cancelamento de ruído com áudio LDAC de alta fidelidade e conforto absoluto.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Cancelamento ANC",
+                                                       "value":  "Chip Sony QN1"
+                                                   },
+                                                   {
+                                                       "label":  "Bateria Máxima",
+                                                       "value":  "Até 30h com ANC"
+                                                   },
+                                                   {
+                                                       "label":  "Drivers e Codec",
+                                                       "value":  "40mm LDAC Hi-Res"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Para audiófilos e quem viaja muito exigindo o silêncio mais eficiente do mundo.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0BS1QCFHX?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/fone-over-ear-sem-fio-sony-wh-1000xm4-midnight-bluenf/p/MLB38340103?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_763057-MLU73287848170_122023-O.webp",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0BS1QCFHX?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/fone-over-ear-sem-fio-sony-wh-1000xm4-midnight-bluenf/p/MLB38340103?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "anker-soundcore-life-q30",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "Anker Soundcore Life Q30 Fone Sem Fio ANC",
+                               "shortName":  "Anker Soundcore Q30",
+                               "brand":  "Anker Soundcore",
+                               "priceBRL":  399,
+                               "originalPriceBRL":  549,
+                               "rating":  4.7,
+                               "imageUrl":  "https://m.media-amazon.com/images/I/61-kIQkU8ZL._AC_SL1500_.jpg",
+                               "tagline":  "O maior custo-benefício em fone over-ear com cancelamento híbrido competente e equalização completa via app.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Cancelamento ANC",
+                                                      "value":  "Híbrido 3 Modos"
+                                                  },
+                                                  {
+                                                      "label":  "Bateria Máxima",
+                                                      "value":  "Até 40h com ANC"
+                                                  },
+                                                  {
+                                                      "label":  "Drivers e Codec",
+                                                      "value":  "40mm Seda Hi-Res"
+                                                  }
+                                              ],
+                               "verdictSummary":  "Para quem busca isolamento acústico diário e autonomia incrível gastando muito menos.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B08HMWZBXC?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/anker-soundcore-life-q30-fone-com-anc-40mm/p/MLB2032052042?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://http2.mlstatic.com/D_NQ_NP_706520-MLB46390505297_062021-O.webp",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B08HMWZBXC?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/anker-soundcore-life-q30-fone-com-anc-40mm/p/MLB2032052042?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Cancelamento ANC",
+                               "winnerScore":  98,
+                               "rationalScore":  82,
+                               "winnerDisplay":  "Chip QN1 Topo",
+                               "rationalDisplay":  "Híbrido Bom",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Fidelidade Sonora",
+                               "winnerScore":  95,
+                               "rationalScore":  84,
+                               "winnerDisplay":  "LDAC 990kbps",
+                               "rationalDisplay":  "Hi-Res Custom",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Autonomia de Bateria",
+                               "winnerScore":  84,
+                               "rationalScore":  95,
+                               "winnerDisplay":  "30h com ANC",
+                               "rationalDisplay":  "40h com ANC",
+                               "advantage":  "RATIONAL"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  62,
+                               "rationalScore":  97,
+                               "winnerDisplay":  "Premium",
+                               "rationalDisplay":  "Imbatível",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  11.25,
+                           "narrationText":  "Vale a pena pagar quase R$ 1.900 no lendário Sony WH-1000XM4, ou o Anker Soundcore Q30 entrega quase tudo custando só R$ 399?",
+                           "spokenText":  "Vale a pena pagar quase mil e novecentos reais no lendário Sony dábleo agá mil xis eme quatro, ou o Anker Soundcore que trinta entrega quase tudo custando só trezentos e noventa e nove reais?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  11.25,
+                           "endSec":  23.3,
+                           "narrationText":  "O Sony WH-1000XM4 é a referência mundial. O chip QN1 oferece o cancelamento de ruído mais potente do mercado, com drivers de 40mm e codec LDAC para áudio cristalino.",
+                           "spokenText":  "O Sony dábleo agá mil xis eme quatro é a referência mundial. O chip que ene um oferece o cancelamento de ruído mais potente do mercado, com drivers de quarenta milímetros e codec elê daque para áudio cristalino."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  23.3,
+                           "endSec":  35.83,
+                           "narrationText":  "Mas o Anker Life Q30 impressiona. Por uma fração do valor, ele entrega ANC híbrido surpreendente, bateria gigante de até 40h e um equalizador personalizável incrível no aplicativo.",
+                           "spokenText":  "Mas o Anker Laife que trinta impressiona. Por uma fração do valor, ele entrega cancelamento de ruído híbrido surpreendente, bateria gigante de até quarenta horas e um equalizador personalizável incrível no aplicativo."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  35.83,
+                           "endSec":  45.6,
+                           "narrationText":  "Em cancelamento, o Sony crava 98 pontos contra 82 do Anker. Em áudio puro, 95 a 84. Já em bateria, o Q30 vence com folga.",
+                           "spokenText":  "Em cancelamento, o Sony crava noventa e oito pontos contra oitenta e dois do Anker. Em áudio puro, noventa e cinco a oitenta e quatro. Já em bateria, o que trinta vence com folga."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  45.6,
+                           "endSec":  54.52,
+                           "narrationText":  "O veredito: o Sony é para audiófilos e viagens frequentes. Mas para home office e estudos diários, o Anker Q30 é a escolha mais inteligente do mercado.",
+                           "spokenText":  "O veredito: o Sony é para audiófilos e viagens frequentes. Mas para home office e estudos diários, o Anker que trinta é a escolha mais inteligente do mercado."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO02 aqui embaixo que eu te envio os links oficiais com o menor preço verificado no seu Direct!",
+                                                  "spokenText":  "Comente duelo zero dois aqui embaixo que eu te envio os links oficiais com o menor preço verificado no seu Direct!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Os links com desconto estão na bio no Duelo 002! Você pagaria pelo silêncio absoluto do Sony ou ficaria com o Anker?",
+                                                     "spokenText":  "Os links com desconto estão na bio no duelo zero dois! Você pagaria pelo silêncio absoluto do Sony ou ficaria com o Anker?"
+                                                 }
+                            }
+    },
+    {
+        "duelCode":  "#001",
+        "commentTriggerKeyword":  "DUELO01",
+        "category":  "MOUSES GAMER SEM FIO",
+        "hookQuestion":  "Mouse de 800 reais da Logitech ou o rei chinês de 250?",
+        "showcaseUrl":  "zenostech.com.br/criteriotech",
+        "createdAt":  "2026-11-16T11:23:06.456Z",
+        "technicalWinner":  {
+                                "id":  "logitech-g-pro-x-superlight-2",
+                                "role":  "TECHNICAL_WINNER",
+                                "roleBadge":  "VENCEDOR TÉCNICO",
+                                "name":  "Logitech G PRO X SUPERLIGHT 2 Lightspeed",
+                                "shortName":  "G PRO X Superlight 2",
+                                "brand":  "Logitech G",
+                                "priceBRL":  789,
+                                "originalPriceBRL":  1099,
+                                "rating":  4.9,
+                                "imageUrl":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6556/6556758_sd.jpg",
+                                "tagline":  "Referência no eSports global com sensor HERO 2 impecável, clique híbrido instantâneo e estabilidade sem fio absoluta.",
+                                "highlights":  [
+                                                   {
+                                                       "label":  "Sensor Óptico",
+                                                       "value":  "HERO 2 44.000 DPI"
+                                                   },
+                                                   {
+                                                       "label":  "Peso Total",
+                                                       "value":  "60g Ultraleve"
+                                                   },
+                                                   {
+                                                       "label":  "Switches",
+                                                       "value":  "Lightforce Híbrido"
+                                                   }
+                                               ],
+                                "verdictSummary":  "Essencial para atletas de eSports e quem exige o máximo em confiabilidade de sinal e garantia nacional.",
+                                "affiliateLinks":  {
+                                                       "amazonUrl":  "https://www.amazon.com.br/dp/B0CJ9RGJ18?tag=criteriotech-20",
+                                                       "mercadoLivreUrl":  "https://www.mercadolivre.com.br/mouse-gamer-sem-fio-logitech-g-pro-x-superlight-2-lightspeed-switch-lightforce-sensor-44k-dpi-5-botoes-programaveis-recarregavel-preto/p/MLB28295187?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                   },
+                                "angle2Url":  "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6556/6556759cv16d.jpg",
+                                "angle2Label":  "Outro Ângulo",
+                                "amazonUrl":  "https://www.amazon.com.br/dp/B0CJ9RGJ18?tag=criteriotech-20",
+                                "mercadoLivreUrl":  "https://www.mercadolivre.com.br/mouse-gamer-sem-fio-logitech-g-pro-x-superlight-2-lightspeed-switch-lightforce-sensor-44k-dpi-5-botoes-programaveis-recarregavel-preto/p/MLB28295187?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                            },
+        "rationalChoice":  {
+                               "id":  "vxe-dragonfly-r1-pro",
+                               "role":  "RATIONAL_CHOICE",
+                               "roleBadge":  "ESCOLHA RACIONAL",
+                               "name":  "ATK VXE Dragonfly R1 Pro Wireless",
+                               "shortName":  "Dragonfly R1 Pro",
+                               "brand":  "ATK / VXE",
+                               "priceBRL":  249,
+                               "originalPriceBRL":  349,
+                               "rating":  4.8,
+                               "imageUrl":  "https://m.media-amazon.com/images/I/61MuVPJC3jL._AC_SL1500_.jpg",
+                               "tagline":  "Sensor topo de linha PAW3395 e apenas 48 gramas por uma fração do preço dos líderes mundiais do cenário gamer.",
+                               "highlights":  [
+                                                  {
+                                                      "label":  "Sensor Óptico",
+                                                      "value":  "PixArt PAW3395"
+                                                  },
+                                                  {
+                                                      "label":  "Peso Total",
+                                                      "value":  "48g Ultraleve"
+                                                  },
+                                                  {
+                                                      "label":  "Switches",
+                                                      "value":  "Huano Blue Pink Dot"
+                                                  }
+                                              ],
+                               "verdictSummary":  "A melhor relação custo por grama e precisão do mercado para quem busca desempenho de ponta pagando pouco.",
+                               "affiliateLinks":  {
+                                                      "amazonUrl":  "https://www.amazon.com.br/dp/B0FN7H1M99?tag=criteriotech-20",
+                                                      "mercadoLivreUrl":  "https://www.mercadolivre.com.br/mouse-para-jogos-atk-vxe-dragonfly-r1-pro-wireless-48g/p/MLB2056021805?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                                                  },
+                               "angle2Url":  "https://m.media-amazon.com/images/I/21KkzmZkhAL._AC_SL1500_.jpg",
+                               "angle2Label":  "Outro Ângulo",
+                               "amazonUrl":  "https://www.amazon.com.br/dp/B0FN7H1M99?tag=criteriotech-20",
+                               "mercadoLivreUrl":  "https://www.mercadolivre.com.br/mouse-para-jogos-atk-vxe-dragonfly-r1-pro-wireless-48g/p/MLB2056021805?matt_tool=70133169\u0026matt_word=rj20261108182619164"
+                           },
+        "benchmarks":  [
+                           {
+                               "criterion":  "Precisão do Sensor",
+                               "winnerScore":  99,
+                               "rationalScore":  93,
+                               "winnerDisplay":  "HERO 2 44K",
+                               "rationalDisplay":  "PAW3395 26K",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Latência de Clique",
+                               "winnerScore":  98,
+                               "rationalScore":  89,
+                               "winnerDisplay":  "Lightforce 8K",
+                               "rationalDisplay":  "Huano 1K/4K",
+                               "advantage":  "WINNER"
+                           },
+                           {
+                               "criterion":  "Construção e Peso",
+                               "winnerScore":  88,
+                               "rationalScore":  96,
+                               "winnerDisplay":  "60g Sólido",
+                               "rationalDisplay":  "48g Ultraleve",
+                               "advantage":  "RATIONAL"
+                           },
+                           {
+                               "criterion":  "Custo por Real",
+                               "winnerScore":  61,
+                               "rationalScore":  98,
+                               "winnerDisplay":  "R$ 789",
+                               "rationalDisplay":  "R$ 249",
+                               "advantage":  "RATIONAL"
+                           }
+                       ],
+        "scenes":  [
+                       {
+                           "sceneId":  "hook",
+                           "startSec":  0,
+                           "endSec":  10.35,
+                           "narrationText":  "Vale a pena pagar quase R$ 800 no mouse mais famoso do mundo gamer, ou um modelo de R$ 250 entrega exatamente a mesma mira no CS e Valorant?",
+                           "spokenText":  "Vale a pena pagar quase oitocentos reais no mouse mais famoso do mundo gamer, ou um modelo de duzentos e cinquenta reais entrega exatamente a mesma mira no CS e Valorant?"
+                       },
+                       {
+                           "sceneId":  "winner",
+                           "startSec":  10.35,
+                           "endSec":  23.23,
+                           "narrationText":  "De um lado, o Logitech G Pro X Superlight 2. O mouse dos pro players traz o sensor HERO 2 com 44.000 DPI, switches Lightforce híbridos sem duplo clique e conexão Lightspeed blindada.",
+                           "spokenText":  "De um lado, o Logitech G Pro X Superlight dois. O mouse dos pro players traz o sensor HERO dois com quarenta e quatro mil DPI, switches Lightforce híbridos sem duplo clique e conexão Lightspeed blindada."
+                       },
+                       {
+                           "sceneId":  "rational",
+                           "startSec":  23.23,
+                           "endSec":  36.6,
+                           "narrationText":  "Do outro, o VXE Dragonfly R1 Pro. Custando um terço do valor, ele pesa só 48g, usa o elogiado sensor PixArt PAW3395 e entrega 95% do desempenho de um topo de linha.",
+                           "spokenText":  "Do outro, o VXE Dragonfly R um Pro. Custando um terço do valor, ele pesa só quarenta e oito gramas, usa o elogiado sensor PixArt PAW três três nove cinco e entrega noventa e cinco por cento do desempenho de um topo de linha."
+                       },
+                       {
+                           "sceneId":  "benchmarks",
+                           "startSec":  36.6,
+                           "endSec":  45.85,
+                           "narrationText":  "Nos testes: o Superlight 2 lidera em precisão milimétrica e polling rate de 8.000 Hz, enquanto o VXE é mais leve na mão e massacra em custo por real.",
+                           "spokenText":  "Nos testes: o Superlight dois lidera em precisão milimétrica e polling rate de oito mil Hertz, enquanto o VXE é mais leve na mão e massacra em custo por real."
+                       },
+                       {
+                           "sceneId":  "verdict",
+                           "startSec":  45.85,
+                           "endSec":  56.02,
+                           "narrationText":  "Se você disputa campeonatos e busca o ápice técnico, compre o Logitech. Mas para ter quase a mesma mira economizando centenas de reais, o Dragonfly é a compra inteligente.",
+                           "spokenText":  "Se você disputa campeonatos e busca o ápice técnico, compre o Logitech. Mas para ter quase a mesma mira economizando centenas de reais, o Dragonfly é a compra inteligente."
+                       }
+                   ],
+        "platformEndings":  {
+                                "instagram":  {
+                                                  "narrationText":  "Comente DUELO01 aqui embaixo que eu te envio no Direct o link dos dois mouses no menor preço verificado!",
+                                                  "spokenText":  "Comente DUELO zero um aqui embaixo que eu te envio no Direct o link dos dois mouses no menor preço verificado!"
+                                              },
+                                "tiktokShorts":  {
+                                                     "narrationText":  "Os links com o menor preço estão na bio no Duelo 001. E você: investiria no Superlight ou iria no Dragonfly?",
+                                                     "spokenText":  "Os links com o menor preço estão na bio no Duelo zero zero um. E você: investiria no Superlight ou iria no Dragonfly?"
+                                                 }
+                            }
     }
-  },
-  {
-    "duelCode": "#008",
-    "commentTriggerKeyword": "DUELO08",
-    "category": "SOUNDBARS PARA TV 4K COM SUBWOOFER SEM FIO",
-    "hookQuestion": "Soundbar para TV 4K: Vale investir no Dolby Atmos real ou a campeã de custo-benefício já resolve?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-24T14:14:13.898Z",
-    "technicalWinner": {
-      "id": "samsung-hw-q600c",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Soundbar Samsung HW-Q600C 3.1.2 Canais com Dolby Atmos e Subwoofer Sem Fio",
-      "shortName": "Samsung HW-Q600C",
-      "brand": "Samsung",
-      "priceBRL": 1699,
-      "originalPriceBRL": 2499,
-      "rating": 4.9,
-      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535893cv11d.jpg",
-      "tagline": "Áudio cinematográfico 3.1.2 canais com Dolby Atmos real e canais de teto para imersão total na sala.",
-      "highlights": [
-        {
-          "label": "Canais de Áudio",
-          "value": "3.1.2 Ch Atmos Real"
-        },
-        {
-          "label": "Potência RMS",
-          "value": "360W RMS Total"
-        },
-        {
-          "label": "Subwoofer Físico",
-          "value": "6.5 Pol. Sem Fio"
-        }
-      ],
-      "verdictSummary": "Essencial para quem exige som 3D imersivo de cinema, canal central nítido e canais de teto na TV.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+HW-Q600C&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-hw-q600c?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/b6eef39c-1222-4d72-82c0-e5fa69239d8a.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Samsung+HW-Q600C&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/samsung-hw-q600c?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "jbl-cinema-sb180",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Soundbar JBL Cinema SB180 2.1 Canais 110W RMS com Subwoofer Sem Fio",
-      "shortName": "JBL Cinema SB180",
-      "brand": "JBL",
-      "priceBRL": 839,
-      "originalPriceBRL": 1099,
-      "rating": 4.8,
-      "imageUrl": "https://m.media-amazon.com/images/I/41zdVy2G3iL._AC_.jpg",
-      "tagline": "Graves potentes com subwoofer sem fio de 6,5 polegadas e conexão HDMI ARC pelo menor custo do mercado.",
-      "highlights": [
-        {
-          "label": "Canais de Áudio",
-          "value": "2.1 Ch Dolby Digital"
-        },
-        {
-          "label": "Potência RMS",
-          "value": "110W RMS Total"
-        },
-        {
-          "label": "Subwoofer Físico",
-          "value": "6.5 Pol. Sem Fio"
-        }
-      ],
-      "verdictSummary": "Perfeito para quem quer graves fortes de cinema gastando metade do preço com subwoofer dedicado.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=JBL+Cinema+SB180&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/jbl-cinema-sb180?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_741790-MLB74246209575_012024-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=JBL+Cinema+SB180&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/jbl-cinema-sb180?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Imersão Espacial",
-        "winnerScore": 96,
-        "rationalScore": 81,
-        "winnerDisplay": "Dolby Atmos 3.1.2",
-        "rationalDisplay": "Dolby Digital 2.1",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Clareza de Vozes",
-        "winnerScore": 95,
-        "rationalScore": 84,
-        "winnerDisplay": "Canal Central Físico",
-        "rationalDisplay": "Equalização Estéreo",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Pressão de Graves",
-        "winnerScore": 93,
-        "rationalScore": 89,
-        "winnerDisplay": "Sub 6.5 Pol. 160W",
-        "rationalDisplay": "Sub 6.5 Pol. 58W",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 72,
-        "rationalScore": 97,
-        "winnerDisplay": "R$ 1.699",
-        "rationalDisplay": "R$ 839",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 8.9,
-        "narrationText": "Quer um som de cinema na sua TV 4K sem gastar à toa? Vale mais pagar caro no Dolby Atmos ou economizar numa soundbar consagrada?",
-        "spokenText": "Quer um som de cinema na sua tevê quatro cá sem gastar à toa? Vale mais pagar caro no Dolby Atmos ou economizar numa soundbar consagrada?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 8.9,
-        "endSec": 22.9,
-        "narrationText": "A referência é a Samsung HW-Q600C. Por R$ 1.699, ela entrega 3.1.2 canais reais, canais superiores de teto e 360W com graves brutais.",
-        "spokenText": "A referência é a Samsung agá dabliu que seiscentos cê. Por mil seiscentos e noventa e nove reais, ela entrega três ponto um ponto dois canais reais, canais superiores de teto e trezentos e sessenta watts com graves brutais."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 22.9,
-        "endSec": 35.95,
-        "narrationText": "Já a escolha racional é a JBL Cinema SB180, por R$ 839. Ela traz subwoofer sem fio de 6.5 polegadas, HDMI ARC e graves marcantes da JBL.",
-        "spokenText": "Já a escolha racional é a jota bê éle Cinema ésse bê cento e oitenta, por oitocentos e trinta e nove reais. Ela traz subwoofer sem fio de seis polegadas e meia, agá dê éme i arque e os graves marcantes da jota bê éle."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 35.95,
-        "endSec": 46.85,
-        "narrationText": "Em imersão e diálogos, a Samsung domina pelo canal central e som vertical. Mas em graves puros para sala média, a JBL entrega quase o mesmo por metade do preço.",
-        "spokenText": "Em imersão e diálogos, a Samsung domina pelo canal central e pelo som vertical. Mas em impacto de graves para sala média, a jota bê éle entrega quase o mesmo por metade do preço."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 46.85,
-        "endSec": 57.5,
-        "narrationText": "Se você quer a experiência máxima de cinema tridimensional, vá de Q600C. Se você quer graves potentes gastando o mínimo, a SB180 é a compra mais inteligente.",
-        "spokenText": "Se você quer a experiência máxima de cinema tridimensional, vá de que seiscentos cê. Se você quer graves potentes gastando o mínimo, a ésse bê cento e oitenta é a compra mais inteligente."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO08 aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu Direct!",
-        "spokenText": "Comente duelo zero zero oito aqui embaixo que eu te envio os links oficiais com o menor preço direto no seu direct!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Os links com desconto estão na bio no Duelo #008! Qual dos dois você colocaria na sua sala?",
-        "spokenText": "Os links com desconto estão no link da bio no duelo número zero zero oito! Qual das duas você colocaria na sua sala?"
-      }
-    }
-  },
-  {
-    "duelCode": "#007",
-    "commentTriggerKeyword": "DUELO07",
-    "category": "ROBÔS ASPIRADORES INTELIGENTES COM MAPEAMENTO LASER",
-    "hookQuestion": "Roborock Q7 Max ou Xiaomi Robot Vacuum S20: qual robô com laser vale a sua grana?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-23T11:35:40.512Z",
-    "technicalWinner": {
-      "id": "roborock-q7-max",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Roborock Q7 Max Aspirador Robô Inteligente com Mapeamento LiDAR",
-      "shortName": "Roborock Q7 Max",
-      "brand": "Roborock",
-      "priceBRL": 2699,
-      "originalPriceBRL": 3499,
-      "rating": 4.9,
-      "imageUrl": "https://m.media-amazon.com/images/I/61rblNG4SdL._SL1500_.jpg",
-      "tagline": "Referência global em navegação laser precisa, escova emborrachada antiemaranhado e bateria massiva de longa duração.",
-      "highlights": [
-        {
-          "label": "Mapeamento",
-          "value": "LiDAR PreciSense 3D"
-        },
-        {
-          "label": "Poder de Sucção",
-          "value": "4200 Pa Constante"
-        },
-        {
-          "label": "Bateria / Área",
-          "value": "5200 mAh até 300m²"
-        }
-      ],
-      "verdictSummary": "Essencial para sobrados grandes e lares com muitos pets que soltam pelos longos diariamente.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Roborock+Q7+Max&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/roborock-q7-max?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://m.media-amazon.com/images/I/71rLTJe97vL._SL1500_.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Roborock+Q7+Max&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/roborock-q7-max?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "xiaomi-robot-vacuum-s20",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Xiaomi Robot Vacuum S20 Robô Aspirador e Passa Pano com Laser LDS",
-      "shortName": "Xiaomi Vacuum S20",
-      "brand": "Xiaomi",
-      "priceBRL": 1399,
-      "originalPriceBRL": 1899,
-      "rating": 4.8,
-      "imageUrl": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/61ktQGkyGVL._AC_SL1500_.jpg",
-      "tagline": "Mapeamento LDS a laser avançado e excelente poder de sucção, entregando a faxina completa pela metade do investimento.",
-      "highlights": [
-        {
-          "label": "Mapeamento",
-          "value": "Sensor Laser LDS"
-        },
-        {
-          "label": "Poder de Sucção",
-          "value": "5000 Pa Eficiente"
-        },
-        {
-          "label": "Bateria / Área",
-          "value": "3200 mAh até 140m²"
-        }
-      ],
-      "verdictSummary": "A melhor escolha racional para quem quer automação a laser precisa sem gastar uma fortuna.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Xiaomi+Robot+Vacuum+S20&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/xiaomi-robot-vacuum-s20?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://m.media-amazon.com/images/I/61ZviZn9JwL._AC_.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Xiaomi+Robot+Vacuum+S20&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/xiaomi-robot-vacuum-s20?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Navegação e Rotas",
-        "winnerScore": 98,
-        "rationalScore": 88,
-        "winnerDisplay": "PreciSense 3D",
-        "rationalDisplay": "LDS 360 Graus",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Autonomia de Bateria",
-        "winnerScore": 96,
-        "rationalScore": 82,
-        "winnerDisplay": "180 min (5200mAh)",
-        "rationalDisplay": "130 min (3200mAh)",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Poder de Aspiração",
-        "winnerScore": 92,
-        "rationalScore": 92,
-        "winnerDisplay": "4200 Pa Real",
-        "rationalDisplay": "5000 Pa Turbo",
-        "advantage": "TIE"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 65,
-        "rationalScore": 97,
-        "winnerDisplay": "Premium",
-        "rationalDisplay": "Imbatível",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 9.8,
-        "narrationText": "Quer um robô aspirador inteligente com sensor laser para não bater em nada, mas não sabe se gasta R$ 1.399 ou R$ 2.699?",
-        "spokenText": "Quer um robô aspirador inteligente com sensor laser para não bater em nada, mas não sabe se gasta mil trezentos e noventa e nove ou dois mil seiscentos e noventa e nove reais?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 9.8,
-        "endSec": 23.75,
-        "narrationText": "O vencedor técnico é o Roborock Q7 Max. Referência em mapeamento LiDAR 3D, ele tem sucção de 4200 Pa, escova de borracha anti-emaranhado e bateria gigante de 5200 mAh.",
-        "spokenText": "O vencedor técnico é o Roborock Q sete Max. Referência em mapeamento LiDAR três dê, ele tem sucção de quatro mil e duzentos pascais, escova de borracha anti-emaranhado e bateria gigante de cinco mil e duzentos miliamperes-hora."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 23.75,
-        "endSec": 36.92,
-        "narrationText": "A escolha racional é o Xiaomi Robot Vacuum S20. Por R$ 1.399, entrega mapeamento LDS a laser, 5000 Pa de potência e controle preciso de água pelo app Mi Home.",
-        "spokenText": "A escolha racional é o Xiaomi Robot Vacuum Esse vinte. Por mil trezentos e noventa e nove reais, entrega mapeamento LDS a laser, cinco mil pascais de potência e controle preciso de água pelo aplicativo Mi Home."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 36.92,
-        "endSec": 46.92,
-        "narrationText": "Nos testes: o Q7 Max domina em autonomia e limpeza de pelos sem travar a escova. O S20 empata na agilidade da rota e vence com folga no custo por metro quadrado.",
-        "spokenText": "Nos testes: o Q sete Max domina em autonomia e limpeza de pelos sem travar a escova. O Esse vinte empata na agilidade da rota e vence com folga no custo por metro quadrado."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 46.92,
-        "endSec": 57.92,
-        "narrationText": "Se tem casa grande ou pets que soltam muito pelo, vá no Q7 Max. Para apartamentos e sobrados padrão, o Xiaomi S20 entrega noventa por cento da experiência pela metade do preço.",
-        "spokenText": "Se tem casa grande ou pets que soltam muito pelo, vá no Q sete Max. Para apartamentos e sobrados padrão, o Xiaomi Esse vinte entrega noventa por cento da experiência pela metade do preço."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO07 aqui embaixo que eu te envio os links oficiais com o menor preço no seu Direct!",
-        "spokenText": "Comente DUELO zero sete aqui embaixo que eu te envio os links oficiais com o menor preço no seu Direct!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Links seguros no perfil pelo Duelo #007! Qual robô você colocaria na sua sala hoje?",
-        "spokenText": "Links seguros no perfil pelo Duelo número zero zero sete! Qual robô você colocaria na sua sala hoje?"
-      }
-    }
-  },
-  {
-    "duelCode": "#006",
-    "commentTriggerKeyword": "DUELO06",
-    "category": "SSDS NVME M.2 GEN4 DE 1TB",
-    "hookQuestion": "SSD Gen4 de 1TB: topo de linha ou custo-benefício para PC e PS5?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-21T12:59:29.387Z",
-    "technicalWinner": {
-      "id": "wd-black-sn850x-1tb",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "WD_BLACK SN850X NVMe M.2 SSD 1TB PCIe Gen4",
-      "shortName": "WD Black SN850X 1TB",
-      "brand": "Western Digital",
-      "priceBRL": 849,
-      "originalPriceBRL": 1099,
-      "rating": 4.9,
-      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/0d51b1ed-8987-4f16-a3fc-19cc04d36abe.png",
-      "tagline": "Velocidade extrema de 7300 MB/s com DRAM dedicada e latência mínima para PC gamer de elite e PS5.",
-      "highlights": [
-        {
-          "label": "Taxa de Leitura",
-          "value": "Até 7.300 MB/s"
-        },
-        {
-          "label": "Memória Cache",
-          "value": "1GB DRAM DDR4"
-        },
-        {
-          "label": "Garantia / TBW",
-          "value": "5 Anos / 600 TBW"
-        }
-      ],
-      "verdictSummary": "Para quem exige velocidade máxima sustentada, edição pesada em 4K e zero engasgos em transferências.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=WD+BLACK+SN850X+1TB&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/wd-black-sn850x-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://media.karousell.com/media/photos/products/2026/10/31/wd_black_sn850x_nvme_ssd_1tb_g_1793469543_8f640e5e_thumbnail.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=WD+BLACK+SN850X+1TB&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/wd-black-sn850x-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "kingston-nv3-1tb",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Kingston NV3 M.2 2280 NVMe SSD 1TB PCIe 4.0",
-      "shortName": "Kingston NV3 1TB",
-      "brand": "Kingston",
-      "priceBRL": 439,
-      "originalPriceBRL": 549,
-      "rating": 4.7,
-      "imageUrl": "https://m.media-amazon.com/images/I/71c9b+3tKXL._AC_SL1500_.jpg",
-      "tagline": "Desempenho Gen4 de 6000 MB/s que atende aos requisitos do PS5 custando metade dos modelos topo de linha.",
-      "highlights": [
-        {
-          "label": "Taxa de Leitura",
-          "value": "Até 6.000 MB/s"
-        },
-        {
-          "label": "Memória Cache",
-          "value": "DRAM-less com HMB"
-        },
-        {
-          "label": "Garantia / TBW",
-          "value": "3 Anos / 320 TBW"
-        }
-      ],
-      "verdictSummary": "Para quem quer expandir o espaço do PS5 ou do PC gamer gastando o mínimo possível com ótima performance.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Kingston+NV3+1TB&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/kingston-nv3-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://m.media-amazon.com/images/I/71hRCqiIY5L._AC_SL1500_.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Kingston+NV3+1TB&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/kingston-nv3-1tb?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Leitura Sequencial",
-        "winnerScore": 98,
-        "rationalScore": 81,
-        "winnerDisplay": "7.300 MB/s",
-        "rationalDisplay": "6.000 MB/s",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Gravação Contínua",
-        "winnerScore": 96,
-        "rationalScore": 75,
-        "winnerDisplay": "DRAM Dedicada",
-        "rationalDisplay": "Sem DRAM (HMB)",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Loading no PS5",
-        "winnerScore": 94,
-        "rationalScore": 92,
-        "winnerDisplay": "6,8 segundos",
-        "rationalDisplay": "7,1 segundos",
-        "advantage": "TIE"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 60,
-        "rationalScore": 97,
-        "winnerDisplay": "R$ 0,85/GB",
-        "rationalDisplay": "R$ 0,44/GB",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 9.75,
-        "narrationText": "SSD Gen4 de 1TB para PC ou PS5: vale pagar o dobro no modelo mais rápido do mercado ou o básico já entrega tudo nos jogos?",
-        "spokenText": "SSD de quarta geração com um terabyte para PC ou PlayStation cinco: vale pagar o dobro no modelo mais rápido do mercado ou o básico já entrega tudo nos jogos?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 9.75,
-        "endSec": 24.3,
-        "narrationText": "O vencedor técnico é o WD Black SN850X de R$ 849. Ele bate 7.300 MB/s de leitura, tem cache DRAM dedicado e não perde desempenho em downloads pesados.",
-        "spokenText": "O vencedor técnico é o Western Digital Black Esse Ene oitocentos e cinquenta Xis de oitocentos e quarenta e nove reais. Ele bate sete mil e trezentos megabytes por segundo de leitura, tem cache de memória dedicada e não perde desempenho em downloads pesados."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 24.3,
-        "endSec": 35.77,
-        "narrationText": "A escolha racional é o Kingston NV3 por R$ 439. Ele alcança 6.000 MB/s, supera a exigência da Sony para o PS5 e custa metade do preço.",
-        "spokenText": "A escolha racional é o Kingston Ene Vê três por quatrocentos e trinta e nove reais. Ele alcança seis mil megabytes por segundo, supera a exigência da Sony para o PlayStation cinco e custa metade do preço."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 35.77,
-        "endSec": 45.63,
-        "narrationText": "Nos benchmarks, o SN850X vence em velocidade bruta e gravação contínua. Só que no loading real dos jogos, a diferença é de menos de 1 segundo.",
-        "spokenText": "Nos testes práticos, o Esse Ene oitocentos e cinquenta Xis vence em velocidade bruta e gravação contínua. Só que no carregamento real dos jogos, a diferença é de menos de um segundo."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 45.63,
-        "endSec": 57.38,
-        "narrationText": "Veredito: se você edita vídeos em 4K e quer o limite técnico, vá de SN850X. Para expandir o PS5 ou jogar no PC sem gastar muito, o NV3 é a compra inteligente.",
-        "spokenText": "Veredito: se você edita vídeos em quatro K e quer o limite técnico, vá de Esse Ene oitocentos e cinquenta Xis. Para expandir o PlayStation cinco ou jogar no PC sem gastar muito, o Ene Vê três é a compra inteligente."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO06 aqui embaixo que eu te envio os links oficiais com o menor preço verificado no Direct!",
-        "spokenText": "Comente DUELO zero seis aqui embaixo que eu te envio os links oficiais com o menor preço verificado no Direct!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Os links confiáveis estão no link da bio no Duelo 006! Você pagaria pelo topo de linha ou iria no custo-benefício?",
-        "spokenText": "Os links confiáveis estão no link da bio no Duelo zero zero seis! Você pagaria pelo topo de linha ou iria no custo-benefício?"
-      }
-    }
-  },
-  {
-    "duelCode": "#005",
-    "commentTriggerKeyword": "DUELO05",
-    "category": "TECLADOS MECÂNICOS SEM FIO",
-    "hookQuestion": "Teclado gamer de R$ 1.199 ou R$ 389: qual vale o seu investimento?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-20T19:31:50.776Z",
-    "technicalWinner": {
-      "id": "logitech-g915-tkl",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Teclado Mecânico Gamer Sem Fio Logitech G915 TKL LIGHTSPEED",
-      "shortName": "Logitech G915 TKL",
-      "brand": "Logitech G",
-      "priceBRL": 1199,
-      "originalPriceBRL": 1599,
-      "rating": 4.8,
-      "imageUrl": "https://m.media-amazon.com/images/I/61VvvVl6VCL._AC_.jpg",
-      "tagline": "Chassi ultrafino em alumínio escovado, conexão LIGHTSPEED de 1ms e teclas mecânicas de perfil baixo com alta precisão.",
-      "highlights": [
-        {
-          "label": "Construção",
-          "value": "Alumínio Escovado"
-        },
-        {
-          "label": "Conectividade",
-          "value": "LIGHTSPEED e BT"
-        },
-        {
-          "label": "Switches e Som",
-          "value": "GL Baixo Perfil"
-        }
-      ],
-      "verdictSummary": "Ideal para quem busca formato ultra-slim, acabamento em metal nobre e resposta sem fio competitiva de nível profissional.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G915+TKL&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g915-tkl?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ce4553b8-80c4-4777-a4b7-76d04042beb1.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G915+TKL&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g915-tkl?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "aula-f75-tri-mode",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Teclado Mecânico Sem Fio Aula F75 Tri-Mode Gasket Mount",
-      "shortName": "Aula F75 Tri-Mode",
-      "brand": "AULA",
-      "priceBRL": 389,
-      "originalPriceBRL": 599,
-      "rating": 4.9,
-      "imageUrl": "https://m.media-amazon.com/images/I/81X+gEilqXL._AC_SL1500_.jpg",
-      "tagline": "Estrutura Gasket com isolamento de 5 camadas, switches lubrificados de fábrica e som cremoso por um terço do preço.",
-      "highlights": [
-        {
-          "label": "Construção",
-          "value": "Estrutura Gasket"
-        },
-        {
-          "label": "Conectividade",
-          "value": "Sem Fio Tri-Mode"
-        },
-        {
-          "label": "Switches e Som",
-          "value": "LEOBOG Pre-lubed"
-        }
-      ],
-      "verdictSummary": "A melhor escolha para quem prioriza digitação macia, acústica impecável e autonomia prolongada gastando muito pouco.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Aula+F75&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-aula-f75?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_612828-MLU77523943388_072024-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Aula+F75&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/teclado-mecanico-aula-f75?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Latência sem Fio",
-        "winnerScore": 98,
-        "rationalScore": 90,
-        "winnerDisplay": "1ms LIGHTSPEED",
-        "rationalDisplay": "3ms Dongle 2.4G",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Construção Externa",
-        "winnerScore": 96,
-        "rationalScore": 86,
-        "winnerDisplay": "Liga de Alumínio",
-        "rationalDisplay": "Policarbonato PBT",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Autonomia da Bateria",
-        "winnerScore": 89,
-        "rationalScore": 89,
-        "winnerDisplay": "Até 40h com RGB",
-        "rationalDisplay": "Até 40h com RGB",
-        "advantage": "TIE"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 58,
-        "rationalScore": 97,
-        "winnerDisplay": "R$ 1.199",
-        "rationalDisplay": "R$ 389",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 9.88,
-        "narrationText": "Vale a pena gastar R$ 1.199 em um teclado mecânico gamer topo de linha, ou uma opção de R$ 389 já entrega tudo o que você precisa no setup?",
-        "spokenText": "Vale a pena gastar mil cento e noventa e nove reais em um teclado mecânico gamer topo de linha, ou uma opção de trezentos e oitenta e nove reais já entrega tudo o que você precisa no setup?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 9.88,
-        "endSec": 22.63,
-        "narrationText": "O Logitech G915 TKL é a referência máxima: chassi ultrafino em alumínio escovado, switches GL de alta durabilidade e conexão sem fio LIGHTSPEED com apenas 1ms de resposta.",
-        "spokenText": "O Logitech G novecentos e quinze T K L é a referência máxima: chassi ultrafino em alumínio escovado, switches G L de alta durabilidade e conexão sem fio Lightspeed com apenas um milissegundo de resposta."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 22.63,
-        "endSec": 35.08,
-        "narrationText": "Do outro lado, o Aula F75 chocou o mercado. Ele traz montagem Gasket Mount com cinco camadas de isolamento acústico, switches lubrificados de fábrica e bateria gigante de 4.000 mAh.",
-        "spokenText": "Do outro lado, o Aula F setenta e cinco chocou o mercado. Ele traz montagem Gasket Mount com cinco camadas de isolamento acústico, switches lubrificados de fábrica e bateria gigante de quatro mil miliamperes-hora."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 35.08,
-        "endSec": 48.73,
-        "narrationText": "Nos testes, o G915 leva vantagem em latência pura e construção metálica premium. Mas em prazer de digitação, estabilidade e perfil sonoro cremoso, o F75 humilha teclados do triplo do preço.",
-        "spokenText": "Nos testes, o G novecentos e quinze leva vantagem em latência pura e construção metálica premium. Mas em prazer de digitação, estabilidade e perfil sonoro cremoso, o F setenta e cinco humilha teclados do triplo do preço."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 48.73,
-        "endSec": 61.55,
-        "narrationText": "Veredito direto: se você exige perfil baixo de metal e software integrado, vá de Logitech. Se quer a melhor sensação acústica e digitação pelo menor investimento, o Aula F75 é a escolha certa.",
-        "spokenText": "Veredito direto: se você exige perfil baixo de metal e software integrado, vá de Logitech. Se quer a melhor sensação acústica e digitação pelo menor investimento, o Aula F setenta e cinco é a escolha certa."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO05 aqui embaixo que eu te envio no Direct os links oficiais com o menor preço e frete grátis!",
-        "spokenText": "Comente DUELO zero cinco aqui embaixo que eu te envio no Direct os links oficiais com o menor preço e frete grátis!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Os links oficiais estão no link da bio buscando pelo Duelo 005. Qual desses dois teclados você colocaria no seu setup hoje?",
-        "spokenText": "Os links oficiais estão no link da bio buscando pelo Duelo zero zero cinco. Qual desses dois teclados você colocaria no seu setup hoje?"
-      }
-    }
-  },
-  {
-    "duelCode": "#004",
-    "commentTriggerKeyword": "DUELO04",
-    "category": "MICROFONES USB",
-    "hookQuestion": "HyperX QuadCast S ou Fifine AM8: qual microfone vale seu dinheiro?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-19T14:01:52.406Z",
-    "technicalWinner": {
-      "id": "hyperx-quadcast-s",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Microfone Gamer HyperX QuadCast S RGB USB",
-      "shortName": "HyperX QuadCast S",
-      "brand": "HyperX",
-      "priceBRL": 899,
-      "originalPriceBRL": 1199,
-      "rating": 4.8,
-      "imageUrl": "https://images.kabum.com.br/produtos/fotos/386859/hyperx-quadcast-s-usb-wht-microphone-519p0aa_1666817448_original.jpg",
-      "tagline": "Referência visual e técnica para streamers com quatro padrões de captação e isolamento mecânico de estúdio.",
-      "highlights": [
-        {
-          "label": "Tipo e Padrão",
-          "value": "Condensador 4 Modos"
-        },
-        {
-          "label": "Conexões",
-          "value": "USB-C e P3 Fone"
-        },
-        {
-          "label": "Estrutura",
-          "value": "Shockmount e RGB"
-        }
-      ],
-      "verdictSummary": "Essencial para criadores que exigem estética de ponta no setup e versatilidade de múltiplos padrões polares.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=HyperX+QuadCast+S&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/hyperx-quadcast-s?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_973512-MLA83501901326_042025-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=HyperX+QuadCast+S&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/hyperx-quadcast-s?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "fifine-ampligame-am8",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Microfone Gamer Fifine AmpliGame AM8 USB e XLR",
-      "shortName": "Fifine AM8",
-      "brand": "Fifine",
-      "priceBRL": 299,
-      "originalPriceBRL": 399,
-      "rating": 4.8,
-      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_912435-MLA99523947552_122025-O.webp",
-      "tagline": "Cápsula dinâmica que elimina ruídos da sala, conexão dupla USB ou XLR e visual moderno por um terço do preço.",
-      "highlights": [
-        {
-          "label": "Tipo e Padrão",
-          "value": "Dinâmico Cardioide"
-        },
-        {
-          "label": "Conexões",
-          "value": "USB-C e XLR Nativo"
-        },
-        {
-          "label": "Estrutura",
-          "value": "Suporte Mesa e RGB"
-        }
-      ],
-      "verdictSummary": "A melhor compra para quem grava em quarto comum sem tratamento acústico e quer gastar três vezes menos.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Fifine+AM8&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/fifine-am8?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_674518-MLU73128537392_122023-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Fifine+AM8&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/fifine-am8?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Isolamento Acústico",
-        "winnerScore": 82,
-        "rationalScore": 95,
-        "winnerDisplay": "Sensível",
-        "rationalDisplay": "Rejeita Eco",
-        "advantage": "RATIONAL"
-      },
-      {
-        "criterion": "Padrões Polares",
-        "winnerScore": 98,
-        "rationalScore": 78,
-        "winnerDisplay": "4 Padrões",
-        "rationalDisplay": "Cardioide",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Conectividade",
-        "winnerScore": 82,
-        "rationalScore": 94,
-        "winnerDisplay": "Apenas USB",
-        "rationalDisplay": "USB e XLR",
-        "advantage": "RATIONAL"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 68,
-        "rationalScore": 98,
-        "winnerDisplay": "R$ 899",
-        "rationalDisplay": "R$ 299",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 11.2,
-        "narrationText": "Vale a pena pagar R$ 899 no HyperX QuadCast S, ou o Fifine AM8 entrega a mesma qualidade de áudio custando apenas R$ 299?",
-        "spokenText": "Vale a pena pagar oitocentos e oitenta e nove reais no HyperX QuadCast S, ou o Fifine AM oito entrega a mesma qualidade de áudio custando apenas duzentos e noventa e nove reais?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 11.2,
-        "endSec": 23.48,
-        "narrationText": "O QuadCast S é o queridinho dos criadores. Ele entrega som cristalino com 4 padrões polares, pop filter interno, shock mount antivibração e a iluminação RGB mais bonita da categoria.",
-        "spokenText": "O QuadCast S é o queridinho dos criadores. Ele entrega som cristalino com quatro padrões polares, pop filter interno, shock mount antivibração e a iluminação RGB mais bonita da categoria."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 23.48,
-        "endSec": 35.63,
-        "narrationText": "Mas o Fifine AM8 surpreende pela inteligência de projeto: sua cápsula dinâmica rejeita ruídos do ambiente e barulhos de teclado, além de incluir saída XLR profissional junto com USB.",
-        "spokenText": "Mas o Fifine AM oito surpreende pela inteligência de projeto: sua cápsula dinâmica rejeita ruídos do ambiente e barulhos de teclado, além de incluir saída xis éle érre profissional junto com u ésse bê."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 35.63,
-        "endSec": 46.92,
-        "narrationText": "No confronto direto, o HyperX domina em estética e versatilidade para estúdios tratados. Só que o Fifine entrega voz encorpada mesmo em quartos comuns, custando um terço do valor.",
-        "spokenText": "No confronto direto, o HyperX domina em estética e versatilidade para estúdios tratados. Só que o Fifine entrega voz encorpada mesmo em quartos comuns, custando um terço do valor."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 46.92,
-        "endSec": 58.67,
-        "narrationText": "Para gravações com várias pessoas e o setup mais chamativo, o QuadCast S é a referência. Para streaming diário e custo-benefício insano, o Fifine AM8 é a escolha racional definitiva.",
-        "spokenText": "Para gravações com várias pessoas e o setup mais chamativo, o QuadCast S é a referência. Para streaming diário e custo-benefício insano, o Fifine AM oito é a escolha racional definitiva."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO04 aqui embaixo que eu te envio no Direct os links oficiais com o menor preço garantido!",
-        "spokenText": "Comente duelo zero quatro aqui embaixo que eu te envio no Direct os links oficiais com o menor preço garantido!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Os links oficiais estão no link da bio pelo Duelo #004. Qual dos dois você colocaria no seu setup hoje?",
-        "spokenText": "Os links oficiais estão no link da bio pelo duelo número zero quatro. Qual dos dois você colocaria no seu setup hoje?"
-      }
-    }
-  },
-  {
-    "duelCode": "#003",
-    "commentTriggerKeyword": "DUELO03",
-    "category": "CONTROLES GAMER SEM FIO",
-    "hookQuestion": "8BitDo Ultimate ou GameSir Nova Lite: qual controle sem drift comprar em 2026?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-18T11:11:50.813Z",
-    "technicalWinner": {
-      "id": "8bitdo-ultimate-sem-fio",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Controle Sem Fio 8BitDo Ultimate com Dock de Carregamento",
-      "shortName": "8BitDo Ultimate",
-      "brand": "8BitDo",
-      "priceBRL": 449,
-      "originalPriceBRL": 599,
-      "rating": 4.9,
-      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_936189-MLA100025367467_122025-O.webp",
-      "tagline": "Construção premium com analógicos magnéticos anti-drift, dock de carregamento rápido e botões traseiros programáveis.",
-      "highlights": [
-        {
-          "label": "Analógicos",
-          "value": "Hall Effect Magnét."
-        },
-        {
-          "label": "Conectividade",
-          "value": "Dongle e Bluetooth"
-        },
-        {
-          "label": "Construção",
-          "value": "Dock Carga e Pás"
-        }
-      ],
-      "verdictSummary": "Ideal para jogadores exigentes que valorizam base de mesa, botões extras e construção impecável.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=8BitDo+Ultimate+Wireless+Dock&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/controle-8bitdo-ultimate-com-dock?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_823018-MLA91956923899_092025-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=8BitDo+Ultimate+Wireless+Dock&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/controle-8bitdo-ultimate-com-dock?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "gamesir-nova-lite-sem-fio",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Controle Sem Fio GameSir Nova Lite Hall Effect",
-      "shortName": "GameSir Nova Lite",
-      "brand": "GameSir",
-      "priceBRL": 179,
-      "originalPriceBRL": 269,
-      "rating": 4.8,
-      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_982733-MLA82715473197_022025-O.webp",
-      "tagline": "O melhor custo-benefício com analógicos Hall Effect imunes a drift, tripla conexão e pegada ergonômica precisa.",
-      "highlights": [
-        {
-          "label": "Analógicos",
-          "value": "Hall Effect Magnét."
-        },
-        {
-          "label": "Conectividade",
-          "value": "Dongle e Bluetooth"
-        },
-        {
-          "label": "Construção",
-          "value": "Grip Duplo e Rumble"
-        }
-      ],
-      "verdictSummary": "A melhor porta de entrada para analógicos magnéticos imunes a drift pelo menor preço do mercado.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=GameSir+Nova+Lite+Wireless&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/controle-gamesir-nova-lite?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_730848-MLA91958343523_092025-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=GameSir+Nova+Lite+Wireless&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/controle-gamesir-nova-lite?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Precisão dos Analógicos",
-        "winnerScore": 97,
-        "rationalScore": 94,
-        "winnerDisplay": "0,5% erro",
-        "rationalDisplay": "1,1% erro",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Recursos e Acessórios",
-        "winnerScore": 98,
-        "rationalScore": 75,
-        "winnerDisplay": "Dock + 2 Pás",
-        "rationalDisplay": "Sem Dock/Pás",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Polidez e Latência",
-        "winnerScore": 95,
-        "rationalScore": 91,
-        "winnerDisplay": "1000 Hz",
-        "rationalDisplay": "500 Hz",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 68,
-        "rationalScore": 98,
-        "winnerDisplay": "R$ 449",
-        "rationalDisplay": "R$ 179",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 11.25,
-        "narrationText": "Você ainda gasta R$ 450 num controle comum que vai dar drift em meses? A tecnologia magnética mudou tudo. Mas qual modelo entrega mais pelo seu dinheiro?",
-        "spokenText": "Você ainda gasta quatrocentos e cinquenta reais num controle comum que vai dar drift em meses? A tecnologia magnética mudou tudo. Mas qual modelo entrega mais pelo seu dinheiro?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 11.25,
-        "endSec": 24.6,
-        "narrationText": "O 8BitDo Ultimate Sem Fio por R$ 449 é a referência. Vem com dock de carregamento, analógicos Hall Effect imunes a desgaste, botões traseiros e taxa de resposta de 1000Hz.",
-        "spokenText": "O Oito Bit Do Ultimate Sem Fio por quatrocentos e quarenta e nove reais é a referência. Vem com dock de carregamento, analógicos Hall Effect imunes a desgaste, botões traseiros e taxa de resposta de mil hertz."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 24.6,
-        "endSec": 37.95,
-        "narrationText": "Já o GameSir Nova Lite custa apenas R$ 179 e traz os mesmos analógicos magnéticos anti-drift, dongle 2.4G incluso, vibração dupla e suporte a PC, Switch e celular.",
-        "spokenText": "Já o GameSir Nova Lite custa apenas cento e setenta e nove reais e traz os mesmos analógicos magnéticos anti-drift, dongle dois ponto quatro giga hertz incluso, vibração dupla e suporte a PC, Switch e celular."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 37.95,
-        "endSec": 47.8,
-        "narrationText": "Nos testes, o 8BitDo vence em latência e ergonomia premium com sua base. Mas o Nova Lite entrega 90% da precisão custando menos da metade do preço.",
-        "spokenText": "Nos testes, o Oito Bit Do vence em latência e ergonomia premium com sua base. Mas o Nova Lite entrega noventa por cento da precisão custando menos da metade do preço."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 47.8,
-        "endSec": 56.88,
-        "narrationText": "Para quem busca acabamento de ponta e praticidade da dock, o 8BitDo domina. Mas para fugir do drift gastando o mínimo, o Nova Lite é a compra mais racional.",
-        "spokenText": "Para quem busca acabamento de ponta e praticidade da dock, o Oito Bit Do domina. Mas para fugir do drift gastando o mínimo, o Nova Lite é a compra mais racional."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO03 para receber os links com estoque no Brasil e menor preço direto no direct!",
-        "spokenText": "Comente DUELO zero três para receber os links com estoque no Brasil e menor preço direto no direct!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Links no Duelo #003 na bio! Você prefere pagar pela dock ou economizar no básico?",
-        "spokenText": "Links no Duelo número zero zero três na bio! Você prefere pagar pela dock ou economizar no básico?"
-      }
-    }
-  },
-  {
-    "duelCode": "#002",
-    "commentTriggerKeyword": "DUELO02",
-    "category": "FONES BLUETOOTH OVER-EAR ANC",
-    "hookQuestion": "Sony WH-1000XM4 ou Anker Q30: vale pagar 5 vezes mais pelo topo de linha?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-17T16:05:44.848Z",
-    "technicalWinner": {
-      "id": "sony-wh-1000xm4",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Sony WH-1000XM4 Fone de Ouvido Bluetooth com ANC",
-      "shortName": "Sony WH-1000XM4",
-      "brand": "Sony",
-      "priceBRL": 1899,
-      "originalPriceBRL": 2499,
-      "rating": 4.8,
-      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_763057-MLU73287848170_122023-O.webp",
-      "tagline": "O padrão da indústria em cancelamento de ruído com áudio LDAC de alta fidelidade e conforto absoluto.",
-      "highlights": [
-        {
-          "label": "Cancelamento ANC",
-          "value": "Chip Sony QN1"
-        },
-        {
-          "label": "Bateria Máxima",
-          "value": "Até 30h com ANC"
-        },
-        {
-          "label": "Drivers e Codec",
-          "value": "40mm LDAC Hi-Res"
-        }
-      ],
-      "verdictSummary": "Para audiófilos e quem viaja muito exigindo o silêncio mais eficiente do mundo.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Sony+WH-1000XM4&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/sony-wh-1000xm4?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_763057-MLU73287848170_122023-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Sony+WH-1000XM4&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/sony-wh-1000xm4?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "anker-soundcore-life-q30",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "Anker Soundcore Life Q30 Fone Sem Fio ANC",
-      "shortName": "Anker Soundcore Q30",
-      "brand": "Anker Soundcore",
-      "priceBRL": 399,
-      "originalPriceBRL": 549,
-      "rating": 4.7,
-      "imageUrl": "https://m.media-amazon.com/images/I/61-kIQkU8ZL._AC_SL1500_.jpg",
-      "tagline": "O maior custo-benefício em fone over-ear com cancelamento híbrido competente e equalização completa via app.",
-      "highlights": [
-        {
-          "label": "Cancelamento ANC",
-          "value": "Híbrido 3 Modos"
-        },
-        {
-          "label": "Bateria Máxima",
-          "value": "Até 40h com ANC"
-        },
-        {
-          "label": "Drivers e Codec",
-          "value": "40mm Seda Hi-Res"
-        }
-      ],
-      "verdictSummary": "Para quem busca isolamento acústico diário e autonomia incrível gastando muito menos.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Anker+Soundcore+Life+Q30&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/anker-soundcore-life-q30?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://http2.mlstatic.com/D_NQ_NP_706520-MLB46390505297_062021-O.webp",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Anker+Soundcore+Life+Q30&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/anker-soundcore-life-q30?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Cancelamento ANC",
-        "winnerScore": 98,
-        "rationalScore": 82,
-        "winnerDisplay": "Chip QN1 Topo",
-        "rationalDisplay": "Híbrido Bom",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Fidelidade Sonora",
-        "winnerScore": 95,
-        "rationalScore": 84,
-        "winnerDisplay": "LDAC 990kbps",
-        "rationalDisplay": "Hi-Res Custom",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Autonomia de Bateria",
-        "winnerScore": 84,
-        "rationalScore": 95,
-        "winnerDisplay": "30h com ANC",
-        "rationalDisplay": "40h com ANC",
-        "advantage": "RATIONAL"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 62,
-        "rationalScore": 97,
-        "winnerDisplay": "Premium",
-        "rationalDisplay": "Imbatível",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 11.25,
-        "narrationText": "Vale a pena pagar quase R$ 1.900 no lendário Sony WH-1000XM4, ou o Anker Soundcore Q30 entrega quase tudo custando só R$ 399?",
-        "spokenText": "Vale a pena pagar quase mil e novecentos reais no lendário Sony dábleo agá mil xis eme quatro, ou o Anker Soundcore que trinta entrega quase tudo custando só trezentos e noventa e nove reais?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 11.25,
-        "endSec": 23.3,
-        "narrationText": "O Sony WH-1000XM4 é a referência mundial. O chip QN1 oferece o cancelamento de ruído mais potente do mercado, com drivers de 40mm e codec LDAC para áudio cristalino.",
-        "spokenText": "O Sony dábleo agá mil xis eme quatro é a referência mundial. O chip que ene um oferece o cancelamento de ruído mais potente do mercado, com drivers de quarenta milímetros e codec elê daque para áudio cristalino."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 23.3,
-        "endSec": 35.83,
-        "narrationText": "Mas o Anker Life Q30 impressiona. Por uma fração do valor, ele entrega ANC híbrido surpreendente, bateria gigante de até 40h e um equalizador personalizável incrível no aplicativo.",
-        "spokenText": "Mas o Anker Laife que trinta impressiona. Por uma fração do valor, ele entrega cancelamento de ruído híbrido surpreendente, bateria gigante de até quarenta horas e um equalizador personalizável incrível no aplicativo."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 35.83,
-        "endSec": 45.6,
-        "narrationText": "Em cancelamento, o Sony crava 98 pontos contra 82 do Anker. Em áudio puro, 95 a 84. Já em bateria, o Q30 vence com folga.",
-        "spokenText": "Em cancelamento, o Sony crava noventa e oito pontos contra oitenta e dois do Anker. Em áudio puro, noventa e cinco a oitenta e quatro. Já em bateria, o que trinta vence com folga."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 45.6,
-        "endSec": 54.52,
-        "narrationText": "O veredito: o Sony é para audiófilos e viagens frequentes. Mas para home office e estudos diários, o Anker Q30 é a escolha mais inteligente do mercado.",
-        "spokenText": "O veredito: o Sony é para audiófilos e viagens frequentes. Mas para home office e estudos diários, o Anker que trinta é a escolha mais inteligente do mercado."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO02 aqui embaixo que eu te envio os links oficiais com o menor preço verificado no seu Direct!",
-        "spokenText": "Comente duelo zero dois aqui embaixo que eu te envio os links oficiais com o menor preço verificado no seu Direct!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Os links com desconto estão na bio no Duelo 002! Você pagaria pelo silêncio absoluto do Sony ou ficaria com o Anker?",
-        "spokenText": "Os links com desconto estão na bio no duelo zero dois! Você pagaria pelo silêncio absoluto do Sony ou ficaria com o Anker?"
-      }
-    }
-  },
-  {
-    "duelCode": "#001",
-    "commentTriggerKeyword": "DUELO01",
-    "category": "MOUSES GAMER SEM FIO",
-    "hookQuestion": "Mouse de 800 reais da Logitech ou o rei chinês de 250?",
-    "showcaseUrl": "zenostech.com.br/criteriotech",
-    "createdAt": "2026-11-16T11:23:06.456Z",
-    "technicalWinner": {
-      "id": "logitech-g-pro-x-superlight-2",
-      "role": "TECHNICAL_WINNER",
-      "roleBadge": "VENCEDOR TÉCNICO",
-      "name": "Logitech G PRO X SUPERLIGHT 2 Lightspeed",
-      "shortName": "G PRO X Superlight 2",
-      "brand": "Logitech G",
-      "priceBRL": 789,
-      "originalPriceBRL": 1099,
-      "rating": 4.9,
-      "imageUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6556/6556758_sd.jpg",
-      "tagline": "Referência no eSports global com sensor HERO 2 impecável, clique híbrido instantâneo e estabilidade sem fio absoluta.",
-      "highlights": [
-        {
-          "label": "Sensor Óptico",
-          "value": "HERO 2 44.000 DPI"
-        },
-        {
-          "label": "Peso Total",
-          "value": "60g Ultraleve"
-        },
-        {
-          "label": "Switches",
-          "value": "Lightforce Híbrido"
-        }
-      ],
-      "verdictSummary": "Essencial para atletas de eSports e quem exige o máximo em confiabilidade de sinal e garantia nacional.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G+PRO+X+Superlight+2&tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g-pro-x-superlight-2?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6556/6556759cv16d.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/s?k=Logitech+G+PRO+X+Superlight+2&tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/logitech-g-pro-x-superlight-2?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "rationalChoice": {
-      "id": "vxe-dragonfly-r1-pro",
-      "role": "RATIONAL_CHOICE",
-      "roleBadge": "ESCOLHA RACIONAL",
-      "name": "ATK VXE Dragonfly R1 Pro Wireless",
-      "shortName": "Dragonfly R1 Pro",
-      "brand": "ATK / VXE",
-      "priceBRL": 249,
-      "originalPriceBRL": 349,
-      "rating": 4.8,
-      "imageUrl": "https://m.media-amazon.com/images/I/61MuVPJC3jL._AC_SL1500_.jpg",
-      "tagline": "Sensor topo de linha PAW3395 e apenas 48 gramas por uma fração do preço dos líderes mundiais do cenário gamer.",
-      "highlights": [
-        {
-          "label": "Sensor Óptico",
-          "value": "PixArt PAW3395"
-        },
-        {
-          "label": "Peso Total",
-          "value": "48g Ultraleve"
-        },
-        {
-          "label": "Switches",
-          "value": "Huano Blue Pink Dot"
-        }
-      ],
-      "verdictSummary": "A melhor relação custo por grama e precisão do mercado para quem busca desempenho de ponta pagando pouco.",
-      "affiliateLinks": {
-        "amazonUrl": "https://www.amazon.com.br/dp/B0FN7H1M99?tag=criteriotech-20",
-        "mercadoLivreUrl": "https://lista.mercadolivre.com.br/vxe-dragonfly-r1-pro?matt_tool=70133169&matt_word=rj20261108182619164"
-      },
-      "angle2Url": "https://m.media-amazon.com/images/I/21KkzmZkhAL._AC_SL1500_.jpg",
-      "angle2Label": "Outro Ângulo",
-      "amazonUrl": "https://www.amazon.com.br/dp/B0FN7H1M99?tag=criteriotech-20",
-      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/vxe-dragonfly-r1-pro?matt_tool=70133169&matt_word=rj20261108182619164"
-    },
-    "benchmarks": [
-      {
-        "criterion": "Precisão do Sensor",
-        "winnerScore": 99,
-        "rationalScore": 93,
-        "winnerDisplay": "HERO 2 44K",
-        "rationalDisplay": "PAW3395 26K",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Latência de Clique",
-        "winnerScore": 98,
-        "rationalScore": 89,
-        "winnerDisplay": "Lightforce 8K",
-        "rationalDisplay": "Huano 1K/4K",
-        "advantage": "WINNER"
-      },
-      {
-        "criterion": "Construção e Peso",
-        "winnerScore": 88,
-        "rationalScore": 96,
-        "winnerDisplay": "60g Sólido",
-        "rationalDisplay": "48g Ultraleve",
-        "advantage": "RATIONAL"
-      },
-      {
-        "criterion": "Custo por Real",
-        "winnerScore": 61,
-        "rationalScore": 98,
-        "winnerDisplay": "R$ 789",
-        "rationalDisplay": "R$ 249",
-        "advantage": "RATIONAL"
-      }
-    ],
-    "scenes": [
-      {
-        "sceneId": "hook",
-        "startSec": 0,
-        "endSec": 10.35,
-        "narrationText": "Vale a pena pagar quase R$ 800 no mouse mais famoso do mundo gamer, ou um modelo de R$ 250 entrega exatamente a mesma mira no CS e Valorant?",
-        "spokenText": "Vale a pena pagar quase oitocentos reais no mouse mais famoso do mundo gamer, ou um modelo de duzentos e cinquenta reais entrega exatamente a mesma mira no CS e Valorant?"
-      },
-      {
-        "sceneId": "winner",
-        "startSec": 10.35,
-        "endSec": 23.23,
-        "narrationText": "De um lado, o Logitech G Pro X Superlight 2. O mouse dos pro players traz o sensor HERO 2 com 44.000 DPI, switches Lightforce híbridos sem duplo clique e conexão Lightspeed blindada.",
-        "spokenText": "De um lado, o Logitech G Pro X Superlight dois. O mouse dos pro players traz o sensor HERO dois com quarenta e quatro mil DPI, switches Lightforce híbridos sem duplo clique e conexão Lightspeed blindada."
-      },
-      {
-        "sceneId": "rational",
-        "startSec": 23.23,
-        "endSec": 36.6,
-        "narrationText": "Do outro, o VXE Dragonfly R1 Pro. Custando um terço do valor, ele pesa só 48g, usa o elogiado sensor PixArt PAW3395 e entrega 95% do desempenho de um topo de linha.",
-        "spokenText": "Do outro, o VXE Dragonfly R um Pro. Custando um terço do valor, ele pesa só quarenta e oito gramas, usa o elogiado sensor PixArt PAW três três nove cinco e entrega noventa e cinco por cento do desempenho de um topo de linha."
-      },
-      {
-        "sceneId": "benchmarks",
-        "startSec": 36.6,
-        "endSec": 45.85,
-        "narrationText": "Nos testes: o Superlight 2 lidera em precisão milimétrica e polling rate de 8.000 Hz, enquanto o VXE é mais leve na mão e massacra em custo por real.",
-        "spokenText": "Nos testes: o Superlight dois lidera em precisão milimétrica e polling rate de oito mil Hertz, enquanto o VXE é mais leve na mão e massacra em custo por real."
-      },
-      {
-        "sceneId": "verdict",
-        "startSec": 45.85,
-        "endSec": 56.02,
-        "narrationText": "Se você disputa campeonatos e busca o ápice técnico, compre o Logitech. Mas para ter quase a mesma mira economizando centenas de reais, o Dragonfly é a compra inteligente.",
-        "spokenText": "Se você disputa campeonatos e busca o ápice técnico, compre o Logitech. Mas para ter quase a mesma mira economizando centenas de reais, o Dragonfly é a compra inteligente."
-      }
-    ],
-    "platformEndings": {
-      "instagram": {
-        "narrationText": "Comente DUELO01 aqui embaixo que eu te envio no Direct o link dos dois mouses no menor preço verificado!",
-        "spokenText": "Comente DUELO zero um aqui embaixo que eu te envio no Direct o link dos dois mouses no menor preço verificado!"
-      },
-      "tiktokShorts": {
-        "narrationText": "Os links com o menor preço estão na bio no Duelo 001. E você: investiria no Superlight ou iria no Dragonfly?",
-        "spokenText": "Os links com o menor preço estão na bio no Duelo zero zero um. E você: investiria no Superlight ou iria no Dragonfly?"
-      }
-    }
-  }
 ]
