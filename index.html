@@ -184,21 +184,24 @@
                     </div>
 
                     <div class="border-t border-white/10 pt-3.5 sm:pt-4 mt-4 sm:mt-auto">
-                      <div class="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+                      <div class="flex flex-wrap items-baseline justify-between gap-2 mb-2.5">
                         <div class="flex items-baseline flex-wrap gap-1.5">
                           ${item.originalPriceBRL ? `<span class="text-xs text-zinc-400 line-through">R$ ${item.originalPriceBRL}</span>` : ''}
-                          <span class="text-xl sm:text-2xl font-black ${isWinner ? 'text-white' : 'text-emerald-400'}">R$ ${item.priceBRL}</span>
+                          <span class="text-xl sm:text-2xl font-black ${isWinner ? 'text-white' : 'text-emerald-400'}">~R$ ${item.priceBRL}<span class="text-xs font-bold text-zinc-400">*</span></span>
                         </div>
-                        <span class="text-[11px] sm:text-xs text-emerald-400 font-bold">Menor Preço Verificado</span>
+                        <span class="text-[11px] sm:text-xs text-amber-300/90 font-semibold">Faixa na data da análise*</span>
                       </div>
                       <div class="grid grid-cols-2 gap-2 sm:gap-2.5">
                         <a href="${item.amazonUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-2.5 sm:px-4 rounded-xl sm:rounded-2xl bg-amber-400 hover:bg-amber-300 active:scale-[0.99] text-zinc-950 font-black text-xs text-center transition shadow-lg flex items-center justify-center gap-1">
-                          <span>🛒</span><span>Ver na Amazon</span>
+                          <span>🛒</span><span>Preço Hoje Amazon</span>
                         </a>
                         <a href="${item.mercadoLivreUrl}" target="_blank" rel="noopener sponsored" class="py-3 px-2.5 sm:px-4 rounded-xl sm:rounded-2xl bg-yellow-300 hover:bg-yellow-200 active:scale-[0.99] text-zinc-950 font-black text-xs text-center transition shadow-lg flex items-center justify-center gap-1">
-                          <span>⚡</span><span>Mercado Livre</span>
+                          <span>⚡</span><span>Preço no ML</span>
                         </a>
                       </div>
+                      <p class="text-[10px] sm:text-[11px] text-zinc-400 mt-2.5 leading-snug">
+                        *Valor médio de referência verificado na data do duelo. Preços e estoques na Amazon e Mercado Livre variam diariamente.
+                      </p>
                     </div>
                   </div>
                 `;
