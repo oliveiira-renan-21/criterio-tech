@@ -1,0 +1,161 @@
+{
+  "duelCode": "#012",
+  "commentTriggerKeyword": "DUELO12",
+  "category": "MICROFONES USB PARA PC",
+  "hookQuestion": "Vale pagar mais pela grife ou o kit completo entrega mais?",
+  "showcaseUrl": "zenostech.com.br/criteriotech",
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "technicalWinner": {
+    "id": "hyperx-solocast-2",
+    "role": "TECHNICAL_WINNER",
+    "roleBadge": "VENCEDOR TÉCNICO",
+    "name": "Microfone Condensador USB para Jogos HyperX SoloCast 2",
+    "shortName": "HyperX SoloCast 2",
+    "brand": "HyperX",
+    "priceBRL": 319,
+    "originalPriceBRL": 399,
+    "rating": 4.8,
+    "imageUrl": "https://m.media-amazon.com/images/I/71vRU5Ka7EL._AC_SL1500_.jpg",
+    "tagline": "Cápsula condensadora de alta fidelidade a 24 bits com sensor de toque para mute e pedestal flexível.",
+    "highlights": [
+      {
+        "label": "Padrão Polar",
+        "value": "Cardioide Puro"
+      },
+      {
+        "label": "Acessórios",
+        "value": "Base de Mesa"
+      },
+      {
+        "label": "Amostragem",
+        "value": "24-bit / 96kHz"
+      }
+    ],
+    "verdictSummary": "Para quem prioriza pureza vocal em chamadas executivas e gravação profissional compacta.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/dp/B0FLKJ7FH7?tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/hyperx-solocast-2?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "amazonUrl": "https://www.amazon.com.br/dp/B0FLKJ7FH7?tag=criteriotech-20",
+    "angle2Url": "https://m.media-amazon.com/images/I/71wTVYqxZDL._AC_SL1500_.jpg",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/hyperx-solocast-2?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "rationalChoice": {
+    "id": "kit-mic-usb-braco-rgb",
+    "role": "RATIONAL_CHOICE",
+    "roleBadge": "ESCOLHA RACIONAL",
+    "name": "Microfone Condensador USB RGB com Braço Articulado e Base",
+    "shortName": "Kit Mic USB RGB",
+    "brand": "Generic",
+    "priceBRL": 185,
+    "originalPriceBRL": 249,
+    "rating": 4.6,
+    "imageUrl": "https://m.media-amazon.com/images/I/71o3IWOORoL._AC_SL1254_.jpg",
+    "tagline": "Solução completa com braço articulado, shock mount, pop filter e retorno de fone sem gastar muito.",
+    "highlights": [
+      {
+        "label": "Padrão Polar",
+        "value": "Cardioide DSP"
+      },
+      {
+        "label": "Acessórios",
+        "value": "Braço e Filtro"
+      },
+      {
+        "label": "Amostragem",
+        "value": "16-bit / 48kHz"
+      }
+    ],
+    "verdictSummary": "Para streamers e gamers que querem um estúdio articulado completo gastando o mínimo.",
+    "affiliateLinks": {
+      "amazonUrl": "https://www.amazon.com.br/dp/B0HPBZKMV4?tag=criteriotech-20",
+      "mercadoLivreUrl": "https://lista.mercadolivre.com.br/kit-mic-usb-rgb?matt_tool=70133169&matt_word=rj20261108182619164"
+    },
+    "amazonUrl": "https://www.amazon.com.br/dp/B0HPBZKMV4?tag=criteriotech-20",
+    "angle2Url": "https://m.media-amazon.com/images/I/71jcBLq2cbL._AC_SL1500_.jpg",
+    "mercadoLivreUrl": "https://lista.mercadolivre.com.br/kit-mic-usb-rgb?matt_tool=70133169&matt_word=rj20261108182619164"
+  },
+  "benchmarks": [
+    {
+      "criterion": "Fidelidade Vocal",
+      "winnerScore": 94,
+      "rationalScore": 81,
+      "winnerDisplay": "24-bit / 96kHz",
+      "rationalDisplay": "16-bit / 48kHz",
+      "advantage": "WINNER"
+    },
+    {
+      "criterion": "Kit de Acessórios",
+      "winnerScore": 72,
+      "rationalScore": 95,
+      "winnerDisplay": "Base Simples",
+      "rationalDisplay": "Braço + Filtros",
+      "advantage": "RATIONAL"
+    },
+    {
+      "criterion": "Retorno Direto P2",
+      "winnerScore": 70,
+      "rationalScore": 90,
+      "winnerDisplay": "Sem P2",
+      "rationalDisplay": "Monitoramento P2",
+      "advantage": "RATIONAL"
+    },
+    {
+      "criterion": "Custo por Real",
+      "winnerScore": 73,
+      "rationalScore": 96,
+      "winnerDisplay": "R$ 319",
+      "rationalDisplay": "R$ 185",
+      "advantage": "RATIONAL"
+    }
+  ],
+  "scenes": [
+    {
+      "sceneId": "hook",
+      "startSec": 0,
+      "endSec": 5,
+      "narrationText": "Não pague R$ 319 no HyperX SoloCast 2 antes de ver o que este Kit com Braço entrega por R$ 134 a menos!",
+      "spokenText": "Não pague trezentos e dezenove reais no Hiper Équis SoloCést dois antes de ver o que este Kit com Braço entrega por cento e trinta e quatro reais a menos!"
+    },
+    {
+      "sceneId": "winner",
+      "startSec": 5,
+      "endSec": 12,
+      "narrationText": "O SoloCast 2 entrega áudio cristalino de 24 bits e sensor de toque para silenciar impecável.",
+      "spokenText": "O SoloCést dois entrega áudio cristalino de vinte e quatro bits e sensor de toque para silenciar impecável."
+    },
+    {
+      "sceneId": "rational",
+      "startSec": 12,
+      "endSec": 19,
+      "narrationText": "Já o Kit USB traz braço articulado completo, pop filter e monitoramento direto por apenas R$ 185.",
+      "spokenText": "Já o Kit U Ésse Bê traz braço articulado completo, pope fílter e monitoramento direto por apenas cento e oitenta e cinco reais."
+    },
+    {
+      "sceneId": "benchmarks",
+      "startSec": 19,
+      "endSec": 25,
+      "narrationText": "O HyperX vence em fidelidade sonora, mas o Kit domina em ergonomia e custo-benefício imediato.",
+      "spokenText": "O Hiper Équis vence em fidelidade sonora, mas o Kit domina em ergonomia e custo benefício imediato."
+    },
+    {
+      "sceneId": "verdict",
+      "startSec": 25,
+      "endSec": 31,
+      "narrationText": "Para estúdio compacto vá de SoloCast 2; para setup gamer completo economizando muito, leve o Kit!",
+      "spokenText": "Para estúdio compacto vá de SoloCést dois; para setup gueimer completo economizando muito, leve o Kit!"
+    }
+  ],
+  "platformEndings": {
+    "instagram": {
+      "narrationText": "Comente DUELO12 que te envio o link dos dois com desconto no direct!",
+      "spokenText": "Comente DUELO doze que te envio o link dos dois com desconto no direct!"
+    },
+    "tiktokShorts": {
+      "narrationText": "Os links verificados do Duelo 12 estão no perfil e no comentário fixado!",
+      "spokenText": "Os links verificados do Duelo doze estão no perfil e no comentário fixado!"
+    }
+  }
+}
